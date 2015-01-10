@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Justified Nav Template for Bootstrap</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="justified-nav.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+<!--
+      <div class="masthead">
+        <img src="http://inet.omnetpp.org/new/pub/skins/inet-omnetpp/images/logo.png">
+        <!- -<h3 class="text-muted">Project name</h3>- ->
+        <div role="navigation">
+          <ul class="nav nav-justified">
+          {% for item in site.data.menu %}
+            {% if item.link %}{% assign link = item.link %}{% else %}{% assign link = item.name | remove: " " | append: ".html" %}{% endif %}
+              <li{% if page.underMenu == item.name %} class="active"{% assign submenu = item.submenu %}{% endif %}>
+              <a href="{{ link }}">{{ item.name }}</a>
+              </li>
+          {% endfor %}
+
+          </ul>
+        </div>
+      </div>
+-->
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+<div class="row">
+<div class="col-md-2">
+        <img src="http://inet.omnetpp.org/new/pub/skins/inet-omnetpp/images/logo.png">
+</div>
+<div class="col-md-10">
+        <div role="navigation">
+          <ul class="nav nav-justified">
+          {% for item in site.data.menu %}
+            {% if item.link %}{% assign link = item.link %}{% else %}{% assign link = item.name | remove: " " | append: ".html" %}{% endif %}
+              <li{% if page.underMenu == item.name %} class="active"{% assign submenu = item.submenu %}{% endif %}>
+              <a href="{{ link }}">{{ item.name }}</a>
+              </li>
+          {% endfor %}
+
+          </ul>
+        </div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-2">
+      {% if submenu %}
+<!--
+        <ul>
+        {% for submenuitem in submenu %}
+          {% if submenuitem.link %}{% assign link = submenuitem.link %}{% else %}{% assign link = submenuitem.name | remove: " " | append: ".html" %}{% endif %}
+          <li{% if page.path == submenuitem.name %} class="active"{% endif %}><a href="{{ link }}">{{ submenuitem.name }}</a></li>
+        {% endfor %}
+        </ul>
+-->
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        {% for submenuitem in submenu %}
+          {% if submenuitem.link %}{% assign link = submenuitem.link %}{% else %}{% assign link = submenuitem.name | remove: " " | append: ".html" %}{% endif %}
+          <p style="text-align:right"><a href="{{ link }}">{{ submenuitem.name }}</a></p>
+        {% endfor %}
+
+      {% endif %}
+</div>
+
+<div class="col-md-10">
+      {{content}}
+</div>
+</div>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; Company 2014</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap-3.3.1/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

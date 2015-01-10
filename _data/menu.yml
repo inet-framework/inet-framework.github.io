@@ -1,0 +1,38 @@
+# default link is derived from name: remove spaces, append ".html"
+# see also: http://jekyllrb.com/docs/datafiles/
+
+- name: Home
+  link: index.html
+- name: Download
+- name: Documentation
+- name: Extensions
+- name: Development
+  link: Repository.html
+  submenu:
+    - name: Repository
+    - name: Bug Tracker
+    - name: Mailing List
+    - name: Coding Conventions
+    - name: Documenting
+      link: DocumentationGuidelines.html
+    - name: Test Suite
+    - name: Submitting Code
+    - name: Plans
+    - name: Progress
+      link: OngoingWork.html
+- name: Contributing
+  link: WhyContribute.html
+  submenu:
+    - name: Why Contribute
+    - name: How Can You Help
+    - name: Thesis Ideas
+    - name: Development Topics
+    - name: Getting Started
+- name: People
+  link: Contributors.html
+  submenu:
+    - name: Contributors
+    - name: Component Experts
+    - name: Community Managers
+    - name: Academia
+    - name: Core Team
