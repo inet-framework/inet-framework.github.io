@@ -10,7 +10,7 @@ Downloads of stable releases are available here. It is recommended that you use 
 
 Latest release:
 
-*   [INET 2.5.0][1] for OMNeT++ 4.6 ([What's New][2])
+*   <a class="btn btn-primary" href="http://omnetpp.org/download/contrib/models/inet-2.5.0-src.tgz">Download latest stable version (2.5.0)</a> for OMNeT++ 4.6 ([What's New][2])
 
 Older releases (please do not use them for new projects):
 
