@@ -21,6 +21,8 @@ underMenu: Home
 
 <div class="container">
 
+{% capture inetNews %}
+
 * * *
 
 **Get involved!** INET is a community project. If you'd like to help, there are various ways you can [contribute][3] to its progress. We are also currently looking for [Community Managers][4] and [Component Experts][5]. It is a good start to sign up for the [mailing list][6].
@@ -345,8 +347,6 @@ Helene Lageber has contributed a BGPv4 model to the INET Framework. The code is 
 
 A new INET Framework has been released. The most significant change is new features for the TCP model by Thomas Reschka. See the [release announcement][18].
 
-</div>
-
  [1]: http://www.omnetpp.org
  [2]: http://localhost:/web/inet/uploads/Main/inet.png
  [3]: WhyContribute
@@ -365,4 +365,10 @@ A new INET Framework has been released. The most significant change is new featu
  [16]: https://github.com/inet-framework/inet/commit/c86b8e5bd6e38eabcb677117e27afb7295db422f
  [17]: http://omnetpp.org/download/contrib/models/inet-20110225-src.tgz
  [18]: http://github.com/inet-framework/inet/blob/master/WHATSNEW
+
+{% endcapture %} 
+{{ inetNews | markdownify }}
+
+</div>
+
 
