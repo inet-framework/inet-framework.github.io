@@ -2,109 +2,111 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>INET Framework - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
-
-    <title>Justified Nav Template for Bootstrap</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-    <!-- Custom styles for this template -->
-    <link href="justified-nav.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <link rel="stylesheet" href="http://bootswatch.com/cerulean/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="http://bootswatch.com/assets/css/bootswatch.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="http://bootswatch.com/bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="http://bootswatch.com/bower_components/respond/dest/respond.min.js"></script>
     <![endif]-->
+    <script>
+
+     var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+    </script>
   </head>
-
   <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="http://bootswatch.com/" class="navbar-brand"><b>INET Framework</b></a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-right">
 
-    <div class="container">
-
-<!--
-      <div class="masthead">
-        <img src="http://inet.omnetpp.org/new/pub/skins/inet-omnetpp/images/logo.png">
-        <!- -<h3 class="text-muted">Project name</h3>- ->
-        <div role="navigation">
-          <ul class="nav nav-justified">
-          {% for item in site.data.menu %}
-            {% if item.link %}{% assign link = item.link %}{% else %}{% assign link = item.name | remove: " " | append: ".html" %}{% endif %}
-              <li{% if page.underMenu == item.name %} class="active"{% assign submenu = item.submenu %}{% endif %}>
-              <a href="{{ link }}">{{ item.name }}</a>
-              </li>
-          {% endfor %}
+            {% for item in site.data.menu %}
+              {% if item.submenu %}
+				<li class="dropdown{% if page.underMenu == item.name %} active{% endif %}">
+				  <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ item.name }} <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+                    {% for submenuitem in item.submenu %}
+                      {% if submenuitem.link %}{% assign link = submenuitem.link %}{% else %}{% assign link = submenuitem.name | remove: " " | append: ".html" %}{% endif %}
+                      <li><a href="{{ link }}">{{ submenuitem.name }}</a></li>
+                    {% endfor %}
+				  </ul>
+				</li>
+              {% else %}
+	            {% if item.link %}{% assign link = item.link %}{% else %}{% assign link = item.name | remove: " " | append: ".html" %}{% endif %}
+	            <li{% if page.underMenu == item.name %} class="active"{% endif %}>
+	               <a href="{{ link }}">{{ item.name }}</a>
+	            </li>
+              {% endif %}
+            {% endfor %}
 
           </ul>
         </div>
       </div>
--->
+    </div>
 
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
 
-<div class="row">
-<div class="col-md-2">
-        <img src="http://inet.omnetpp.org/new/pub/skins/inet-omnetpp/images/logo.png">
-</div>
-<div class="col-md-10">
-        <div role="navigation">
-          <ul class="nav nav-justified">
-          {% for item in site.data.menu %}
-            {% if item.link %}{% assign link = item.link %}{% else %}{% assign link = item.name | remove: " " | append: ".html" %}{% endif %}
-              <li{% if page.underMenu == item.name %} class="active"{% assign submenu = item.submenu %}{% endif %}>
-              <a href="{{ link }}">{{ item.name }}</a>
-              </li>
-          {% endfor %}
+    <div class="container">
 
-          </ul>
+      <div class="page-header" id="banner">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+			{{ content }}
+          </div>
+
         </div>
-</div>
-</div>
 
-<div class="row">
-<div class="col-md-2">
-      {% if submenu %}
-<!--
-        <ul>
-        {% for submenuitem in submenu %}
-          {% if submenuitem.link %}{% assign link = submenuitem.link %}{% else %}{% assign link = submenuitem.name | remove: " " | append: ".html" %}{% endif %}
-          <li{% if page.path == submenuitem.name %} class="active"{% endif %}><a href="{{ link }}">{{ submenuitem.name }}</a></li>
-        {% endfor %}
-        </ul>
--->
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
+      </div>
 
-        {% for submenuitem in submenu %}
-          {% if submenuitem.link %}{% assign link = submenuitem.link %}{% else %}{% assign link = submenuitem.name | remove: " " | append: ".html" %}{% endif %}
-          <p style="text-align:right"><a href="{{ link }}">{{ submenuitem.name }}</a></p>
-        {% endfor %}
 
-      {% endif %}
-</div>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <hr>
+            <ul class="list-unstyled">
+              <li class="pull-right"><a href="#top">Back to top</a></li>
+              <li><a href="TODO">RSS</a></li>
+              <li><a href="TODO">Twitter</a></li>
+              <li><a href="https://github.com/inet-framework/inet">GitHub</a></li>
+              <li><a href="TODO">Support</a></li>
+            </ul>
 
-<div class="col-md-10">
-      {{content}}
-</div>
-</div>
+            <p>
+               Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons</a> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>. 
+               Copyright &copy; 2015 Opensim Ltd.
+            </p>
+          </div>
+        </div>
 
-      <!-- Site footer -->
-      <footer class="footer">
-        <p>&copy; Company 2014</p>
       </footer>
 
-    </div> <!-- /container -->
+    </div>
 
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="bootstrap-3.3.1/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="http://bootswatch.com/assets/js/bootswatch.js"></script>
   </body>
 </html>
+
