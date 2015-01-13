@@ -65,35 +65,9 @@
       </div>
     </div>
 
+    {{ content }}
 
     <div class="container">
-
-      <div class="page-header" id="banner">
-
-        <div class="row">
-
-          <div class="col-lg-9">
-            {{ content }}
-          </div>
-          
-          <div class="col-lg-3">
-            {% if activeSubmenu  %}
-              <div style="height:30px"></div>
-              <h4>Related Pages</h4>
-              <div class="list-group">
-              {% for submenuitem in activeSubmenu %}
-                {% if submenuitem.link %}{% assign link = submenuitem.link %}{% else %}{% assign link = submenuitem.name | remove: " " | append: ".html" %}{% endif %}
-                {% assign slashLink = "/" | append: link %}
-                <a class="list-group-item{% if page.url == slashLink %} disabled{% endif %}" href="{{ link }}">{{ submenuitem.name }}</a>
-              {% endfor %}
-              </div>
-            {% endif %}
-          </div>
-
-        </div>
-
-      </div>
-
 
       <footer>
         <div class="row">

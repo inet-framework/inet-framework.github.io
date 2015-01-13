@@ -1,12 +1,25 @@
 ---
-layout: page
+layout: default
 title: INET Framework
 underMenu: Home
 ---
 
-**The INET Framework is an open-source communication networks simulation package for the [OMNeT++][1] simulation environment.** The INET Framework provides models for diverse wired, wireless and mobile networks.
+<header>
+<div class="jumbotron" style="background-image: url('images/minecraft-background2.jpg'); background-size: 100% 100%;">
+  <div class="container">
+    <br><br><br>
+    <h1>INET Framework</h1>
+    <p>
+      INET Framework is an open-source communication networks simulation package for 
+      the <a href="http://omnetpp.org" target="_blank">OMNeT++</a> simulation environment,
+      providing models for diverse wired, wireless and mobile networks.
+    </p>
+    <p><a class="btn btn-primary btn-lg" href="Documentation.html">Learn more</a></p>
+  </div>
+</div>
+</header>
 
-![][2]
+<div class="container">
 
 * * *
 
@@ -331,6 +344,8 @@ Helene Lageber has contributed a BGPv4 model to the INET Framework. The code is 
 **INET-20100723 Released** (Jul 23, 2010)
 
 A new INET Framework has been released. The most significant change is new features for the TCP model by Thomas Reschka. See the [release announcement][18].
+
+</div>
 
  [1]: http://www.omnetpp.org
  [2]: http://localhost:/web/inet/uploads/Main/inet.png
