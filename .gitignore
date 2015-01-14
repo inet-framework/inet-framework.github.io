@@ -1,0 +1,10 @@
+# ignore generated files
+_site
+
+# ignore backup and temp files
+*.bak
+*~
+backups
+tmp
+xxx
+
