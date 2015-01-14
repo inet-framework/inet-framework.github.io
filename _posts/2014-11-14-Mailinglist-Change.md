@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mailing List Name Change
-category: Site
+category: news
 ---
 
 Service Announcement: We have renamed the *inetframework-devel@googlegroups.com*
