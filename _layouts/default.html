@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>INET Framework - {{ page.title }}</title>
-    <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://bootswatch.com/cerulean/bootstrap.css" media="screen">
     <link rel="stylesheet" href="http://bootswatch.com/assets/css/bootswatch.min.css">
@@ -13,7 +12,6 @@
       <script src="http://bootswatch.com/bower_components/respond/dest/respond.min.js"></script>
     <![endif]-->
     <script>
-
      var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-23019901-1']);
       _gaq.push(['_setDomainName', "bootswatch.com"]);
@@ -25,10 +23,28 @@
        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
      })();
-
     </script>
+    {% if page.generateToC %}    
+    <script>
+      var generateToC = function() {
+          counter = 0;
+          toc = "<ul class='nav nav-pills nav-stacked bs-docs-sidenav' data-spy='affix' data-offset-top='0'>";
+          $("h2").each(function() {
+              el = $(this);
+              if (!el.attr("id"))
+                 el.attr("id") = "toc" + ++counter;
+              toc += "<li><a href='#" + el.attr("id") + "'>" + el.text() + "</a></li>";
+          });
+          toc += "</ul>";
+          document.getElementById("toc").innerHTML = toc;
+      }
+    </script>
+    {% endif %}
+    <style type="text/css">
+      h1:not(.panel-title), h2:not(.panel-title) { padding-top: 70px; margin-top: -70px; } /* without this, heading will be covered by top navbar when jumping to heading via anchor */
+    </style>    
   </head>
-  <body>
+  <body {% if page.generateToC %}onload="generateToC();"  data-spy="scroll" data-target=".bs-docs-sidebar"{% endif %} style="padding-top: 80px">
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">

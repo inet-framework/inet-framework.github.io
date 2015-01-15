@@ -1,8 +1,4 @@
----
-layout: page
-title: Contributors Mailing List
-underMenu: Development
----
+## Contributors Mailing List
 
 INET Framework developers and contributors discuss matters in the *inetframework-contrib* Google Group. Google Groups has the advantage that it can function both as a mailing list and as an online forum. If you are interested in INET more than just doing a quick simulation with it, we definitely recommend you to sign up.
 

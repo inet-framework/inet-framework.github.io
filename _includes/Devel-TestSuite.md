@@ -1,8 +1,4 @@
----
-layout: page
-title: The INET Test Suite
-underMenu: Development
----
+## The INET Test Suite
 
 The INET Framework has multiple test suites that performs regression testing, unit testing and validation.
 

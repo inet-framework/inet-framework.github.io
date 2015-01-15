@@ -1,8 +1,4 @@
----
-layout: page
-title: Documentation Guidelines
-underMenu: Development
----
+## Documentation Guidelines
 
 We maintain documentation in the following forms:
 

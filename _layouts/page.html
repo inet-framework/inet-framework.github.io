@@ -17,6 +17,11 @@ layout: default
           </div>
           
           <div class="col-lg-3">
+            <!-- generated table of contents -->
+            {% if page.generateToC %}
+            <div id="toc" class="span3 bs-docs-sidebar">
+            </div>
+            {% endif %}
 
             <!-- find active submenu -->
             {% for item in site.data.menu %}
@@ -25,7 +30,7 @@ layout: default
               {% endif %}
             {% endfor %}
             
-            <!-- render it a link group -->
+            <!-- render it as a link group -->
             {% if activeSubmenu  %}
               <div style="height:30px"></div>
               <h4>Related Pages</h4>
