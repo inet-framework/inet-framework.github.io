@@ -2,7 +2,7 @@
 
 INET is a community project, and its progress largely depends on code contributions from community members. So it is good for the INET project if you contribute, but why is it good for you?
 
-## You Benefit From It
+### You Benefit From It
 
 If you are doing research with INET, contributing your changes back to the project means:
 
@@ -18,7 +18,7 @@ If you are a student doing homework or thesis with INET:
 *   It expands your open source portfolio and demonstrates your expertise
 *   Satisfaction from contributing to an open-source project
 
-## Fun Project, Fantastic People
+### Fun Project, Fantastic People
 
 You might enjoy contributing, because:
 
