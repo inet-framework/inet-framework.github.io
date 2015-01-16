@@ -1,8 +1,6 @@
 # default link is derived from name: remove spaces, append ".html"
 # see also: http://jekyllrb.com/docs/datafiles/
 
-- name: Home
-  link: index.html
 - name: Download
 - name: Documentation
 - name: Extensions
