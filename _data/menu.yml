@@ -8,13 +8,6 @@
 - name: Extensions
 - name: Development
 - name: Contributing
-  link: WhyContribute.html
-  submenu:
-    - name: Why Contribute
-    - name: How Can You Help
-    - name: Thesis Ideas
-    - name: Development Topics
-    - name: Getting Started
 - name: People
   link: Contributors.html
   submenu:

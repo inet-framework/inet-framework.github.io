@@ -1,8 +1,4 @@
----
-layout: page
-title: How Can You Help
-underMenu: Contributing
----
+## How Can You Help
 
 You can help in several ways. Contributions can be as small as a bugfix or a documentation improvement, or as large as a new protocol implementation.
 

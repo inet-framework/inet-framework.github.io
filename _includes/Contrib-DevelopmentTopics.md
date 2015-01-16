@@ -1,8 +1,4 @@
----
-layout: page
-title: Development Topics
-underMenu: Contributing 
----
+## Development Topics
 
 If you'd like to contribute to INET, this page lists a number of topics that you can work on. To avoid mishaps (duplicate work, etc), please ask before you start working.
 

@@ -1,8 +1,4 @@
----
-layout: page
-title: Why Contribute
-underMenu: Contributing
----
+## Why Contribute
 
 INET is a community project, and its progress largely depends on code contributions from community members. So it is good for the INET project if you contribute, but why is it good for you?
 
