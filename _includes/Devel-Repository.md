@@ -8,10 +8,10 @@ The INET Framework repository is hosted on GitHub:
 
 Branches:
 
-*   *master*: Holds the current stable version of INET (as of 2014, version 2.x).
-*   *integration*: Contains the codebase for the next major version of INET as it is being developed (as of 2014, version, version 3.0)
-*   *topic/\<name\>*: Temporary branches opened for the development of a particular feature. Topic branches may be deleted, rebased, or their history rewritten at any time.
-*   *attic/\<name\>*: Abandoned topic branches.
+*   `master`: Holds the current stable version of INET (as of 2014, version 2.x).
+*   `integration`: Contains the codebase for the next major version of INET as it is being developed (as of 2014, version, version 3.0)
+*   `topic/<name>`: Temporary branches opened for the development of a particular feature. Topic branches may be deleted, rebased, or their history rewritten at any time.
+*   `attic/<name>`: Abandoned topic branches.
 
 **New to git?** Read about it on its [web site][10] or on [github][11], or [try it hands-on][12].
 

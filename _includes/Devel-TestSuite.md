@@ -15,12 +15,12 @@ The INET Framework has multiple test suites that performs regression testing, un
 
 
 *   Unit test (for testing individual classes)
-    *   can use OMNeT++ unit test framework (opp_test) and .test files
+    *   you can use the OMNeT++ test tool `opp_test` and `.test` files
 
 
 *   Module tests (for functional testing of individual modules, typically protocol implementations)
     *   send the module some input, then check how it reacts (messages and/or log output)
-    *   you can use the OMNeT++ unit test framework (opp_test) and .test files
+    *   you can use the OMNeT++ test tool `opp_test` and `.test` files
 
 
 *   Statistical and validation tests

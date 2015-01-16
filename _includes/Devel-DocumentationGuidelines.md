@@ -9,13 +9,13 @@ The following auxiliary files are managed by the core INET maintainers:
 
 *   **ChangeLogs**. Every source folder contains a `ChangeLog` file in a fixed format. ChangeLogs exist so that users can get a high level overview of the history of that component. It is usually derived from the git log by heavy editing for conciseness and clarity, e.g. by combining a series of related commit messages into a single change summary. (The git log is often too detailed and contains too much "noise" for end-user consumption.)
 *   **WHATSNEW** (in the project root directory) is updated before each release, and contains a summary of changes in the whole framework.
-*   **AUTHORS** (in the project root directory) records the names of those who contributed to the project. The [Contributors][1] page should always contain a mirror of this file.
+*   **AUTHORS** (in the project root directory) records the names of those who contributed to the project. The [Contributors](/Contributors.html) page should always contain a mirror of this file.
 
 ### The Manual
 
 Technically:
 
-*   Sources are in the repository under `[doc/src/manual][2]`, in LaTeX.
+*   Sources are in the repository under [doc/src/manual][2], in LaTeX.
 *   PDF and/or HTML built by the release manager for each release
 
 Content and level of details:
@@ -41,9 +41,9 @@ NED documentation:
 
 C++ documentation:
 
-*   Of the many syntaxes Doxygen allows, use the //\** *|/ one. @brief lines are usually not needed.
-*   Class comments should be about the *implementation* of the given protocol (as NED already documents the purpose and external interface). When the implementation is straightforward, "Please see the NED file for details" is a perfectly fine comment.
-*   Only public methods should be documented. Don't use /\** *|/ comments for private data members, private methods, etc. (We recommend //-comments instead.)
+*   Of the many syntaxes Doxygen allows, use the `//** */` one. `@brief` lines are usually not needed.
+*   Class comments should be about the *implementation* of the given protocol (as NED already documents the purpose and external interface). When the implementation is straightforward, *"Please see the NED file for details"* is a perfectly fine comment.
+*   Only public methods should be documented. Don't use `/** */` comments for private data members, private methods, etc. (We recommend `//` comments instead.)
 
  [1]: Contributors
  [2]: https://github.com/inet-framework/inet/tree/integration/doc/src/manual
