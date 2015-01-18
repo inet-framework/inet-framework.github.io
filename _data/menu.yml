@@ -15,6 +15,7 @@
       link: DocumentationGuidelines.html
     - name: Test Suite
     - name: Submitting Code
+    - separator: true
     - name: Plans
     - name: Progress
 - name: Contributing
@@ -22,9 +23,10 @@
   submenu:
     - name: Why Contribute
     - name: How Can You Help
+    - name: Getting Started
+    - separator: true
     - name: Thesis Ideas
     - name: Development Topics
-    - name: Getting Started
 - name: People
   link: Contributors.html
   submenu:

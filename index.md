@@ -90,8 +90,8 @@ underMenu: Home
             <hr>
             <h4>Topics To Work On</h4>
             <ul style="padding-left: 15px">
-              <li><a href="Contributing.html#ProjectIdeas">Topics suitable as MSc projects</a>. Lorem impsum doolor sit amet.</li>
-              <li><a href="Contributing.html#DevelopmentTopics">Development Topics</a>. Lorem impsum doolor sit amet.</li>
+              <li><a href="ProjectIdeas.html">Topics suitable as MSc projects</a>. Lorem impsum doolor sit amet.</li>
+              <li><a href="DevelopmentTopics.html">Development Topics</a>. Lorem impsum doolor sit amet.</li>
             </ul>
           </div>
         </div>

@@ -43,7 +43,8 @@
     <style type="text/css">
       h1:not(.panel-title), h2:not(.panel-title) { padding-top: 70px; margin-top: -70px; } /* without this, heading will be covered by top navbar when jumping to heading via anchor */
       .navbar { border-bottom: 4px solid #ff8800; }  /* minimal styling: orange strip under navbar */
-    </style>    
+      ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }  /* open menus on hover */
+    </style>
   </head>
   <body {% if page.generateToC %}onload="generateToC();"  data-spy="scroll" data-target=".bs-docs-sidebar"{% endif %}>
     <div class="navbar navbar-default navbar-fixed-top">
@@ -61,12 +62,17 @@
 
             {% for item in site.data.menu %}
               {% if item.submenu %}
+                {% if item.link %}{% assign link = item.link %}{% else %}{% assign link = item.name | remove: " " | append: ".html" %}{% endif %}
                 <li class="dropdown{% if page.underMenu == item.name %} active{% assign activeSubmenu = item.submenu %}{% endif %}">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ item.name }} <span class="caret"></span></a>
+                  <a class="dropdown-toggle" href="{{ link }}">{{ item.name }}</a>
                   <ul class="dropdown-menu">
                     {% for submenuitem in item.submenu %}
-                      {% if submenuitem.link %}{% assign link = submenuitem.link %}{% else %}{% assign link = submenuitem.name | remove: " " | append: ".html" %}{% endif %}
-                      <li><a href="{{ link }}">{{ submenuitem.name }}</a></li>
+                      {% if submenuitem.separator %}
+                        <li role="presentation" class="divider"></li>
+                      {% else %}
+                        {% if submenuitem.link %}{% assign link = submenuitem.link %}{% else %}{% assign link = submenuitem.name | remove: " " | append: ".html" %}{% endif %}
+                        <li><a href="{{ link }}">{{ submenuitem.name }}</a></li>
+                      {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
