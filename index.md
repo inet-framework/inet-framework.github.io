@@ -101,9 +101,13 @@ underMenu: Home
       <div class="col-md-4">
         <div class="panel panel-primary">
           <div class="panel-heading">
-            <h3 class="panel-title">Progress</h3>
+            <h3 class="panel-title">Development</h3>
           </div>
           <div class="panel-body">
+           <h4>Plans</h4>
+           <p>Plans for the next versions are available <a href="Plans.html">here</a>.</p>
+           <hr>
+           <h4>Progress</h4>
            {% assign counter = '' %}
            {% for post in site.posts %}
              {% if post.category == "progress" and counter.size < 3 %}
@@ -113,20 +117,6 @@ underMenu: Home
              {% endif %}
            {% endfor %}
              <a href="/Progress.html">More...</a>
-          </div>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Plans</h3>
-          </div>
-          <div class="panel-body">
-            <p>Thesere our plans@!!!!!!</p>
-            <ul>
-              <li>Set up a Coverity account for detecting defects via static code analysis</li>
-              <li>Introducing C++11 features in the code (nullptr, auto, in-class member initializers)</li>
-              <li>Working on the manual</li>
-              <li>Merged the PIM/IGMPv3 topic branch into integration</li>
-            </ul>
           </div>
         </div>
 
