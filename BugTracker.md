@@ -1,4 +1,8 @@
-## Reporting Bugs
+---
+layout: page
+title: Reporting Bugs
+underMenu: Development
+---
 
 The INET project uses the OMNeT++ Bug Tracker.
 

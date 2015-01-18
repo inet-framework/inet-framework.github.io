@@ -1,4 +1,8 @@
-## Repository
+---
+layout: page
+title: Repository
+underMenu: Development
+---
 
 The INET Framework repository is hosted on GitHub:
 

@@ -1,4 +1,8 @@
-## Documentation Guidelines
+---
+layout: page
+title: Documentation Guidelines
+underMenu: Development
+---
 
 We maintain documentation in the following forms:
 
@@ -11,7 +15,7 @@ The following auxiliary files are managed by the core INET maintainers:
 *   **WHATSNEW** (in the project root directory) is updated before each release, and contains a summary of changes in the whole framework.
 *   **AUTHORS** (in the project root directory) records the names of those who contributed to the project. The [Contributors](/Contributors.html) page should always contain a mirror of this file.
 
-### The Manual
+## The Manual
 
 Technically:
 
@@ -29,7 +33,7 @@ However, it should not:
 *   Be as detailed as to duplicate information in the Reference
 *   Attempt to teach or describe the protocol itself (that's not the job of the manual)
 
-### The Reference
+## The Reference
 
 We use Doxygen and the OMNeT++ IDE (*Project -> Generate NED Documentation*) to generate hyperlinked documentation from source code. The following rules help us achieve that the generated documentation is useful and looks good.
 

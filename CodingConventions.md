@@ -1,6 +1,10 @@
-## Coding Conventions
+---
+layout: page
+title: Coding Conventions
+underMenu: Development
+---
 
-### Code Format
+## Code Format
 
 We know that indentation style is a personal matter but the codebase needs to look consistent, so please adhere to the conventions below.
 
@@ -12,7 +16,7 @@ We know that indentation style is a personal matter but the codebase needs to lo
 
 The OMNeT++ IDE provides you pre-configured code styles in *Window -> Preferences -> C++ -> Code Style*. Choose *OMNeT++* as your code style. Pressing *Ctrl+Shift+F* will reformat your code to match this style.
 
-### Naming Convention
+## Naming Convention
 
 Rules for variable names, function names, class names and other identifiers.
 
@@ -24,13 +28,13 @@ Rules for variable names, function names, class names and other identifiers.
 *   Function names start with a verb
 *   Functions returning a bool preferably start with `is` or `has`
 
-### Commenting
+## Commenting
 
 *   Add copyright headers at the top of each source file. Use `//` comments for consistency with NED and MSG files.
 *   Generally, use `//` comments in the code (except for Doxygen comments)
 *   For documentation comments (Doxygen and NED), see [Documentation Guidelines][#documentation-guidelines]
 
-### Class Layout
+## Class Layout
 
 Consistent layout of class declarations throughout the project helps maintainers to remain sane.
 
@@ -41,7 +45,7 @@ Consistent layout of class declarations throughout the project helps maintainers
 *   Comment data members with `//` comments
 *   Non-public methods can be left undocumented, or use `//` comments where necessary
 
-### Functions
+## Functions
 
 Misnamed and "kitchen-sink" functions are unfortunately quite common, and make the code hard to follow and reason about. Here's what you can do:
 
@@ -52,14 +56,14 @@ Misnamed and "kitchen-sink" functions are unfortunately quite common, and make t
 *   Local variables should be declared close to their use, in the smallest scope possible (i.e. not C-style, at the top of the function)
 *   Commenting: we prefer breaking up the function body into logical blocks, and adding a `//` comment above each block to document its intended *purpose*
 
-### C++ Style
+## C++ Style
 
 Most users of INET are not C++ scholars. We think the codebase should be written in a style and in a subset of C++ that makes it accessible to our users.
 
 *   Emphasis on readability, i.e. refrain from clever tricks and relatively obscure C++ features
 *   Use of the Boost library and other excessively templated code is not allowed
 
-### C++11 Features
+## C++11 Features
 
 From INET 3.0, the following [C++11 features][2] will be allowed (and recommended):
 

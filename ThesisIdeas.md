@@ -1,4 +1,8 @@
-## Ideas for Master Theses
+---
+layout: page
+title: Ideas for Master Theses
+underMenu: Contributing
+---
 
 Several INET components have been originally developed as part of a Masters thesis at some university, for example the OSPFv2 model (at [TU Budapest][5]), IPv6 (at [Monash University][6]), or MPLS/LDP/RSVP-TE (capstone project at [TU Sydney][7]). We think that although the knowledge and programming skills of students vary greatly, a Masters project, if managed well and done by a competent student, has the potential to result in valuable contributions to INET.
 

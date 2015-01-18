@@ -1,4 +1,8 @@
-## Getting Started
+---
+layout: page
+title: Getting Started
+underMenu: Contributing
+---
 
 If you'd like to contribute code to the INET Framework, this page exists to help you get started.
 

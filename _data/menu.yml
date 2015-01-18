@@ -5,7 +5,26 @@
 - name: Documentation
 - name: Extensions
 - name: Development
+  link: Repository.html
+  submenu:
+    - name: Repository
+    - name: Bug Tracker
+    - name: Mailing List
+    - name: Coding Conventions
+    - name: Documenting
+      link: DocumentationGuidelines.html
+    - name: Test Suite
+    - name: Submitting Code
+    - name: Plans
+    - name: Progress
 - name: Contributing
+  link: WhyContribute.html
+  submenu:
+    - name: Why Contribute
+    - name: How Can You Help
+    - name: Thesis Ideas
+    - name: Development Topics
+    - name: Getting Started
 - name: People
   link: Contributors.html
   submenu:

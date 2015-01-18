@@ -1,4 +1,8 @@
-## Submitting Code
+---
+layout: page
+title: Submitting Code
+underMenu: Development
+---
 
 When you have changes that you'd like to be included in the INET Framework, here is the process:
 
