@@ -4,56 +4,73 @@ title: Component Experts
 underMenu: People
 ---
 
-The INET Framework contains the implementations of numerous protocols and concepts, and maintenance of the codebase and reviewing contributions often poses challenges that are difficult to meet with a small team of core developers. In this table we are collecting people who have specialized knowledge and expertise in certain areas, and are willing to help developers/maintainers by advising them.
+The INET Framework contains the implementations of numerous protocols and
+concepts, and maintenance of the codebase and reviewing contributions often
+poses challenges that are difficult to meet with a small team of core
+developers. In this table we are collecting people who have specialized
+knowledge and expertise in certain areas, and are willing to help
+developers/maintainers by advising them.
 
-| **Component**                    | **Name**        |
-||
-| Application                      |
-| VoIPStream                       | n/a             |
-| SimpleVoIP                       | n/a             |
-| HttpTools                        | n/a             |
-| Transport                        |
-| TCP (INET)                       | Michael Tuexen  |
-| TCP (lwIP)                       | n/a             |
-| TCP (NSC)                        | n/a             |
-| RTP                              | n/a             |
-| SCTP                             | Michael Tuexen  |
-| UDP                              | n/a             |
-| Network                          |
-| IPv4                             | n/a             |
-| IPv6                             | n/a             |
-| Mobile IPv6                      | n/a             |
-| Generic network layer protocol   | n/a             |
-| Multi network layer              | n/a             |
-| Internet Cloud                   | n/a             |
-| ARP                              | n/a             |
-| DHCP                             | n/a             |
-| DiffServ                         | n/a             |
-| MPLS family (LDP, RSVP-TE, etc.) | n/a             |
-| Routing                          |
-| OSPF                             | Vladimir Vesely |
-| BGP                              | Vladimir Vesely |
-| RIP                              | Vladimir Vesely |
-| Manet Routing                    |
-| DYMO                             | n/a             |
-| AODV                             | n/a             |
-| GPSR                             | n/a             |
-| WiseRoute                        | n/a             |
-| MANET routing                    | n/a             |
-| Data link                        |
-| Ethernet                         | n/a             |
-| PPP                              | n/a             |
-| 802.11                           | n/a             |
-| 802.15.4                         | n/a             |
-| IEEE 802.1d (STP, RSTP, etc.)    | n/a             |
-| Physical layer                   |
-| Physical layer                   | n/a             |
-| Environment                      |
-| Mobility                         | n/a             |
-| TraCI                            | n/a             |
-| Physical environment             | n/a             |
-| Power                            | n/a             |
-| Other                            |
-| Network emulation support        | n/a             |
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr class="info"><th>Component</th><th>Name</th></tr>
+  </thead>
+  <tbody>
+    <tr class="success"><td colspan="2">Applications</td></tr>
+    <tr><td>VoIPStream</td><td>n/a</td></tr>
+    <tr><td>SimpleVoIP</td><td>n/a</td></tr>
+    <tr><td>HttpTools</td><td>n/a</td></tr>
+
+    <tr class="success"><td colspan="2">Transport Layer</td></tr>
+    <tr><td>TCP (INET)</td><td>Michael Tuexen</td></tr>
+    <tr><td>TCP (lwIP)</td><td>n/a</td></tr>
+    <tr><td>TCP (NSC)</td><td>n/a</td></tr>
+    <tr><td>RTP</td><td>n/a</td></tr>
+    <tr><td>SCTP</td><td>Michael Tuexen</td></tr>
+    <tr><td>UDP</td><td>n/a</td></tr>
+
+    <tr class="success"><td colspan="2">Network Layer</td></tr>
+    <tr><td>IPv4</td><td>n/a</td></tr>
+    <tr><td>IPv6</td><td>n/a</td></tr>
+    <tr><td>Mobile IPv6</td><td>n/a</td></tr>
+    <tr><td>Generic network layer protocol</td><td>n/a</td></tr>
+    <tr><td>Multi network layer</td><td>n/a</td></tr>
+    <tr><td>Internet Cloud</td><td>n/a</td></tr>
+    <tr><td>ARP</td><td>n/a</td></tr>
+    <tr><td>DHCP</td><td>n/a</td></tr>
+    <tr><td>DiffServ</td><td>n/a</td></tr>
+    <tr><td>MPLS family (LDP, RSVP-TE, etc.)</td><td>n/a</td></tr>
+
+    <tr class="success"><td colspan="2">Routing</td></tr>
+    <tr><td>OSPF</td><td>Vladimir Vesely</td></tr>
+    <tr><td>BGP</td><td>Vladimir Vesely</td></tr>
+    <tr><td>RIP</td><td>Vladimir Vesely</td></tr>
+    <tr><td>Manet Routing</td><td>&nbsp;</td></tr>
+    <tr><td>DYMO</td><td>n/a</td></tr>
+    <tr><td>AODV</td><td>n/a</td></tr>
+    <tr><td>GPSR</td><td>n/a</td></tr>
+    <tr><td>WiseRoute</td><td>n/a</td></tr>
+    <tr><td>MANET routing</td><td>n/a</td></tr>
+
+    <tr class="success"><td colspan="2">Data Link Layer</td></tr>
+    <tr><td>Ethernet</td><td>n/a</td></tr>
+    <tr><td>PPP</td><td>n/a</td></tr>
+    <tr><td>802.11</td><td>n/a</td></tr>
+    <tr><td>802.15.4</td><td>n/a</td></tr>
+    <tr><td>IEEE 802.1d (STP, RSTP, etc.)</td><td>n/a</td></tr>
+
+    <tr class="success"><td colspan="2">Physical Layer</td></tr>
+    <tr><td>Physical layer</td><td>n/a</td></tr>
+
+    <tr class="success"><td colspan="2">Environment</td></tr>
+    <tr><td>Mobility</td><td>n/a</td></tr>
+    <tr><td>TraCI</td><td>n/a</td></tr>
+    <tr><td>Physical environment</td><td>n/a</td></tr>
+    <tr><td>Power</td><td>n/a</td></tr>
+
+    <tr class="success"><td colspan="2">Other</td></tr>
+    <tr><td>Network emulation support</td><td>n/a</td></tr>
+  </tbody>
+</table>
 
 

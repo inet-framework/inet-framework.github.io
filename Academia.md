@@ -6,7 +6,7 @@ underMenu: People
 
 Researchers in the following institutions have contributed to the INET Framework.
 
-<pre>
+{% capture tmp %}
 CTIE, Monash University, Melbourne, Australia.
 University of Technology, Sydney, Australia.
 Brno University of Technology, Czech Republic.
@@ -25,5 +25,7 @@ University of Pisa, Italy.
 Eindhoven University of Technology, the Netherlands.
 Universita della Svizzera Italiana, Lugano, Switzerland.
 Universidad de Malaga, Spain.
-</pre>
+{% endcapture %}
+
+{{ tmp | newline_to_br }}
 
