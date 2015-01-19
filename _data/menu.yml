@@ -24,6 +24,7 @@
     - name: Why Contribute
     - name: How Can You Help
     - name: Getting Started
+      link: ContribGettingStarted.html
     - separator: true
     - name: Thesis Ideas
     - name: Development Topics

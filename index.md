@@ -15,7 +15,7 @@ frontpage: true
       the <a href="http://omnetpp.org" target="_blank">OMNeT++</a> simulation environment,
       providing models for diverse wired, wireless and mobile networks.
     </p>
-    <p><a class="btn btn-primary btn-lg" href="Documentation.html">Learn more</a></p>
+    <p><a class="btn btn-primary btn-lg" href="Introduction.html">Learn more</a></p>
   </div>
 </div>
 </header>
@@ -32,7 +32,7 @@ frontpage: true
             <h4>Getting Started</h4>
             <p>Learn how to get INET up and running, and how to implement your simulations.</p>
             <ul style="padding-left: 15px">
-              <li><a href="#">Getting Started</a></li>
+              <li><a href="GettingStarted.html">Getting Started</a></li>
             </ul>
             <hr>
             <h4>Documentation</h4>
