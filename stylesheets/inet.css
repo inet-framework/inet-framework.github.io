@@ -41,5 +41,5 @@ footer p{clear:left;margin-bottom:0}
 @media (max-width:767px){.splash{padding-top:4em}
 .splash .logo{width:100px}
 .splash h1{font-size:2em}
-#banner{margin-bottom:2em;text-align:center}
+#banner{margin-bottom:2em;text-align:left}
 }
