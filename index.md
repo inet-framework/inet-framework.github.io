@@ -2,6 +2,7 @@
 layout: default
 title: INET Framework
 underMenu: Home
+frontpage: true
 ---
 
 <header>
@@ -30,11 +31,12 @@ underMenu: Home
           <div class="panel-body">
             <h4>Getting Started</h4>
             <p>Learn how to get INET up and running, and how to implement your simulations.</p>
-            <ul>
+            <ul style="padding-left: 15px">
               <li><a href="#">Getting Started</a></li>
             </ul>
+            <hr>
             <h4>Documentation</h4>
-            <ul>
+            <ul style="padding-left: 15px">
               <li><a href="Status.html">Available Protocols</a></li>
               <li><a href="http://inet.omnetpp.org/doc/INET">INET Reference</a></li>
               <li>INET Framework Manual (in preparation)</li>
