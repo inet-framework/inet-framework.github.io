@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What Is This?
+title: What Is INET Framework?
 underMenu: Documentation
 ---
 
@@ -50,7 +50,7 @@ Some features:
 - Wide range of application models
 - Network emulation support
 - Mobility support
-- Supports the modeling of the physical environment (obstacles for radio propagation, etc.
+- Supports the modeling of the physical environment (obstacles for radio propagation, etc.)
 - Separation of concerns
 
 ### Driven By the Community

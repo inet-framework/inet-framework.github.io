@@ -3,7 +3,10 @@ layout: page
 title: Component Experts
 underMenu: People
 people:
-   tuexen: <a href="https://www.fh-muenster.de/fb2/personen/professoren/tuexen/index.php">Michael Tuexen</a>
+   becke: <a href="TODO">Martin Becke</a>
+   reschka: <a href="TODO">Thomas Reschka</a>
+   ruengeler: <a href="https://fh-muenster.de/fb2/personen/mitarbeiter/ruengeler">Irene R&uuml;ngeler</a>
+   tuexen: <a href="https://www.fh-muenster.de/fb2/personen/professoren/tuexen">Michael T&uuml;xen</a>
    vesely: <a href="http://www.fit.vutbr.cz/~ivesely/">Vladimir Vesely</a>
 ---
 
@@ -26,11 +29,11 @@ Applications;
     SimpleVoIP: ;
     HttpTools: ;
 Transport Layer;
-    TCP (INET):  tuexen;
+    TCP (INET):  tuexen, becke, reschka;
     TCP (lwIP): ;
     TCP (NSC): ;
     RTP: ;
-    SCTP:        tuexen;
+    SCTP:        tuexen, ruengeler, becke;
     UDP: ;
 Network Layer;
     IPv4: ;
@@ -52,18 +55,23 @@ MANET Routing;
     AODV: ;
     GPSR: ;
     WiseRoute: ;
+    Others (flood, prob. broadcast): ;
 Data Link Layer;
     Ethernet: ;
     PPP: ;
     802.11: ;
     802.15.4: ;
     IEEE 802.1d (STP, RSTP, etc.): ;
+    B-MAC, C-MAC: ;
+    CSMA: ;
 Physical Layer;
-    Physical layer: ;
-    Environment;
+    Path loss models: ;
+    Error models: ;
+    Radio: ;
+Environment;
     Mobility: ;
     TraCI: ;
-Physical environment;
+    Physical environment: ;
     Power: ;
 Other;
     Network emulation support:

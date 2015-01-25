@@ -23,7 +23,8 @@ double-clicking the created `vec` or `sca` files.
 
 You'll need OMNeT++ knowledge to create simulations with INET. The following
 pages, each about 5-10 minutes to read, are automatically opened in the IDE
-when you first start it. You can also access them later from the *Help* menu.
+when you first start it. You can also access them later from the *Help* menu
+(*Help Contents -> OMNeT++ Documentation -> Getting Started*).
 
 * **OMNeT++ at a Glance**: explains the purpose of various files: `ini`, `ned`, `msg` and so on.
 
