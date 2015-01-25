@@ -4,13 +4,17 @@ title: Download
 underMenu: Download
 ---
 
+<div class="alert alert-warning">
+<b>Do you really need to download?</b> Recent versions of the OMNeT++ IDE can download and install INET (the latest stable version) for you. <a href="Installation.html">Learn more.</a>
+</div>
+
 ## Stable Releases
 
 Downloads of stable releases are available here. It is recommended that you use the latest stable release for projects.
 
 Latest release:
 
-*   <a class="btn btn-primary" href="http://omnetpp.org/download/contrib/models/inet-2.5.0-src.tgz">Download latest stable version (2.5.0)</a> for OMNeT++ 4.6 ([What's New][2])
+<a class="btn btn-primary" href="http://omnetpp.org/download/contrib/models/inet-2.5.0-src.tgz">Download latest stable version (2.5.0, for OMNeT++ 4.6)</a> ([What's New][2])
 
 Older releases (please do not use them for new projects):
 
@@ -31,22 +35,20 @@ From time to time, we create preview releases from the development branch. They 
 
 Latest development version:
 
-*   [ inet-2.99.0][18] (Nov 10, 2014), requires OMNeT++ 4.6 or later ([What's New][19])
+*   [inet-2.99.0][18] (Nov 10, 2014), requires OMNeT++ 4.6 or later ([What's New][19])
 
 Older development versions:
 
-*   [ inet-1.99.5][20] (June 22, 2012), requires OMNeT++ 4.2 or later
-*   [ inet-1.99.4][21] (March 21, 2012), requires OMNeT++ 4.2 or later
-*   [ inet-1.99.3][22] (Feb 24, 2012), requires OMNeT++ 4.2 or later
-*   [ inet-1.99.2][23] (Nov 18, 2011), requires OMNeT++ 4.2 or later
-*   [ inet-1.99.1][24] (May 27, 2011), requires OMNeT++ 4.2b2
-*   [ inet-1.99.0][25] (March 3, 2011), requires OMNeT++ 4.1
-
-For more information and pointers to the repositories, visit the [Development][26] page.
+*   [inet-1.99.5][20] (June 22, 2012), requires OMNeT++ 4.2 or later
+*   [inet-1.99.4][21] (March 21, 2012), requires OMNeT++ 4.2 or later
+*   [inet-1.99.3][22] (Feb 24, 2012), requires OMNeT++ 4.2 or later
+*   [inet-1.99.2][23] (Nov 18, 2011), requires OMNeT++ 4.2 or later
+*   [inet-1.99.1][24] (May 27, 2011), requires OMNeT++ 4.2b2
+*   [inet-1.99.0][25] (March 3, 2011), requires OMNeT++ 4.1
 
 ## Installation
 
-[This page][27] describes how to install the INET Framework.
+Installation instructions are available [here](Installation.html).
 
  [1]: http://omnetpp.org/download/contrib/models/inet-2.5.0-src.tgz
  [2]: https://github.com/inet-framework/inet/blob/v2.5.0/WHATSNEW
@@ -73,5 +75,3 @@ For more information and pointers to the repositories, visit the [Development][2
  [23]: http://omnetpp.org/download/contrib/models/inet-1.99.2-unstable-6660961-src.tgz
  [24]: http://omnetpp.org/download/contrib/models/inet-1.99.1-unstable-4f9f16b-src.tgz
  [25]: http://omnetpp.org/download/contrib/models/inet-1.99.0-unstable-86c336f-src.tgz
- [26]: Development.html
- [27]: Installation.html

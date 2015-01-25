@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>INET Framework - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="stylesheets/bootstrap-cerulean.min.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/inet.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-cerulean.min.css" media="screen">
+    <link rel="stylesheet" href="/stylesheets/inet.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="javascripts/html5shiv.js"></script>
@@ -41,6 +41,7 @@
       .navbar { border-bottom: 4px solid #ff8800; }  /* minimal styling: orange strip under navbar */
       ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }  /* open menus on hover */
       body.frontpage { background-color: #f4f4ff; }
+      .affix { z-index: 1; }  /* prevent bottom <hr> from obscuring the side menu */
     </style>
   </head>
   <body {% if page.generateToC %}onload="generateToC();"  data-spy="scroll" data-target=".bs-docs-sidebar"{% endif %}{% if page.frontpage %} class="frontpage"{% endif %}>
@@ -59,24 +60,21 @@
 
             {% for item in site.data.menu %}
               {% if item.submenu %}
-                {% if item.link %}{% assign link = item.link %}{% else %}{% assign link = item.name | remove: " " | append: ".html" %}{% endif %}
                 <li class="dropdown{% if page.underMenu == item.name %} active{% assign activeSubmenu = item.submenu %}{% endif %}">
-                  <a class="dropdown-toggle" href="{{ link }}">{{ item.name }}</a>
+                  <a class="dropdown-toggle" href="{{ item.link }}">{{ item.name }}</a>
                   <ul class="dropdown-menu">
                     {% for submenuitem in item.submenu %}
                       {% if submenuitem.separator %}
                         <li role="presentation" class="divider"></li>
                       {% else %}
-                        {% if submenuitem.link %}{% assign link = submenuitem.link %}{% else %}{% assign link = submenuitem.name | remove: " " | append: ".html" %}{% endif %}
-                        <li><a href="{{ link }}">{{ submenuitem.name }}</a></li>
+                        <li><a href="{{ submenuitem.link }}">{{ submenuitem.name }}</a></li>
                       {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
               {% else %}
-                {% if item.link %}{% assign link = item.link %}{% else %}{% assign link = item.name | remove: " " | append: ".html" %}{% endif %}
                 <li{% if page.underMenu == item.name %} class="active"{% endif %}>
-                   <a href="{{ link }}">{{ item.name }}</a>
+                   <a href="{{ item.link }}">{{ item.name }}</a>
                 </li>
               {% endif %}
             {% endfor %}
@@ -89,17 +87,16 @@
     {{ content }}
 
     <div class="container">
-
       <footer>
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-sm-9">
             <hr>
             <ul class="list-unstyled">
               <li class="pull-right"><a href="#top">Back to top</a></li>
-              <li><a href="TODO">RSS</a></li>
-              <li><a href="TODO">Twitter</a></li>
-              <li><a href="https://github.com/inet-framework/inet">GitHub</a></li>
-              <li><a href="TODO">Support</a></li>
+              <li><a href="https://twitter.com/omnetpp" target="_blank">Twitter</a></li>
+              <li><a href="https://github.com/inet-framework/inet" target="_blank">GitHub</a></li>
+              <li><a href="https://groups.google.com/forum/?fromgroups#!forum/omnetpp" target="_blank">Mailing List</a></li>
+              <li><a href="mailto:inet@omnetpp.org" target="_blank">Contact Us</a></li>
             </ul>
 
             <p>
@@ -108,14 +105,12 @@
             </p>
           </div>
         </div>
-
       </footer>
-
     </div>
 
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="javascripts/bootstrap.min.js"></script>
-    <script src="javascripts/cerulean.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/cerulean.js"></script>
   </body>
 </html>
 

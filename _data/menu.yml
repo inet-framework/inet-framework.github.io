@@ -1,38 +1,73 @@
-# default link is derived from name: remove spaces, append ".html"
-# see also: http://jekyllrb.com/docs/datafiles/
-
 - name: Download
+  link: /Download.html
 - name: Documentation
-- name: Extensions
+  link: /Introduction.html
+  submenu:
+    - name: Introduction
+      link: /Introduction.html
+    - name: Installing INET
+      link: /Installation.html
+    - name: Getting Started
+      link: /GettingStarted.html
+    - separator: true
+    - name: INET Extensions
+      link: /Extensions.html
+    - name: Model Catalog
+      link: /Protocols.html
+    - name: INET Reference
+      link: http://inet.omnetpp.org/doc/INET
+    - name: INET Manual
+      link: /Manual.html
+    - separator: true
+    - name: Tutorials
+      link: /Tutorials.html
+    - name: Teaching Resources
+      link: /TeachingResources.html
 - name: Development
-  link: Repository.html
+  link: /Repository.html
   submenu:
     - name: Repository
+      link: /Repository.html
     - name: Bug Tracker
+      link: /BugTracker.html
     - name: Mailing List
+      link: /MailingList.html
     - name: Coding Conventions
+      link: /CodingConventions.html
     - name: Documenting
-      link: DocumentationGuidelines.html
+      link: /DocumentationGuidelines.html
     - name: Test Suite
+      link: /TestSuite.html
     - name: Submitting Code
+      link: /SubmittingCode.html
     - separator: true
     - name: Plans
+      link: /Plans.html
     - name: Progress
+      link: /Progress.html
 - name: Contributing
-  link: WhyContribute.html
+  link: /WhyContribute.html
   submenu:
     - name: Why Contribute
+      link: /WhyContribute.html
     - name: How Can You Help
+      link: /HowCanYouHelp.html
     - name: Getting Started
-      link: ContribGettingStarted.html
+      link: /ContribGettingStarted.html
     - separator: true
     - name: Thesis Ideas
-    - name: Development Topics
+      link: /ThesisIdeas.html
+    - name: Contribution Ideas
+      link: /ContributionIdeas.html
 - name: People
-  link: Contributors.html
+  link: /Contributors.html
   submenu:
     - name: Contributors
+      link: /Contributors.html
     - name: Component Experts
-    - name: Community Managers
-    - name: Academia
+      link: /ComponentExperts.html
+    - name: Community Coordinators
+      link: /CommunityCoordinators.html
     - name: Core Team
+      link: /CoreTeam.html
+

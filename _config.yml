@@ -1,4 +1,6 @@
-permalink: none
+permalink: /:year-:month-:day-:title.html
 url:       http://inet.omnetpp.org/
 root:      /
-
+markdown:  kramdown
+gems:
+  - jekyll-redirect-from

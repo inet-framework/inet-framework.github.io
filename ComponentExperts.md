@@ -2,7 +2,12 @@
 layout: page
 title: Component Experts
 underMenu: People
+people:
+   tuexen: <a href="https://www.fh-muenster.de/fb2/personen/professoren/tuexen/index.php">Michael Tuexen</a>
+   vesely: <a href="http://www.fit.vutbr.cz/~ivesely/">Vladimir Vesely</a>
 ---
+
+<p class="lead">Bring your expertise to the table, and be someone that contributors and developers can consult.</p>
 
 The INET Framework contains the implementations of numerous protocols and
 concepts, and maintenance of the codebase and reviewing contributions often
@@ -11,65 +16,87 @@ developers. In this table we are collecting people who have specialized
 knowledge and expertise in certain areas, and are willing to help
 developers/maintainers by advising them.
 
+Ideally we'd like to have 2-3 Experts for each component. Contact us if you are interested!
+
+<br>
+
+{% capture tabledata %}
+Applications;
+    VoIPStream: ;
+    SimpleVoIP: ;
+    HttpTools: ;
+Transport Layer;
+    TCP (INET):  tuexen;
+    TCP (lwIP): ;
+    TCP (NSC): ;
+    RTP: ;
+    SCTP:        tuexen;
+    UDP: ;
+Network Layer;
+    IPv4: ;
+    IPv6: ;
+    Mobile IPv6: ;
+    Generic network layer protocol: ;
+    Multi network layer: ;
+    Internet Cloud: ;
+    ARP: ;
+    DHCP: ;
+    DiffServ: ;
+    MPLS family (LDP, RSVP-TE, etc.): ;
+Routing;
+    OSPF:        vesely;
+    BGP:         vesely;
+    RIP:         vesely;
+MANET Routing;
+    DYMO: ;
+    AODV: ;
+    GPSR: ;
+    WiseRoute: ;
+Data Link Layer;
+    Ethernet: ;
+    PPP: ;
+    802.11: ;
+    802.15.4: ;
+    IEEE 802.1d (STP, RSTP, etc.): ;
+Physical Layer;
+    Physical layer: ;
+    Environment;
+    Mobility: ;
+    TraCI: ;
+Physical environment;
+    Power: ;
+Other;
+    Network emulation support:
+{% endcapture %}
+
+
 <table class="table table-bordered table-striped">
   <thead>
     <tr class="info"><th>Component</th><th>Name</th></tr>
   </thead>
   <tbody>
-    <tr class="success"><td colspan="2">Applications</td></tr>
-    <tr><td>VoIPStream</td><td>n/a</td></tr>
-    <tr><td>SimpleVoIP</td><td>n/a</td></tr>
-    <tr><td>HttpTools</td><td>n/a</td></tr>
-
-    <tr class="success"><td colspan="2">Transport Layer</td></tr>
-    <tr><td>TCP (INET)</td><td>Michael Tuexen</td></tr>
-    <tr><td>TCP (lwIP)</td><td>n/a</td></tr>
-    <tr><td>TCP (NSC)</td><td>n/a</td></tr>
-    <tr><td>RTP</td><td>n/a</td></tr>
-    <tr><td>SCTP</td><td>Michael Tuexen</td></tr>
-    <tr><td>UDP</td><td>n/a</td></tr>
-
-    <tr class="success"><td colspan="2">Network Layer</td></tr>
-    <tr><td>IPv4</td><td>n/a</td></tr>
-    <tr><td>IPv6</td><td>n/a</td></tr>
-    <tr><td>Mobile IPv6</td><td>n/a</td></tr>
-    <tr><td>Generic network layer protocol</td><td>n/a</td></tr>
-    <tr><td>Multi network layer</td><td>n/a</td></tr>
-    <tr><td>Internet Cloud</td><td>n/a</td></tr>
-    <tr><td>ARP</td><td>n/a</td></tr>
-    <tr><td>DHCP</td><td>n/a</td></tr>
-    <tr><td>DiffServ</td><td>n/a</td></tr>
-    <tr><td>MPLS family (LDP, RSVP-TE, etc.)</td><td>n/a</td></tr>
-
-    <tr class="success"><td colspan="2">Routing</td></tr>
-    <tr><td>OSPF</td><td>Vladimir Vesely</td></tr>
-    <tr><td>BGP</td><td>Vladimir Vesely</td></tr>
-    <tr><td>RIP</td><td>Vladimir Vesely</td></tr>
-    <tr><td>Manet Routing</td><td>&nbsp;</td></tr>
-    <tr><td>DYMO</td><td>n/a</td></tr>
-    <tr><td>AODV</td><td>n/a</td></tr>
-    <tr><td>GPSR</td><td>n/a</td></tr>
-    <tr><td>WiseRoute</td><td>n/a</td></tr>
-    <tr><td>MANET routing</td><td>n/a</td></tr>
-
-    <tr class="success"><td colspan="2">Data Link Layer</td></tr>
-    <tr><td>Ethernet</td><td>n/a</td></tr>
-    <tr><td>PPP</td><td>n/a</td></tr>
-    <tr><td>802.11</td><td>n/a</td></tr>
-    <tr><td>802.15.4</td><td>n/a</td></tr>
-    <tr><td>IEEE 802.1d (STP, RSTP, etc.)</td><td>n/a</td></tr>
-
-    <tr class="success"><td colspan="2">Physical Layer</td></tr>
-    <tr><td>Physical layer</td><td>n/a</td></tr>
-
-    <tr class="success"><td colspan="2">Environment</td></tr>
-    <tr><td>Mobility</td><td>n/a</td></tr>
-    <tr><td>TraCI</td><td>n/a</td></tr>
-    <tr><td>Physical environment</td><td>n/a</td></tr>
-    <tr><td>Power</td><td>n/a</td></tr>
-
-    <tr class="success"><td colspan="2">Other</td></tr>
-    <tr><td>Network emulation support</td><td>n/a</td></tr>
+{% capture links %}
+{% include links.md %}
+{% endcapture %}
+{% assign lines = tabledata | split: ";" %}
+{% for line in lines %}
+  {% assign items = line | split: ":" %}
+  {% if items.size == 1 %}
+    <tr class="success"><td colspan="2"><b>{{ items[0] }}</b></td></tr>
+  {% else %}
+    <tr>
+      {% for item in items %}
+        {% assign item2 = item %}
+        <td>
+          {% for person in page.people %}
+             {% assign item2 = item2 | replace: person[0], person[1] %}
+          {% endfor %}
+          {{ item2 }}
+        </td>
+      {% endfor %}
+    </tr>
+  {% endif %}
+{% endfor %}
   </tbody>
 </table>
 

@@ -4,9 +4,10 @@ title: Why Contribute
 underMenu: Contributing
 ---
 
-INET is a community project, and its progress largely depends on code contributions from community members. So it is good for the INET project if you contribute, but why is it good for you?
+INET is a community project, and its progress largely depends on code contributions from community members. 
+But you may also find it worthwhile to contribute:
 
-### You Benefit From It
+## You Benefit From It
 
 If you are doing research with INET, contributing your changes back to the project means:
 

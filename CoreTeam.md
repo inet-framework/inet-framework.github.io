@@ -4,17 +4,23 @@ title: Core Team
 underMenu: People
 ---
 
-The INET Framework is maintained for the community by a small team of OMNeT++ developers, relying on contributions from the community.
+The INET Framework is maintained for the community by a small team of OMNeT++
+developers, relying on contributions from the community.
 
-<pre>
-Zoltan Bojthe (zbojthe)
-Levente Meszaros (levy)
-Benjamin Seregi (benjamin)
-Rudolf Hornig (rudi)
-Andras Varga (andras)
-</pre>
+{% capture tmp %}
+Zoltan Bojthe ([zbojthe](https://github.com/ZoltanBojthe))
+Levente Meszaros ([levy](https://github.com/levy))
+Benjamin Seregi ([benjamin](https://github.com/Benmartin92))
+Rudolf Hornig ([rudi](https://github.com/rhornig))
+Andras Varga ([andras](https://github.com/avarga))
+{% endcapture %}
 
-Note: The core team very rarely implements new protocols or protocol features from scratch. We usually concentrate on the INET architecture and on technical (code quality) issues. We also work with contributors to help them write high quality models.
+{{ tmp | newline_to_br }}
 
-You can reach us at <nick>@omnetpp.org.
+Note: The core team very rarely implements new protocols or protocol features
+from scratch. We usually concentrate on the INET architecture and on technical
+(code quality) issues. We also work with contributors to help them write high
+quality models.
+
+You can reach us at \<nick\>@omnetpp.org.
 

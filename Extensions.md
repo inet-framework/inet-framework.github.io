@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Extensions
-underMenu: Extensions
+underMenu: Documentation
 ---
 
 There are several INET-based model frameworks, maintained by independent research groups:

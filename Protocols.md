@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Implemented Protocols
+title: Model Catalog
 underMenu: Documentation
 ---
 
-The following protocol models are available for the INET Framework:
+The following model components (protocols, applications and other models) are available for the INET Framework:
 
 <table class="table table-bordered table-striped">
 <thead>
@@ -15,6 +15,7 @@ The following protocol models are available for the INET Framework:
     <th>Status<sup>2</sup></th>
     <th>Comments<sup>3</sup></th>
   </tr>
+</thead>
 <tbody>
   <tr>
     <td colspan='6' bgcolor='#e8ffe8'> Application</td>
@@ -523,6 +524,7 @@ The following protocol models are available for the INET Framework:
     <td>stable</td>
     <td>INET contains various mobility models including TraCI (Veins).</td>
   </tr>
+</tbody>
 </table>
 
 <p>Notes:</p>

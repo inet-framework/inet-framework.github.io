@@ -14,7 +14,8 @@ We know that indentation style is a personal matter but the codebase needs to lo
 *   No multi-line blanks within class/functions
 *   Non-documentation comments: use `//` not `/**/`
 
-The OMNeT++ IDE provides you pre-configured code styles in *Window -> Preferences -> C++ -> Code Style*. Choose *OMNeT++* as your code style. Pressing *Ctrl+Shift+F* will reformat your code to match this style.
+The OMNeT++ IDE provides you pre-configured code styles in *Window -> Preferences -> C++ -> Code Style*. 
+Choose *OMNeT++* as your code style. Pressing <kbd>Ctrl+Shift+F</kbd> will reformat your code to match this style.
 
 ## Naming Convention
 
