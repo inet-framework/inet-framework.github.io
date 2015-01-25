@@ -16,9 +16,9 @@ developers. In this table we are collecting people who have specialized
 knowledge and expertise in certain areas, and are willing to help
 developers/maintainers by advising them.
 
-Ideally we'd like to have 2-3 Experts for each component. Contact us if you are interested!
-
-<br>
+<div class="alert alert-warning">
+<p>Ideally, we'd like to have 2-3 Experts for each component. Contact us if you are interested!</p>
+</div>
 
 {% capture tabledata %}
 Applications;
@@ -75,26 +75,22 @@ Other;
     <tr class="info"><th>Component</th><th>Name</th></tr>
   </thead>
   <tbody>
-{% capture links %}
-{% include links.md %}
-{% endcapture %}
 {% assign lines = tabledata | split: ";" %}
 {% for line in lines %}
   {% assign items = line | split: ":" %}
   {% if items.size == 1 %}
     <tr class="success"><td colspan="2"><b>{{ items[0] }}</b></td></tr>
-  {% else %}
+  {% elsif items.size == 2 %}
     <tr>
-      {% for item in items %}
-        {% assign item2 = item %}
-        <td>
-          {% for person in page.people %}
-             {% assign item2 = item2 | replace: person[0], person[1] %}
-          {% endfor %}
-          {{ item2 }}
-        </td>
+      <td>{{ items[0] }}</td>
+      {% assign names = items[1] %}
+      {% for person in page.people %}
+          {% assign names = names | replace: person[0], person[1] %}
       {% endfor %}
+      <td>{{ names }}</td>
     </tr>
+  {% else %}
+    <tr class="error"><td colspan="2">Wrong #cols in line: {{ line }}</td></tr>
   {% endif %}
 {% endfor %}
   </tbody>

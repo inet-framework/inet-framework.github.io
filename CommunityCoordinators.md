@@ -6,7 +6,12 @@ underMenu: People
 
 <p class="lead">Help us build a stronger community around INET.</p>
 
-We are looking for organizers and/or publicity people to help us improve the INET Framework as an open-source project and community.
+<div class="alert alert-warning">
+<p>We are looking for organizers and/or publicity people to help us
+improve the INET Framework as an open-source project and community.
+Please contact us if you are interested.</p>
+</div>
+
 We see two general directions:
 
 ## Improve Publicity
@@ -29,6 +34,4 @@ We see a great potential in the user community of the INET Framework. We have se
 *   work out and operate a bounty system
 
 Tools: email, web, social media
-
-If you are interested in any of these topics, please contact us.
 

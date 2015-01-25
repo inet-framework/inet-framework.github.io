@@ -6,54 +6,55 @@ underMenu: Documentation
 
 ### A Network Simulator
 
-INET Framework is an open-source communication networks simulation package for OMNeT++.
-It contains models for the Internet stack (TCP, UDP, IPv4, IPv6, OSPF, BGP, etc.),
-wired and wireless link layer protocols (Ethernet, PPP, IEEE 802.11, etc), support for mobility,
-MANET protocols, DiffServ, MPLS with LDP and RSVP-TE signalling, several application models,
-and many other protocols and components.
+INET Framework is an open-source model library for the OMNeT++ simulation
+environment. It provides protocols, agents and other models for researchers
+and students working with communication networks. INET is especially useful
+when designing and validating new protocols, or exploring new or exotic
+scenarios.
+
+INET contains models for the Internet stack (TCP, UDP, IPv4, IPv6, OSPF,
+BGP, etc.), wired and wireless link layer protocols (Ethernet, PPP, IEEE
+802.11, etc), support for mobility, MANET protocols, DiffServ, MPLS with
+LDP and RSVP-TE signalling, several application models, and many other
+protocols and components.
 
 Several other simulation frameworks take INET as a base, and extend it
-into specific directions, such as vehicular networks or peer-to-peer networks.
+into [specific directions](Extensions.html), such as vehicular networks,
+overlay/peer-to-peer networks, or LTE.
 
 ### Designed for Experimentation
 
-INET is built around the concept of modules that communicate by message passing.
-Agents and network protocols are represented by components (OMNeT++ simple modules),
-which can be freely combined to form hosts, routers, switches, and other
-networking devices.
+INET is built around the concept of modules that communicate by message
+passing. Agents and network protocols are represented by components, which
+can be freely combined to form hosts, routers, switches, and other
+networking devices. New components can be programmed by the user, and
+existing components have been written so that they are easy to understand
+and modify.
 
-INET benefits from * Models *may* be developed, assembled, parameterized, run, and their results
-evaluted from the comfort of the OMNeT++ Simulation IDE. Use of the IDE is
-completely optional though, the full functionality is available from
-the command-line as well.
+INET benefits from the infrastructure provided by OMNeT++. Beyond making
+use of the services provided by the OMNeT++ simulation kernel and library
+(component model, parameterization, result recording, etc.), this also
+means that models may be developed, assembled, parameterized, run, and
+their results evaluted from the comfort of the OMNeT++ Simulation IDE, or
+from the command line.
+
+Some features:
 
 - OSI layers implemented (physical, link-layer, network, transport, application)
-- pluggable protocol implementations for various layers
-- scalable physical layer implementations (802.11, )
-- wired/wireless interfaces (ethernet, ppp, 802.11)
-- routing (ad-hoc and wired)
+- Pluggable protocol implementations for various layers
 - IPv4/IPv6 network stack (or build your own network layer)
-- transport layer protocols: TCP/UDP/SCTP
+- Transport layer protocols: TCP, UDP, SCTP
+- Routing protocols (ad-hoc and wired)
+- Wired/wireless interfaces (Ethernet, PPP, IEEE 802.11, etc.)
+- Physical layer with scalable level of detail (unit disc radio to detailed propagation models, frame level to bit/symbol level representation, etc.)
 - Wide range of application models
-- network emulation support
-- mobility support
-- supports the modeling of the physical environment
-- separation of concerns
-
-
-### For Experimentation and Research
-
-INET has support for emulation, real-time (RT) and hardware-in-the-loop (HIL) simulation.
+- Network emulation support
+- Mobility support
+- Supports the modeling of the physical environment (obstacles for radio propagation, etc.
+- Separation of concerns
 
 ### Driven By the Community
 
 INET Framework is maintained by the OMNeT++ team for the community,
 utilizing patches and new models contributed by members of the community.
-
-RUDI:
-
-The INET Framework is an open-source model library for the OMNeT++ simulation environment. It provides
-models for researchers and students who are working with communication networks. INET is especially
-useful when designing and validating new protocols or when the researcher needs to introduce new
-or modified protocols into the
 
