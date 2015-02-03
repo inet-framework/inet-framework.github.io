@@ -12,8 +12,8 @@ redirect_from: /index.php/
     <div style="height: 30px"></div>
     <h1 style="color: #014872; font-size: 48px">INET Framework</h1>
     <p style="color: #014872; font-size: 20px">
-      An open-source communication networks simulation package for OMNeT++,<br>
-      providing models for various wired, wireless and mobile networks.<br>
+      An open-source OMNeT++ model suite for wired, wireless and mobile networks.<br>
+      INET evolves via feedback and contributions from the user community.<br>
       <a href="Introduction.html">Learn more</a>
     </p>
   </div>
@@ -53,6 +53,10 @@ redirect_from: /index.php/
 
       <div class="col-md-4">
         <h3>Get Involved</h3>
+        <h4>Contribute</h4>
+        <p>INET is open source, and its future largely depends on where the user community wants
+        to take it. <a href="WhyContribute.html">Be part of the success!</a></p>
+
         <h4>Volunteers Needed</h4>
         <ul style="padding-left: 15px">
           <li><a href="ComponentExperts.html">Component Experts</a><br>Bring your expertise to the table.</li>

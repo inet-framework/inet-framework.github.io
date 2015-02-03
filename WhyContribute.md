@@ -4,10 +4,9 @@ title: Why Contribute
 underMenu: Contributing
 ---
 
-INET is a community project, and its progress largely depends on code contributions from community members. 
-But you may also find it worthwhile to contribute:
+<p class="lead">You need a good simulation tool, and INET needs your help to improve.</p>
 
-## You Benefit From It
+## What's In It For Me?
 
 If you are doing research with INET, contributing your changes back to the project means:
 
@@ -27,7 +26,7 @@ If you are a student doing homework or thesis with INET:
 
 You might enjoy contributing, because:
 
-*   Simulation can be fun in itself
+*   Simulation and hacking on models can be fun in itself
 *   The forum is full of helpful people
 *   You can meet fellow INET people and other OMNeT++ users at the [OMNeT++ Summit][1]! (To get the atmosphere of the event, here's a photo album of the [2014 summit][2].)
 
