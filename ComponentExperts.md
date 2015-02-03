@@ -27,7 +27,7 @@ developers/maintainers by advising them.
 
 {% capture tabledata %}
 Applications;
-    VoIPStream: ;
+    VoIPStream:  zbojthe;
     SimpleVoIP: ;
     HttpTools: ;
 Transport Layer;
@@ -73,7 +73,7 @@ Environment;
     Mobility:         levy;
     TraCI: ;
     Physical environment: levy;
-    Power: ;          levy
+    Power:            levy;
 Other;
     Network emulation support:
 {% endcapture %}
