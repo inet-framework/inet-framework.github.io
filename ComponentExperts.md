@@ -3,12 +3,14 @@ layout: page
 title: Component Experts
 underMenu: People
 people:
+   avirdis:   <a href="mailto:TODO@iet.unipi.it">Antonio Virdis</a>
    becke:     <a href="mailto:TODO">Martin Becke</a>
+   jmaureir:  <a href="mailto:TODO">Juan-Carlos Maureira</a>
+   levy:      <a href="mailto:TODO">Levente M&eacute;sz&aacute;ros</a>
    reschka:   <a href="mailto:TODO">Thomas Reschka</a>
    ruengeler: <a href="https://fh-muenster.de/fb2/personen/mitarbeiter/ruengeler">Irene R&uuml;ngeler</a>
    tuexen:    <a href="https://www.fh-muenster.de/fb2/personen/professoren/tuexen">Michael T&uuml;xen</a>
    vesely:    <a href="http://www.fit.vutbr.cz/~ivesely/">Vladimir Vesely</a>
-   levy:      <a href="mailto:TODO">Levente M&eacute;sz&aacute;ros</a>
    zbojthe:   <a href="mailto:TODO">Zolt&aacute;n B&ouml;jthe</a>
 ---
 
@@ -28,7 +30,7 @@ developers/maintainers by advising them.
 {% capture tabledata %}
 Applications;
     VoIPStream:  zbojthe;
-    SimpleVoIP: ;
+    SimpleVoIP:  avirdis;
     HttpTools: ;
 Transport Layer;
     TCP, UDP:    tuexen, becke, reschka;
@@ -37,9 +39,10 @@ Transport Layer;
     RTP: ;
     SCTP:        tuexen, ruengeler, becke;
 Network Layer;
-    IPv4 (incl. ARP, DHCP): ;
+    IPv4 (incl. ARP): ;
     IPv6: ;
     Mobile IPv6: ;
+    DHCP:        jmaureir;
     DiffServ: ;
     Multicast (IGMP, PIM, etc.):       vesely;
     MPLS family (LDP, RSVP-TE, etc.): ;
