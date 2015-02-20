@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Component Experts
+title: Component Advisors
 underMenu: People
 people:
    aarizaq:   <a href="https://github.com/aarizaq">Alfonso Ariza Quintana</a>

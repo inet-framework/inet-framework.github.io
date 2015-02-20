@@ -29,7 +29,7 @@ When you have changes that you'd like to be included in the INET Framework, here
 
 There will be two reviews: semantic and technical review.
 
-The semantic review will be performed by [experts](ComponentExperts.html)
+The semantic review will be performed by [advisors](ComponentAdvisors.html)
 of the affected component, and will include:
 
 *   Assessing that the given feature is worthwhile to include in the INET codebase

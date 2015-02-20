@@ -27,7 +27,7 @@ We'd like to have more, more up to date, and higher quality information to be av
 
 We see a great potential in the user community of the INET Framework. We have several people in the community with extensive knowledge on specific areas of computer networks, and there are many who are willing to contribute to INET as an open-source project. We'd like to achieve that people who have the knowledge and willingness to contribute to INET have an easier job to find ways to connect.
 
-*   find [experts](ComponentExperts.html) for various INET components
+*   find [advisors](ComponentAdvisors.html) for various INET components
 *   collect feedback on issues and priorities of the user community
 *   look for potential contributions (third-party projects, papers with INET-based simulations, etc.)
 *   collect and advertise masters thesis topics that could result in contributions

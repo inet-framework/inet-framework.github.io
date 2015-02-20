@@ -59,7 +59,7 @@ redirect_from: /index.php/
 
         <h4>Volunteers Needed</h4>
         <ul style="padding-left: 15px">
-          <li><a href="ComponentExperts.html">Component Experts</a><br>Bring your expertise to the table.</li>
+          <li><a href="ComponentAdvisors.html">Component Advisors</a><br>Bring your expertise to the table.</li>
           <li><a href="CommunityCoordinators.html">Community Coordinators</a><br>Help us build a stronger community around INET.</li>
         </ul>
 

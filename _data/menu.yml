@@ -64,8 +64,8 @@
   submenu:
     - name: Contributors
       link: /Contributors.html
-    - name: Component Experts
-      link: /ComponentExperts.html
+    - name: Component Advisors
+      link: /ComponentAdvisors.html
     - name: Community Coordinators
       link: /CommunityCoordinators.html
     - name: Core Team
