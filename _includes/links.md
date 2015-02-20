@@ -18,3 +18,10 @@
  [upv-lab2]:   http://www.grc.upv.es/docencia/rwm/pdf/Lab2-wirelessv2.pptx.pdf
  [upv-lab3]:   http://www.grc.upv.es/docencia/rwm/pdf/Lab3-vn.pptx.pdf
  [timm-sli]:   http://www.slideshare.net/christian.timmerer/an-introduction-to-omnet-41
+ [unipi-web]:  http://www.iet.unipi.it/a.virdis/performances.html 
+ [unipi-sli1]: http://www.iet.unipi.it/a.virdis/slides2014/performances/omnet2014-1.pdf
+ [unipi-lab1]: http://www.iet.unipi.it/a.virdis/slides2014/performances/Lab1.pdf
+ [unipi-sli2]: http://www.iet.unipi.it/a.virdis/slides2014/performances/omnet2014-2.pdf
+ [unipi-lab2]: http://www.iet.unipi.it/a.virdis/slides2014/performances/Lab2.pdf
+
+

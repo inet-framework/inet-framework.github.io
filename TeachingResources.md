@@ -25,6 +25,9 @@ Courses:
 * *Mobile and Wireless Networks*, GRC, Universitat Politecnica de Valencia, Spain, 2013 
   ([course][upv-web], [lab1][upv-lab1], [lab2][upv-lab2], [lab3][upv-lab3])
 
+* *Performance Evaluation*, University of Pisa, Italy, 2014
+  ([course][unipi-web], [slides1][unipi-sli1], [lab1][unipi-lab1], [slides2][unipi-sli2], [lab2][unipi-lab2])
+
 Other materials:
 
 * Tufts Wireless Laboratory, Tufts University, MA
