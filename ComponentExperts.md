@@ -3,12 +3,16 @@ layout: page
 title: Component Experts
 underMenu: People
 people:
+   aarizaq:   <a href="https://github.com/aarizaq">Alfonso Ariza Quintana</a>
+   afoerster: Anna F&ouml;rster
    avirdis:   <a href="mailto:TODO@iet.unipi.it">Antonio Virdis</a>
    becke:     <a href="mailto:TODO">Martin Becke</a>
+   benmartin: <a href="https://github.com/benmartin92">Benjamin Seregi</a>
    jmaureir:  <a href="mailto:TODO">Juan-Carlos Maureira</a>
    levy:      <a href="mailto:TODO">Levente M&eacute;sz&aacute;ros</a>
    reschka:   <a href="mailto:TODO">Thomas Reschka</a>
    ruengeler: <a href="https://fh-muenster.de/fb2/personen/mitarbeiter/ruengeler">Irene R&uuml;ngeler</a>
+   sommer:    <a href="http://www.ccs-labs.org/~sommer/">Christoph Sommer</a>
    tuexen:    <a href="https://www.fh-muenster.de/fb2/personen/professoren/tuexen">Michael T&uuml;xen</a>
    vesely:    <a href="http://www.fit.vutbr.cz/~ivesely/">Vladimir Vesely</a>
    zarrar:    <a href="mailto:TODO">Zarrar Yousaf</a>
@@ -55,19 +59,19 @@ Routing;
     BGP:         vesely;
     RIP:         vesely;
 MANET Routing;
-    DYMO:        levy;
-    AODV: ;
+    DYMO:        levy, aarizaq, sommer;
+    AODV:        benmartin, aarizaq;
     GPSR:        levy;
     WiseRoute: ;
     Others (flood, prob. broadcast): ;
 Data Link Layer;
     Ethernet: ;
     PPP: ;
-    802.11: ;
+    802.11:      aarizaq;
     802.15.4: ;
     IEEE 802.1d (STP, RSTP, etc.): ;
-    B-MAC, L-MAC: ;
-    CSMA: ;
+    B-MAC, L-MAC: afoerster;
+    CSMA:        afoerster;
 Physical Layer;
     Path loss models: levy;
     Error models:     levy;
@@ -75,8 +79,8 @@ Physical Layer;
     Radio:            levy;
 Environment;          
     Mobility:         levy;
-    TraCI: ;
-    Physical environment: levy;
+    TraCI:            sommer;
+    Physical environment: levy, sommer;
     Power:            levy;
 Other;
     Network emulation support:
