@@ -4,19 +4,24 @@ title: Component Advisors
 underMenu: People
 people:
    aarizaq:   <a href="https://github.com/aarizaq">Alfonso Ariza Quintana</a>
-   afoerster: Anna F&ouml;rster
-   avirdis:   <a href="mailto:TODO@iet.unipi.it">Antonio Virdis</a>
-   becke:     <a href="mailto:TODO">Martin Becke</a>
+   afoerster: <a href="https://github.com/TODO">Anna F&ouml;rster</a>
+   avirdis:   <a href="https://github.com/kruviser">Antonio Virdis</a>
+   becke:     <a href="https://github.com/scimbe">Martin Becke</a>
    benmartin: <a href="https://github.com/benmartin92">Benjamin Seregi</a>
-   jmaureir:  <a href="mailto:TODO">Juan-Carlos Maureira</a>
-   levy:      <a href="mailto:TODO">Levente M&eacute;sz&aacute;ros</a>
-   reschka:   <a href="mailto:TODO">Thomas Reschka</a>
-   ruengeler: <a href="https://fh-muenster.de/fb2/personen/mitarbeiter/ruengeler">Irene R&uuml;ngeler</a>
-   sommer:    <a href="http://www.ccs-labs.org/~sommer/">Christoph Sommer</a>
-   tuexen:    <a href="https://www.fh-muenster.de/fb2/personen/professoren/tuexen">Michael T&uuml;xen</a>
-   vesely:    <a href="http://www.fit.vutbr.cz/~ivesely/">Vladimir Vesely</a>
-   zarrar:    <a href="mailto:TODO">Zarrar Yousaf</a>
-   zbojthe:   <a href="mailto:TODO">Zolt&aacute;n B&ouml;jthe</a>
+   dreibholz: <a href="https://github.com/dreibh">Thomas Dreibholz</a>
+   dhodson:   <a href="https://github.com/doughodson">Doug Hodson</a>
+   jmaureir:  <a href="https://github.com/jmaureir">Juan-Carlos Maureira</a>
+   kyeongsoo: <a href="https://github.com/kyeongsoo">Kyeong Soo (Joseph) Kim</a>
+   levy:      <a href="https://github.com/levy">Levente M&eacute;sz&aacute;ros</a>
+   lmfeeney:  <a href="https://github.com/TODO">Laura Marie Feeney</a>
+   reschka:   <a href="https://github.com/ThomasReschka">Thomas Reschka</a>
+   ruengeler: <a href="https://github.com/ruengeler">Irene R&uuml;ngeler</a>
+   sommer:    <a href="https://github.com/sommer">Christoph Sommer</a>
+   steinbach: <a href="https://github.com/tillsteinbach">Till Steinbach</a>
+   tuexen:    <a href="https://github.com/tuexen">Michael T&uuml;xen</a>
+   vesely:    <a href="https://github.com/kvetak">Vladimir Vesely</a>
+   zarrar:    <a href="https://github.com/zarrar">Zarrar Yousaf</a>
+   zbojthe:   <a href="https://github.com/ZoltanBojthe">Zolt&aacute;n B&ouml;jthe</a>
 ---
 
 <p class="lead">Bring your expertise to the table, and be someone that contributors and developers can consult.</p>
