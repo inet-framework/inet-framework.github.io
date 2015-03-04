@@ -11,33 +11,19 @@ This page describes what's planned for INET 3.0 and beyond.
 This is a list of the most important items that we plan to complete before releasing the final INET 3.0 version.
 
 1. Source code
-    *   increase the code quality by eliminating bugs found by automated tools (e.g. valgrind, memcheck and coverity)
-    *   modernize the code by using standard C++11 features (e.g. `auto` type specifier, range-based loops)
-    *   apply formatting rules, naming conventions, and other syntax changes
+    *   <del>increase the code quality by eliminating bugs found by automated tools (e.g. valgrind, memcheck and coverity)
+    *   <del>modernize the code by using standard C++11 features (e.g. `auto` type specifier, range-based loops)
+    *   <del>apply formatting rules, naming conventions, and other syntax changes
 
 2. Integrate already finished components
-    *   PIM
-    *   IGMPv3
+    *   <del>PIM
+    *   <del>IGMPv3
 
 3. Implementation
     *   finish packet serialization for IEEE 802.11 in conjunction with the following
-    *   add a bit-precise APSK and IEEE 802.11 model to the physical layer
+    *   <del>add a bit-precise APSK and IEEE 802.11 model to the physical layer
     *   review network layer inheritance and generalization, remove unnecessary code duplication caused by implementing interfaces via generated classes
-    *   change the ModuleAccess mechanism to more explicit module parameters
-
-4. Documentation
-    *   review the Manual, update obsolete parts, add missing parts
-    *   review new and modified NED module and C++ class comments
-
-5. Examples
-    *   review existing examples
-    *   add new more meaningful, more specific feature examples (e.g. crosstalk)
-    *   reduce redundancy in inifiles (e.g. lots of unrelated configuration entries) that makes understanding examples more difficult than necessary
-    *   review directory structure (e.g. more different wireless directories), make the structure more similar to the source directory structure
-
-6. Tests
-    *   some examples are rather tests, they were usually created during development for quick testing
-    *   we definitely need more (some?) validation tests (e.g. comparison with other simulators, real world measurements, or analytical results)
+    *   <del>change the ModuleAccess mechanism to more explicit module parameters
 
 ## In INET 3.x
 
@@ -65,6 +51,20 @@ We are planning to do these in the near future (after 3.0):
 5. IPv6
     *   IPv6 has not yet been through the same refactoring and improvements as the IPv4 model
     *   after that, xMIPv6 needs to be tested and revised as well
+
+6. Examples
+    *   review existing examples
+    *   add new more meaningful, more specific feature examples (e.g. crosstalk)
+    *   reduce redundancy in inifiles (e.g. lots of unrelated configuration entries) that makes understanding examples more difficult than necessary
+    *   review directory structure (e.g. more different wireless directories), make the structure more similar to the source directory structure
+
+7. Documentation
+    *   review the Manual, update obsolete parts, add missing parts
+    *   review new and modified NED module and C++ class comments
+
+8. Tests
+    *   some examples are rather tests, they were usually created during development for quick testing
+    *   we definitely need more (some?) validation tests (e.g. comparison with other simulators, real world measurements, or analytical results)
 
 ## INET 4.0 and Beyond
 
