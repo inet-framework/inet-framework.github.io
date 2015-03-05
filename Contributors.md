@@ -117,12 +117,15 @@ Friedrich-Alexander Universitaet (FAU), Erlangen, Germany.
 Institut fuer Telematik, Universitaet Karlsruhe, Germany.
 Institute of Communications and Navigation, German Aerospace Center (DLR), Germany.
 Technische Universitaet Berlin, Germany.
+TDR Group, University of Duisburg-Essen, Germany.
+Hamburg University of Applied Sciences (HAW Hamburg), Germany.
 Universitaet Paderborn, Germany.
 Communications Network Laboratory, University of Athens, Greece.
 Budapest University Technology and Economics, Hungary.
 Laboratory for Dependable Systems, Reykjavik University, Iceland.
 University of Pisa, Italy.
 Eindhoven University of Technology, the Netherlands.
+Simula Research Laboratory, Norway.
 Universita della Svizzera Italiana, Lugano, Switzerland.
 Universidad de Malaga, Spain.
 {% endcapture %}
