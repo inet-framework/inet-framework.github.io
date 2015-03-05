@@ -17,7 +17,7 @@ people:
    reschka:   <a href="https://github.com/ThomasReschka">Thomas Reschka</a>
    ruengeler: <a href="https://github.com/ruengeler">Irene R&uuml;ngeler</a>
    sommer:    <a href="https://github.com/sommer">Christoph Sommer</a>
-   steinbach: <a href="https://github.com/tillsteinbach">Till Steinbach</a>
+   tillsteinb: <a href="https://github.com/tillsteinbach">Till Steinbach</a>
    tuexen:    <a href="https://github.com/tuexen">Michael T&uuml;xen</a>
    vesely:    <a href="https://github.com/kvetak">Vladimir Vesely</a>
    zarrar:    <a href="https://github.com/zarrar">Zarrar Yousaf</a>
@@ -70,11 +70,11 @@ MANET Routing;
     WiseRoute: ;
     Others (flood, prob. broadcast): ;
 Data Link Layer;
-    Ethernet: ;
+    Ethernet:    tillsteinb;
     PPP: ;
     802.11:      aarizaq;
-    802.15.4: ;
-    IEEE 802.1d (STP, RSTP, etc.): ;
+    802.15.4:    lmfeeney;
+    IEEE 802.1d (STP, RSTP, etc.): tillsteinb;
     B-MAC, L-MAC: afoerster;
     CSMA:        afoerster;
 Physical Layer;
@@ -86,7 +86,7 @@ Environment;
     Mobility:         levy;
     TraCI:            sommer;
     Physical environment: levy, sommer;
-    Power:            levy;
+    Energy consumption and storage: levy, lmfeeney;
 Other;
     Network emulation support:
 {% endcapture %}
