@@ -14,15 +14,15 @@ Downloads of stable releases are available here. It is recommended that you use 
 
 Latest release:
 
-<a class="btn btn-primary" href="http://omnetpp.org/download/contrib/models/inet-2.6-src.tgz">Download latest stable version (2.6.0, for OMNeT++ 4.6/5.0b1)</a> ([What's New](https://github.com/inet-framework/inet/blob/v2.6.0/WHATSNEW))
+<a class="btn btn-primary" href="http://omnetpp.org/download/contrib/models/inet-2.6-src.tgz">Download latest stable version (2.6.0, for OMNeT++ 4.4 and later)</a> ([What's New](https://github.com/inet-framework/inet/blob/v2.6.0/WHATSNEW))
 
 Older releases (please do not use them for new projects):
 
-*   [INET 2.5.0][1] for OMNeT++ 4.6 ([What's New][2])
-*   [INET 2.4.0][3] for OMNeT++ 4.3/4.4/4.5 ([What's New][4])
-*   [INET 2.3.0][5] for OMNeT++ 4.3/4.4 ([What's New][6])
-*   [INET 2.2.0][7] for OMNeT++ 4.2/4.3 ([What's New][8])
-*   [INET 2.1.0][9] for OMNeT++ 4.2/4.3 ([What's New][10])
+*   [INET 2.5.0][1] for OMNeT++ 4.4 and later ([What's New][2])
+*   [INET 2.4.0][3] for OMNeT++ 4.3 and later ([What's New][4])
+*   [INET 2.3.0][5] for OMNeT++ 4.3 and later ([What's New][6])
+*   [INET 2.2.0][7] for OMNeT++ 4.2 and later ([What's New][8])
+*   [INET 2.1.0][9] for OMNeT++ 4.2 and later ([What's New][10])
 *   [INET 2.0.0][11] for OMNeT++ 4.2 ([What's New][12])
 *   [INET 20111118][13] for OMNeT++ 4.2
 *   [INET 20110225][14] for OMNeT++ 4.1
