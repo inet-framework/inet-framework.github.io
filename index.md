@@ -9,12 +9,12 @@ redirect_from: /index.php/
 <header>
 <div class="jumbotron" style="background-image: url('images/bg.png'); background-repeat: both">
   <div class="container">
-    <div style="height: 30px"></div>
+    <div style="height: 10px"></div>
     <h1 style="color: #014872; font-size: 48px">INET Framework</h1>
     <p style="color: #014872; font-size: 20px">
       An open-source OMNeT++ model suite for wired, wireless and mobile networks.<br>
       INET evolves via feedback and contributions from the user community.<br>
-      <a href="Introduction.html">Learn more</a>
+      <a class="btn btn-primary" style="margin-top: 1em" href="Introduction.html">Learn more</a>
     </p>
   </div>
 </div>

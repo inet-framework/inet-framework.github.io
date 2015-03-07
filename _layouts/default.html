@@ -40,7 +40,7 @@
       h1:not(.panel-title), h2:not(.panel-title) { padding-top: 70px; margin-top: -70px; } /* without this, heading will be covered by top navbar when jumping to heading via anchor */
       ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }  /* open menus on hover */
       .navbar { border-bottom: 4px solid #ff8800; }  /* minimal styling: orange strip under navbar */
-      .frontpage h3 { border-bottom: 4px solid #ff8800; }
+      .frontpage h3 { border-bottom: 4px solid #ff8800; padding-bottom: 3px; }
     </style>
   </head>
   <body {% if page.generateToC %}onload="generateToC();"  data-spy="scroll" data-target=".bs-docs-sidebar"{% endif %}{% if page.frontpage %} class="frontpage"{% endif %}>
