@@ -19,7 +19,7 @@ You can help in several ways. Contributions can be as small as a bugfix or a doc
 
 #### As a professor:
 
-*   Advertise INET-related [thesis topics](ThesisIdeas.html), and encourage your students to share the resulting code or findings
+*   Advertise INET-related project and thesis topics, and encourage your students to share the resulting code or findings
 *   Use INET in teaching, and share the materials you use
 
 #### As an open-source enthusiast:

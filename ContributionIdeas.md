@@ -11,7 +11,6 @@ Let us give you some hints what you can work on. Further ideas are also welcome.
 If you are interested, please contact us so we can discuss the details,
 and avoid possible duplication of work.
 
-* Any topic on the [Thesis Ideas](ThesisIdeas.html) list
 * Add PCAPng support
 * Improve IPv6 support
 * Refine MPLS and RSVP-TE

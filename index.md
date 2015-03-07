@@ -64,12 +64,9 @@ redirect_from: /index.php/
         </ul>
 
         <h4>Topics To Work On</h4>
-        <p>Contribute to INET while getting your degree, or in your free time.</p>
-        <ul style="padding-left: 15px">
-          <li><a href="ThesisIdeas.html">Topics suitable as MSc projects</a></li>
-          <li><a href="ContributionIdeas.html">Contribution Ideas</a></li>
-        </ul>
-      </div>
+        <p>Contribute to INET while getting your degree, or in your free time.
+        <a href="ContributionIdeas.html">Some ideas you can look at.</a></p>
+     </div>
 
       <div class="col-md-4">
         <h3>Development</h3>

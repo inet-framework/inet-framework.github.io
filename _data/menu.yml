@@ -55,8 +55,8 @@
     - name: Getting Started
       link: /ContribGettingStarted.html
     - separator: true
-    - name: Thesis Ideas
-      link: /ThesisIdeas.html
+#    - name: Thesis Ideas
+#      link: /ThesisIdeas.html
     - name: Contribution Ideas
       link: /ContributionIdeas.html
 - name: People
