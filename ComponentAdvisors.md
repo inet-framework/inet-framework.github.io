@@ -11,6 +11,7 @@ people:
    dreibholz: <a href="https://github.com/dreibh">Thomas Dreibholz</a>
    dhodson:   <a href="https://github.com/doughodson">Doug Hodson</a>
    jmaureir:  <a href="https://github.com/jmaureir">Juan-Carlos Maureira</a>
+   kristjanvj: <a href="https://github.com/kristjanvj">Kristjan Valur Jonsson</a>
    kyeongsoo: <a href="https://github.com/kyeongsoo">Kyeong Soo (Joseph) Kim</a>
    levy:      <a href="https://github.com/levy">Levente M&eacute;sz&aacute;ros</a>
    lmfeeney:  <a href="https://github.com/TODO">Laura Marie Feeney</a>
@@ -41,7 +42,7 @@ developers/maintainers by advising them.
 Applications;
     VoIPStream:  zbojthe;
     SimpleVoIP:  avirdis;
-    HttpTools: ;
+    HttpTools: kristjanvj;
 Transport Layer;
     TCP, UDP:    tuexen, becke, reschka;
     TCP (lwIP):  zbojthe;

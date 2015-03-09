@@ -8,7 +8,7 @@ INET Framework developers and contributors discuss matters in the
 **[inetframework-contrib](mailto:inetframework-contrib@googlegroups.com)** Google Group.
 
 <ul>
-<a class="btn btn-primary" href="http://groups.google.com/group/inetframework-contrib">Visit the forum on Google Groups</a>
+<a class="btn btn-primary" href="http://groups.google.com/group/inetframework-contrib" target="_balnk">Visit the forum on Google Groups</a>
 </ul>
 
 If you are interested in INET more than just doing a quick simulation with it,

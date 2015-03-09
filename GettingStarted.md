@@ -53,7 +53,7 @@ the components INET provides, you need to study the documentation.
 ### Asking for Help
 
 When you are stuck, you can ask for help on the
-<a href="https://groups.google.com/forum/?fromgroups#!forum/omnetpp">OMNeT++ mailing list</a>.
+<a href="https://groups.google.com/forum/?fromgroups#!forum/omnetpp" target="_blank">OMNeT++ mailing list</a>.
 Doing your research before posting and being specific will greatly increase
 the chance that you'll receive a useful answer.
 

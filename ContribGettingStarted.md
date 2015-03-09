@@ -10,9 +10,9 @@ INET is developed using the *git* revision control system, with the repository h
 
 <div class="alert alert-info">
 {% capture tmp %}
-**New to git?** Read about it on its [web site](http://git-scm.com),
-from the [GitHub help](https://help.github.com/articles/good-resources-for-learning-git-and-github/),
-or [try it hands-on in a terminal](http://try.github.com/).
+**New to git?** Read about it on its [web site](http://git-scm.com){:target="_blank"},
+from the [GitHub help](https://help.github.com/articles/good-resources-for-learning-git-and-github/){:target="_blank"},
+or [try it hands-on in a terminal](http://try.github.com/){:target="_blank"}.
 {% endcapture %} {{ tmp | markdownify }}
 </div>
 
@@ -40,9 +40,9 @@ We recommend the following workflow:
        a new component, you can take inspiration from existing parts of the framework.
     *  If you have questions or something to discuss, don't hesitate to post to the mailing list.
 
-4.  When you are ready to submit your changes, contact us via email, or send us
-    a pull request on GitHub. If the original branch (`master` or `integration`) has
-    moved on in the meantime, you should rebase your topic branch on top of it.
+4.  When you are ready to submit your changes, send us a pull request on GitHub. 
+    If the original branch (`master` or `integration`) has moved on in the meantime, 
+    you should rebase your topic branch on top of it.
 
 Pages under the *Development* menu give you general guidance on other topics.
 

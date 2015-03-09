@@ -7,7 +7,7 @@ underMenu: Development
 When you have changes that you'd like to be included in the INET Framework, here is the process:
 
 1.  Prepare your changes (see checklist below)
-2.  Submit your changes. You can send a pull request on GitHub, or send patches via email.
+2.  Submit your changes. You can send a pull request on GitHub.
 3.  Your changes will be reviewed (see details below)
 4.  When the issues found during review have been resolved, your changes will be merged by the core team
 

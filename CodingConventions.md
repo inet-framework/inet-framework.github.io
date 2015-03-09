@@ -33,7 +33,7 @@ Rules for variable names, function names, class names and other identifiers.
 
 *   Add copyright headers at the top of each source file. Use `//` comments for consistency with NED and MSG files.
 *   Generally, use `//` comments in the code (except for Doxygen comments)
-*   For documentation comments (Doxygen and NED), see [Documentation Guidelines][#documentation-guidelines]
+*   For documentation comments (Doxygen and NED), see [Documentation Guidelines](DocumentationGuidelines.html)
 
 ## Class Layout
 

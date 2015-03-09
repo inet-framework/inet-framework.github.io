@@ -28,7 +28,7 @@ You might enjoy contributing, because:
 
 *   Simulation and hacking on models can be fun in itself
 *   The forum is full of helpful people
-*   You can meet fellow INET people and other OMNeT++ users at the [OMNeT++ Summit][1]! (To get the atmosphere of the event, here's a photo album of the [2014 summit][2].)
+*   You can meet fellow INET people and other OMNeT++ users at the [OMNeT++ Summit][1]{:target="_blank"}! (To get the atmosphere of the event, here's a photo album of the [2014 summit][2]{:target="_blank"}.)
 
  [1]: http://summit.omnetpp.org
  [2]: https://www.dropbox.com/sh/8lsmga0xuv53xhl/AAAavLsweyRdrx_XhJbr2LfMa?dl=0

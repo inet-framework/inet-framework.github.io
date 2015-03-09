@@ -5,7 +5,7 @@ underMenu: Documentation
 ---
 
 <div class="alert alert-warning">
-<p><b>Prerequisite:</b> Download and install OMNeT++ from <a href="http://omnetpp.org">omnetpp.org</a>.</p>
+<p><b>Prerequisite:</b> Download and install OMNeT++ from <a href="http://omnetpp.org" target="_blank">omnetpp.org</a>.</p>
 </div>
 
 ## Automatic Installation
