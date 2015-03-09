@@ -4,7 +4,7 @@ title: Component Advisors
 underMenu: People
 people:
    aarizaq:   <a href="https://github.com/aarizaq">Alfonso Ariza Quintana</a>
-   afoerster: <a href="https://github.com/TODO">Anna F&ouml;rster</a>
+   afoerster: <a href="https://github.com/">Anna F&ouml;rster</a>
    avirdis:   <a href="https://github.com/kruviser">Antonio Virdis</a>
    becke:     <a href="https://github.com/scimbe">Martin Becke</a>
    benmartin: <a href="https://github.com/benmartin92">Benjamin Seregi</a>
@@ -14,7 +14,7 @@ people:
    kristjanvj: <a href="https://github.com/kristjanvj">Kristjan Valur Jonsson</a>
    kyeongsoo: <a href="https://github.com/kyeongsoo">Kyeong Soo (Joseph) Kim</a>
    levy:      <a href="https://github.com/levy">Levente M&eacute;sz&aacute;ros</a>
-   lmfeeney:  <a href="https://github.com/TODO">Laura Marie Feeney</a>
+   lmfeeney:  <a href="https://github.com/">Laura Marie Feeney</a>
    reschka:   <a href="https://github.com/ThomasReschka">Thomas Reschka</a>
    ruengeler: <a href="https://github.com/ruengeler">Irene R&uuml;ngeler</a>
    sommer:    <a href="https://github.com/sommer">Christoph Sommer</a>
