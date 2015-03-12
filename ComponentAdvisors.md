@@ -35,7 +35,8 @@ knowledge and expertise in certain areas, and are willing to help
 developers/maintainers by advising them.
 
 <div class="alert alert-warning">
-<p>Ideally, we'd like to have at least two-three names for each component. Contact us if you are willing to join!</p>
+<p>Contact us if you are interested in joining! You'll need a GitHub user ID to be able to cooperate.
+Ideally, we'd like to have at least two-three names for each component.</p>
 </div>
 
 {% capture tabledata %}
@@ -83,7 +84,7 @@ Physical Layer;
     Error models:     levy;
     Analog models:    levy;
     Radio:            levy;
-Environment;          
+Environment;
     Mobility:         levy;
     TraCI:            sommer;
     Physical environment: levy, sommer;
