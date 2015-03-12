@@ -43,13 +43,14 @@ Ideally, we'd like to have at least two-three names for each component.</p>
 Applications;
     VoIPStream:  zbojthe;
     SimpleVoIP:  avirdis;
-    HttpTools: kristjanvj;
+    HttpTools:   kristjanvj;
+    NetPerfMeter: dreibholz;
 Transport Layer;
     TCP, UDP:    tuexen, becke, reschka;
     TCP (lwIP):  zbojthe;
     TCP (NSC):   zbojthe;
     RTP: ;
-    SCTP:        tuexen, ruengeler, becke;
+    SCTP:        tuexen, ruengeler, becke, dreibholz;
 Network Layer;
     IPv4 (incl. ARP): ;
     IPv6: ;
