@@ -10,11 +10,15 @@ We know that indentation style is a personal matter but the codebase needs to lo
 
 *   Bracket style: largely Stroustrup (Egyptian braces), except for classes, functions and the like where we prefer to place the opening braces on a new line
 *   4-space indentation, NO TAB CHARACTERS, no trailing spaces
-*   Spaces around `=`, `==`, `&&`, `||`, and other operators.
+*   Do not align variable names in declaration blocks or multi-line function declarations. They are hard to maintain,
+    and look awkward when very short and very long type names are mixed (e.g. `int` vs `const std::vector<SomeVeryLongTypeName>&`).
+*   Spaces around `if`, `for`, `while`, `return`, and other keywords
+*   Spaces around `=`, `==`, `&&`, `||`, and other operators
+*   No parens around the value in `return` statements
 *   No multi-line blanks within class/functions
 *   Non-documentation comments: use `//` not `/**/`
 
-The OMNeT++ IDE provides you pre-configured code styles in *Window -> Preferences -> C++ -> Code Style*. 
+The OMNeT++ IDE provides you pre-configured code styles in *Window -> Preferences -> C++ -> Code Style*.
 Choose *OMNeT++* as your code style. Pressing <kbd>Ctrl+Shift+F</kbd> will reformat your code to match this style.
 
 ## Naming Convention
@@ -33,6 +37,7 @@ Rules for variable names, function names, class names and other identifiers.
 
 *   Add copyright headers at the top of each source file. Use `//` comments for consistency with NED and MSG files.
 *   Generally, use `//` comments in the code (except for Doxygen comments)
+*   No decorations such as ASCII art or separator lines like `========`, `--------` or `########`
 *   For documentation comments (Doxygen and NED), see [Documentation Guidelines](DocumentationGuidelines.html)
 
 ## Class Layout
