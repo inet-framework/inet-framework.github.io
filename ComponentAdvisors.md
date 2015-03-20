@@ -80,6 +80,7 @@ Data Link Layer;
     IEEE 802.1d (STP, RSTP, etc.): tillsteinb;
     B-MAC, L-MAC: afoerster;
     CSMA:        afoerster;
+    Queue mgmt and packet scheduling: kyeongsoo;
 Physical Layer;
     Path loss models: levy;
     Error models:     levy;
