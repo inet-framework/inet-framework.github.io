@@ -13,6 +13,8 @@ When you have changes that you'd like to be included in the INET Framework, here
 
 ### Checklist for the patch or pull request
 
+General rules:
+
 *   Should apply on top of the target branch, usually `master` or `integration`.
     If the target branch has moved on in the meantime, rebase your topic branch on top of it
 *   Adhere to the coding convention
@@ -21,9 +23,27 @@ When you have changes that you'd like to be included in the INET Framework, here
     *   refactoring operations
     *   bug fixes
     *   new code
-*   Have meaningful commit messages that helps one understand your changes
 *   Existing tests (esp. fingerprint tests) should pass
 *   If you added new functionality, create tests for it
+
+
+### Writing good commit messages
+
+A good commit message helps future INET maintainers find out why a particular change
+was made to the code, and determine its correctness.
+
+*   The first line should be a summary. It should begin with a prefix, see next item.
+*   **Begin the summary line with the affected protocol or component name,
+    and a colon** (e.g. `tcp:`). Such prefix is immensely helpful for people browsing
+    the project history. In some cases, using a topic word instead of the component
+    name may also be justifiable (e.g. `coverity:`).
+*   If the commit is a bug fix, add `fix:` and the bug number (if available).
+*   The second line should be blank.
+*   After that, add a potentially multi-line explanation why the change was made.
+    Include any background information that may be helpful for later maintainers,
+    e.g. pointers to relevant sections of standards documents or textbooks,
+    names of tests or examples that the change fixes, etc.
+
 
 ### Code review
 
