@@ -92,7 +92,7 @@ Environment;
     Physical environment: levy, sommer;
     Energy consumption and storage: levy, lmfeeney;
 Other;
-    Network emulation support:
+    Network emulation support: tuexen, ruengeler;
 {% endcapture %}
 
 
