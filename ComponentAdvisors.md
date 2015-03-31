@@ -4,7 +4,7 @@ title: Component Advisors
 underMenu: People
 people:
    aarizaq:   <a href="https://github.com/aarizaq">Alfonso Ariza Quintana</a>
-   afoerster: <a href="https://github.com/">Anna F&ouml;rster</a>
+   afoerster: <a href="https://github.com/annafoerster">Anna F&ouml;rster</a>
    avirdis:   <a href="https://github.com/kruviser">Antonio Virdis</a>
    becke:     <a href="https://github.com/scimbe">Martin Becke</a>
    benmartin: <a href="https://github.com/benmartin92">Benjamin Seregi</a>
