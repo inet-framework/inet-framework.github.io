@@ -20,10 +20,11 @@ This is a list of the most important items that we plan to complete before relea
     *   <del>IGMPv3
 
 3. Implementation
-    *   finish packet serialization for IEEE 802.11 in conjunction with the following
+    *   <del>finish packet serialization for IEEE 802.11 in conjunction with the following
     *   <del>add a bit-precise APSK and IEEE 802.11 model to the physical layer
     *   review network layer inheritance and generalization, remove unnecessary code duplication caused by implementing interfaces via generated classes
     *   <del>change the ModuleAccess mechanism to more explicit module parameters
+    *   finish wireless tutorial
 
 ## In INET 3.x
 

@@ -36,10 +36,11 @@ From time to time, we create preview releases from the development branch. They 
 
 Latest development version:
 
-*   [inet-2.99.0][18] (Nov 10, 2014), requires OMNeT++ 4.6 or later ([What's New][19])
+*   [inet-2.99.1](http://omnetpp.org/download/contrib/models/inet-2.99.1-src.tgz) (May 13, 2015), requires OMNeT++ 4.6 or later ([What's New](https://github.com/inet-framework/inet/blob/v2.99.1/WHATSNEW))
 
 Older development versions:
 
+*   [inet-2.99.0][18] (Nov 10, 2014), requires OMNeT++ 4.6 or later ([What's New][19])
 *   [inet-1.99.5][20] (June 22, 2012), requires OMNeT++ 4.2 or later
 *   [inet-1.99.4][21] (March 21, 2012), requires OMNeT++ 4.2 or later
 *   [inet-1.99.3][22] (Feb 24, 2012), requires OMNeT++ 4.2 or later
