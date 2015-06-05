@@ -15,6 +15,9 @@ and avoid possible duplication of work.
 * Improve IPv6 support
 * Refine MPLS and RSVP-TE
 * Revise HttpTools
+* SIP
+* IPsec
+* TLS
 * ...
 
 ### Other
