@@ -4,20 +4,28 @@ title: Plans
 underMenu: Development
 ---
 
-This page describes what's planned for INET 3.1 and beyond.
+This page describes what's planned for INET 3.3 and beyond.
 
-## In INET 3.2
+## In INET 3.3
+
+1. 3D visualization (for OMNeT++ 5.0)
+
+2. Additional features for Ieee 802.11 MAC
+
+3. Removal of routing/extras feature and providing easier configuration 
+   of adhoc routing protocols.
+
+## In INET 3.4
 
 1. mobility models
     *   separate initial positioning from positioning over time
     *   make them composable sequentially and additively
     *   extend interface with future movement predictions
 
-2. 3D visualization (for OMNeT++ 5.0)
 
 ## In INET 3.x
 
-We are planning to do these in the near future (after 3.1):
+We are planning to do these in the near future (after 3.3):
 
 1. physical layer
     *   support capturing a stronger signal while receiving a weaker one
