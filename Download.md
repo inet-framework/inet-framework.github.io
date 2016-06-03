@@ -14,10 +14,11 @@ Downloads of stable releases are available here. It is recommended that you use 
 
 Latest release:
 
-<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v3.2.4/inet-3.2.4-src.tgz">Download latest stable version (3.2.3, for OMNeT++ 4.6 and later)</a> ([What's New](https://github.com/inet-framework/inet/blob/v3.2.4/WHATSNEW))
+<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v3.3.0/inet-3.3.0-src.tgz">Download latest stable version (3.3.0, for OMNeT++ 4.6 and later)</a> ([What's New](https://github.com/inet-framework/inet/blob/v3.3.0/WHATSNEW))
 
 Older releases (please do not use them for new projects):
 
+*   [INET 3.2.4](https://github.com/inet-framework/inet/releases/download/v3.2.4/inet-3.2.4-src.tgz) for OMNeT++ 4.6 and later ([What's New](https://github.com/inet-framework/inet/blob/v3.2.4/WHATSNEW))
 *   [INET 3.1.1](https://github.com/inet-framework/inet/releases/download/v3.1.1/inet-3.1.1-src.tgz) for OMNeT++ 4.6 and later ([What's New](https://github.com/inet-framework/inet/blob/v3.1.1/WHATSNEW))
 *   [INET 3.0.0](https://github.com/inet-framework/inet/releases/download/v3.0.0/inet-3.0.0-src.tgz) for OMNeT++ 4.6 and later ([What's New](https://github.com/inet-framework/inet/blob/v3.0.0/WHATSNEW))
 *   [INET 2.6.0](http://omnetpp.org/download/contrib/models/inet-2.6-src.tgz) for OMNeT++ 4.4 and later ([What's New](https://github.com/inet-framework/inet/blob/v2.6.0/WHATSNEW))
