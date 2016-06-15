@@ -4,7 +4,11 @@ title: INET Tutorials
 underMenu: Documentation
 ---
 
-Selected tutorial slides:
+Official INET Framwork Tutorials:
+
+* [Wireless Tutorial](https://omnetpp.org/doc/inet/api-current/tutorials/wireless){:target="_blank"}
+
+Selected 3rd party tutorial slides:
 
 * OMNeT++ and INET Tutorial from Brian Ricks, Carnegie-Mellon University, 2014
   ([part1][cmu-sli1]{:target="_blank"}, [part2][cmu-sli2]{:target="_blank"})
@@ -19,4 +23,3 @@ If you come across others that are worthwhile to mention, please let us
 know and we'll update the list.
 
 {% include links.md %}
-
