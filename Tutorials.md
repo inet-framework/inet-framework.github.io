@@ -4,7 +4,7 @@ title: INET Tutorials
 underMenu: Documentation
 ---
 
-Official INET Framwork Tutorials:
+Official INET Framework Tutorials:
 
 * [Wireless Tutorial](https://omnetpp.org/doc/inet/api-current/tutorials/wireless){:target="_blank"}
 

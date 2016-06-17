@@ -7,8 +7,8 @@ underMenu: Documentation
 ### A Network Simulator
 
 INET Framework is an open-source model library for the [OMNeT++ simulation
-environment](http://omnetpp.org){:target="_blank"}. 
-It provides protocols, agents and other models for researchers and 
+environment](http://omnetpp.org){:target="_blank"}.
+It provides protocols, agents and other models for researchers and
 students working with communication networks. INET is especially useful
 when designing and validating new protocols, or exploring new or exotic
 scenarios.
@@ -53,9 +53,9 @@ Some features:
 - Mobility support
 - Supports the modeling of the physical environment (obstacles for radio propagation, etc.)
 - Separation of concerns
+- Visualization support
 
 ### Driven By the Community
 
 INET Framework is maintained by the OMNeT++ team for the community,
 utilizing patches and new models contributed by members of the community.
-

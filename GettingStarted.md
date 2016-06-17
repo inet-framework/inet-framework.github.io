@@ -36,6 +36,12 @@ It will take more than a few minutes, but it's the quickest way to get you going
 * **Tictoc tutorial**. It consists of steps that start from a very simple simulation model
   and progressively makes it more complex, introducing you to new functionality along the way.
 
+### Follow the INET Tutorials
+
+Follow the tutorials that come with the INET Framework. 
+
+* <a href="http://omnetpp.org/doc/inet/api-current/tutorials/wireless" target="_blank">Wireless Tutorial</a>
+
 ### Modify Simulations or Create New Ones
 
 Armed with knowledge gained from experience in the previous steps, you should be
@@ -56,4 +62,3 @@ When you are stuck, you can ask for help on the
 <a href="https://groups.google.com/forum/?fromgroups#!forum/omnetpp" target="_blank">OMNeT++ mailing list</a>.
 Doing your research before posting and being specific will greatly increase
 the chance that you'll receive a useful answer.
-
