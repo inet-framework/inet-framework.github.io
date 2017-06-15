@@ -21,6 +21,8 @@
     - separator: true
     - name: Tutorials
       link: /Tutorials.html
+    - name: Showcases
+      link: /Showcases.html
     - name: Teaching Resources
       link: /TeachingResources.html
 - name: Development

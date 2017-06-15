@@ -42,6 +42,10 @@ Follow the tutorials that come with the INET Framework.
 
 * <a href="http://omnetpp.org/doc/inet/api-current/tutorials/wireless" target="_blank">Wireless Tutorial</a>
 
+Study the showcases that higlight how to use specific features in INET.
+
+* <a href="Showcases.html">INET Showcases</a>
+
 ### Modify Simulations or Create New Ones
 
 Armed with knowledge gained from experience in the previous steps, you should be
