@@ -44,7 +44,7 @@ Follow the tutorials that come with the INET Framework.
 
 Study the showcases that higlight how to use specific features in INET.
 
-* <a href="Showcases.html">INET Showcases</a>
+* <a href="inet-showcases">INET Showcases</a>
 
 ### Modify Simulations or Create New Ones
 
