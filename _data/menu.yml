@@ -1,5 +1,9 @@
 - name: Download
   link: /Download.html
+- name: Showcases
+  link: https://inet.omnetpp.org/inet-showcases
+- name: Tutorials
+  link: https://inet.omnetpp.org/inet-tutorials
 - name: Documentation
   link: /Introduction.html
   submenu:
@@ -19,10 +23,8 @@
     - name: INET Manual
       link: /Manual.html
     - separator: true
-    - name: Tutorials
+    - name: 3rd Party Tutorials
       link: /Tutorials.html
-    - name: Showcases
-      link: /inet-showcases
     - name: Teaching Resources
       link: /TeachingResources.html
 - name: Development

@@ -40,7 +40,7 @@ It will take more than a few minutes, but it's the quickest way to get you going
 
 Follow the tutorials that come with the INET Framework. 
 
-* <a href="http://omnetpp.org/doc/inet/api-current/tutorials/wireless" target="_blank">Wireless Tutorial</a>
+* <a href="inet-tutorials">INET Tutorials</a>
 
 Study the showcases that higlight how to use specific features in INET.
 

@@ -4,10 +4,6 @@ title: INET Tutorials
 underMenu: Documentation
 ---
 
-Official INET Framework Tutorials:
-
-* [Wireless Tutorial](https://omnetpp.org/doc/inet/api-current/tutorials/wireless){:target="_blank"}
-
 Selected 3rd party tutorial slides:
 
 * OMNeT++ and INET Tutorial from Brian Ricks, Carnegie-Mellon University, 2014

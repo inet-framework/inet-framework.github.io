@@ -29,8 +29,8 @@ redirect_from: /index.php/
         <p>Learn how to get INET up and running, and how to implement your simulations.</p>
         <ul style="padding-left: 15px">
           <li><a href="GettingStarted.html">Getting Started with INET</a></li>
-          <li><a href="inet-showcases">Study the Showcases</a></li>
-          <li><a href="http://omnetpp.org/doc/inet/api-current/tutorials/wireless" target="_blank">Wireless Tutorial<br>
+          <li><a href="inet-showcases">Browse the Showcases</a></li>
+          <li><a href="inet-tutorials">Study the Tutorials<br>
             <img src="images/wireless-tutorial.gif" width="150"/></a>
           </li>
         </ul>
