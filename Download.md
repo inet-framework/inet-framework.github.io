@@ -14,7 +14,7 @@ Downloads of stable releases are available here. It is recommended that you use 
 
 Latest release:
 
-<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v3.6.0/inet-3.6.0-src.tgz">Download latest stable version (3.6.0, for OMNeT++ 5.1 and later)</a> ([What's New](https://github.com/inet-framework/inet/blob/v3.6.0/WHATSNEW))
+<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v3.6.1/inet-3.6.1-src.tgz">Download latest stable version (3.6.1, for OMNeT++ 5.1 and later)</a> ([What's New](https://github.com/inet-framework/inet/blob/v3.6.1/WHATSNEW))
 
 Older releases (please do not use them for new projects):
 
@@ -43,7 +43,7 @@ From time to time, we create preview releases from the development branch. They 
 
 Latest development version:
 
-*    None
+<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v3.99.0/inet-3.99.0-src.tgz">Download latest development version (3.99.0, for OMNeT++ 5.1 and later)</a> ([What's New](https://github.com/inet-framework/inet/blob/v3.99.0/WHATSNEW))
 
 Older development versions:
 
