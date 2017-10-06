@@ -45,7 +45,7 @@ redirect_from: /index.php/
         <!-- counter is a hack, see http://stackoverflow.com/questions/13568052/filter-or-group-a-collection-in-liquid -->
         {% assign counter = '' %}
         {% for post in site.posts %}
-          {% if post.category == "news" and counter.size < 3 %}
+          {% if post.category == "news" and counter.size < 5 %}
             <a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %-d, %Y" }})</small><br/>
             {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
           {% endif %}
