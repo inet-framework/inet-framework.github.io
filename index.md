@@ -15,6 +15,7 @@ redirect_from: /index.php/
       An open-source OMNeT++ model suite for wired, wireless and mobile networks.<br>
       INET evolves via feedback and contributions from the user community.<br>
       <a class="btn btn-primary" style="margin-top: 1em" href="Introduction.html">Learn more</a>
+      <a class="btn btn-primary" style="margin-top: 1em" href="inet-showcases/">Example simulations</a>
     </p>
   </div>
 </div>
