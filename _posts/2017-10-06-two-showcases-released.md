@@ -4,12 +4,12 @@ title: Two More Showcases Released
 category: news
 ---
 
-We are happy to announce the availability of two more showcases.
-*Styling and Appearance* discusses how to customize the INET visualizers, 
-and *The Hidden Node Problem* demonstrates the hidden node problem
+We are happy to announce the availability of two more showcase examples.
+*Styling and Appearance* discusses how to customize the INET visualizers. 
+*The Hidden Node Problem* demonstrates the hidden node problem
 in 802.11 networks and the associated use of the RTS/CTS mechanism.
 
-To see what showcases and tutorials are available, choose the
+To see which showcase examples and tutorials are available, choose the
 *Showcases* and *Tutorials* items from the INET site menu.
 
 If you spot errors or have other feedback, you can enter your comments 
