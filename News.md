@@ -6,9 +6,7 @@ underMenu: Home
 
 <div>
 {% for post in site.posts %}
-  {% if post.category == "news" %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%B %-d, %Y" }})</small></h3>
-    <p>{{ post.excerpt | remove: "<p>" | remove: "</p>" }}<br><a href="{{ post.url }}">More</a></p>
-  {% endif %}
+  <h3><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%B %-d, %Y" }})</small></h3>
+  <p>{{ post.excerpt | remove: "<p>" | remove: "</p>" }}<br><a href="{{ post.url }}">More</a></p>
 {% endfor %}
 </div>

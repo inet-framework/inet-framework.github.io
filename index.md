@@ -41,22 +41,19 @@ redirect_from: /index.php/
           <li><a href="Protocols.html">Model Catalog</a></li>
           <li><a href="http://inet.omnetpp.org/doc/INET">INET Reference</a></li>
         </ul>
-
-        <h3>News</h3>
-        <!-- counter is a hack, see http://stackoverflow.com/questions/13568052/filter-or-group-a-collection-in-liquid -->
-        {% assign counter = '' %}
-        {% for post in site.posts %}
-          {% if post.category == "news" and counter.size < 5 %}
-            <a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %-d, %Y" }})</small><br/>
-            {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
-          {% endif %}
-        {% endfor %}
-        <a href="/News.html">More...</a>
       </div>
 
 
       <div class="col-md-4">
-        <h3>Get Involved</h3>
+        <h3>News</h3>
+        {% for post in site.posts limit:15 %}
+            <a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %-d, %Y" }})</small><br/>
+        {% endfor %}
+        <a href="/News.html">More...</a>
+     </div>
+
+      <div class="col-md-4">
+        <h3>Development</h3>
         <h4>Contribute</h4>
         <p>INET is open source, and its future largely depends on where the user community wants
         to take it. <a href="WhyContribute.html">Be part of the success!</a></p>
@@ -70,23 +67,9 @@ redirect_from: /index.php/
         <h4>Topics To Work On</h4>
         <p>Contribute to INET while getting your degree, or in your free time.
         <a href="ContributionIdeas.html">Some ideas you can look at.</a></p>
-     </div>
 
-      <div class="col-md-4">
-        <h3>Development</h3>
         <h4>Plans</h4>
         <p>Check out <a href="Plans.html">our plans</a> for the next versions of INET.</p>
-
-        <h4>Progress</h4>
-        {% assign counter = '' %}
-        {% for post in site.posts %}
-          {% if post.category == "progress" and counter.size < 3 %}
-            <a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %-d, %Y" }})</small><br/>
-            {{ post.excerpt }}
-            {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
-          {% endif %}
-        {% endfor %}
-        <a href="/Progress.html">More...</a>
       </div>
   </div>
 

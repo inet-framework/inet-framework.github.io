@@ -47,8 +47,8 @@
     - separator: true
     - name: Plans
       link: /Plans.html
-    - name: Progress
-      link: /Progress.html
+#    - name: Progress
+#      link: /Progress.html
 - name: Contributing
   link: /WhyContribute.html
   submenu:
