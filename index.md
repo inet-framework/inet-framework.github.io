@@ -54,22 +54,23 @@ redirect_from: /index.php/
 
       <div class="col-md-4">
         <h3>Development</h3>
+        <p>INET is developed by the OMNeT++ core team for the community, and
+        with contributions from the community, on <a href="Repository.html">GitHub</a>.</p>
+        <p>Check out <a href="Plans.html">our plans</a> for the next versions of INET.</p>
+
         <h4>Contribute</h4>
         <p>INET is open source, and its future largely depends on where the user community wants
-        to take it. <a href="WhyContribute.html">Be part of the success!</a></p>
+        to take it.</p>
 
-        <h4>Volunteers Needed</h4>
+        <p>Ways you can help:</p>
         <ul style="padding-left: 15px">
-          <li><a href="ComponentAdvisors.html">Component Advisors</a><br>Bring your expertise to the table.</li>
-          <li><a href="CommunityCoordinators.html">Community Coordinators</a><br>Help us build a stronger community around INET.</li>
+          <li>Report bugs, submit pull requests</li>
+          <li>Contribute <a href="inet-showcases/">example simulations</a> or <a href="ContributionIdeas.html">models</a></li>
+          <li>Be a <a href="ComponentAdvisors.html">Component Advisor</a> or 
+             <a href="CommunityCoordinators.html">Community Coordinator</a>
+          </li>
         </ul>
 
-        <h4>Topics To Work On</h4>
-        <p>Contribute to INET while getting your degree, or in your free time.
-        <a href="ContributionIdeas.html">Some ideas you can look at.</a></p>
-
-        <h4>Plans</h4>
-        <p>Check out <a href="Plans.html">our plans</a> for the next versions of INET.</p>
       </div>
   </div>
 

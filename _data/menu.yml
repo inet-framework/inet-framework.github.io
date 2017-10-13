@@ -47,20 +47,16 @@
     - separator: true
     - name: Plans
       link: /Plans.html
-#    - name: Progress
-#      link: /Progress.html
 - name: Contributing
-  link: /WhyContribute.html
+  link: /HowCanYouHelp.html
   submenu:
-    - name: Why Contribute
-      link: /WhyContribute.html
     - name: How Can You Help
       link: /HowCanYouHelp.html
     - name: Getting Started
       link: /ContribGettingStarted.html
     - separator: true
-#    - name: Thesis Ideas
-#      link: /ThesisIdeas.html
+    - name: Thesis Ideas
+      link: /ThesisIdeas.html
     - name: Contribution Ideas
       link: /ContributionIdeas.html
 - name: People
