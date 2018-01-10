@@ -31,9 +31,7 @@ redirect_from: /index.php/
         <ul style="padding-left: 15px">
           <li><a href="GettingStarted.html">Getting Started with INET</a></li>
           <li><a href="inet-showcases">Browse the Showcases</a></li>
-          <li><a href="inet-tutorials">Study the Tutorials<br>
-            <img src="images/wireless-tutorial.gif" width="150"/></a>
-          </li>
+          <li><a href="inet-tutorials">Study the Tutorials</a></li>
         </ul>
 
         <h4>Documentation</h4>
