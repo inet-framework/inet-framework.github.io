@@ -43,10 +43,11 @@ From time to time, we create preview releases from the development branch. They 
 
 Latest development version:
 
-<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v3.99.2/inet-3.99.2-src.tgz">Download latest development version (3.99.2, for OMNeT++ 5.3)</a> ([What's New](https://github.com/inet-framework/inet/blob/v3.99.2/WHATSNEW))
+<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v3.99.3/inet-3.99.3-src.tgz">Download latest development version (3.99.3, for OMNeT++ 5.3)</a> ([What's New](https://github.com/inet-framework/inet/blob/v3.99.3/WHATSNEW))
 
 Older development versions:
 
+*   [inet-3.99.2](https://github.com/inet-framework/inet/releases/download/v3.99.2/inet-3.99.2-src.tgz) (December 22, 2017), requires OMNeT++ 5.3 or later ([What's New](https://github.com/inet-framework/inet/blob/v3.99.2/WHATSNEW))
 *   [inet-3.99.1](https://github.com/inet-framework/inet/releases/download/v3.99.1/inet-3.99.1-src.tgz) (November 17, 2017), requires OMNeT++ 5.1 or later ([What's New](https://github.com/inet-framework/inet/blob/v3.99.1/WHATSNEW))
 *   [inet-3.99.0](https://github.com/inet-framework/inet/releases/download/v3.99.0/inet-3.99.0-src.tgz) (August 24, 2017), requires OMNeT++ 5.1 or later ([What's New](https://github.com/inet-framework/inet/blob/v3.99.0/WHATSNEW))
 *   [inet-2.99.1](http://omnetpp.org/download/contrib/models/inet-2.99.1-src.tgz) (May 13, 2015), requires OMNeT++ 4.6 or later ([What's New](https://github.com/inet-framework/inet/blob/v2.99.1/WHATSNEW))
