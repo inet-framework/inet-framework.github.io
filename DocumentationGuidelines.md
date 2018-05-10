@@ -6,7 +6,8 @@ underMenu: Development
 
 We maintain documentation in the following forms:
 
-*   **INET Framework Manual** is meant to provide an overview about the components and architecture of the framework
+*   **INET Framework User's Guide** is meant to provide information for users who want to assemble new models from pre-existing components. It provides an overview of the components and architecture of the framework.
+<!-- *   **INET Framework Developer's Guide** is meant to provide information for the developers who intend to extend INET with new components, written in C++. -->
 *   **INET Reference**, built from NED and C++ source, provides cross-linked, browsable reference information about the modules and classes of the implementation
 
 The following auxiliary files are managed by the core INET maintainers:
@@ -15,22 +16,22 @@ The following auxiliary files are managed by the core INET maintainers:
 *   **WHATSNEW** (in the project root directory) is updated before each release, and contains a summary of changes in the whole framework.
 *   **AUTHORS** (in the project root directory) records the names of those who contributed to the project. The [Contributors](/Contributors.html) page should always contain a mirror of this file.
 
-## The Manual
+## The User's Guide
 
 Technically:
 
-*   Sources are in the repository under [doc/src/manual][2], in LaTeX.
+*   Sources are in the repository under [doc/src/users-guide][2], in LaTeX.
 *   PDF and/or HTML built by the release manager for each release
 
 Content and level of details:
 
-*   The purpose of the Manual is to provide introductory and overview information for newcomers, and give a high-level overview of the architecture and important internal APIs for contributors.
-*   High-level information about every implemented protocol model or component, potentially including practical advice on how to use them or combine them with other models
-*   High-level overview of internal interfaces, such as cross-layer communication
+*   The purpose of the User's Guide is to provide introductory and overview information for newcomers, and give a high-level overview of the architecture and configuration options.
+*   High-level information about every implemented protocol model or component, potentially including practical advice on how to use them or combine them with other models.
 
 However, it should not:
 
 *   Be as detailed as to duplicate information in the Reference
+*   Describe internal interfaces that are used by C++ code.
 *   Attempt to teach or describe the protocol itself (that's not the job of the manual)
 
 ## The Reference

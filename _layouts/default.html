@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/stylesheets/bootstrap-cerulean.min.css" media="screen">
     <link rel="stylesheet" href="/stylesheets/inet.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/stylesheets/rainbow.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="javascripts/html5shiv.js"></script>
@@ -41,6 +42,16 @@
       ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }  /* open menus on hover */
       .navbar { border-bottom: 4px solid #ff8800; }  /* minimal styling: orange strip under navbar */
       .frontpage h3 { border-bottom: 4px solid #ff8800; padding-bottom: 3px; }
+
+      table.matrix { display:inline-block; vertical-align: middle; position: relative; border: 0px; background:#ffffff; margin-left:8pt; margin-right:8pt; }
+      table.matrix:before, table.matrix:after { content: ""; position: absolute; top: 0; border: 1px solid #000; width: 6px; height: 100%; }
+      table.matrix:before { left: -6px; border-right: 0px; }
+      table.matrix:after { right: -6px; border-left: 0px; }
+      table.matrix td { padding: 5px; text-align: center; border: 0px; }
+
+      a.headerlink { visibility: hidden; font-size: 0.8em; padding: 0 4px 0 4px; text-decoration: none; color: #82A3AF; }
+      h1:hover > a.headerlink, h2:hover > a.headerlink, h3:hover > a.headerlink, h4:hover > a.headerlink { visibility: visible; }
+
     </style>
   </head>
   <body {% if page.generateToC %}onload="generateToC();"  data-spy="scroll" data-target=".bs-docs-sidebar"{% endif %}{% if page.frontpage %} class="frontpage"{% endif %}>
@@ -113,6 +124,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
     <script src="/javascripts/cerulean.js"></script>
+    <script src="{{site.baseurl}}/javascripts/quoting.js"></script>
+    <script src="{{site.baseurl}}/javascripts/rainbow-custom.min.js"></script>
+    <script src="{{site.baseurl}}/javascripts/rainbow-ned.js"></script>
+    <script src="{{site.baseurl}}/javascripts/rainbow-ini.js"></script>
+    <script src="{{site.baseurl}}/javascripts/rainbow-html.js"></script>
   </body>
 </html>
 

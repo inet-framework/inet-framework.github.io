@@ -19,9 +19,9 @@
     - name: Model Catalog
       link: /Protocols.html
     - name: INET Reference
-      link: http://omnetpp.org/doc/inet/api-current
-    - name: INET Manual
-      link: /Manual.html
+      link: https://omnetpp.org/doc/inet/api-current
+    - name: INET User's Guide
+      link: /userguide/inet-users-guide.html
     - separator: true
     - name: 3rd Party Tutorials
       link: /Tutorials.html
