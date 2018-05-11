@@ -64,9 +64,15 @@ var fileLoaded = function(file, data) {
                          pre.attributes.upto ? pre.attributes.upto.value : null,
                          pre.attributes.comment ? pre.attributes.comment.value : null);
 
-      var language = file.endsWith(".ned") ? "ned" : file.endsWith(".xml") ? "xml"
-          : file.endsWith(".ini") ? "ini" : file.endsWith(".py") ? "python"
-          : file.endsWith("Dockerfile") ? "dockerfile" : "generic";
+      var language = 
+            file.endsWith(".ned") ? "ned" 
+          : file.endsWith(".xml") ? "xml"
+          : file.endsWith(".ini") ? "ini" 
+          : file.endsWith(".py") ? "python"
+          : file.endsWith("Dockerfile") ? "dockerfile" 
+          : file.endsWith(".cc") ? "cpp" 
+          : file.endsWith(".h") ? "cpp" 
+          : "generic";
 
       // this new element will hold some attributes to aid Rainbow and Rainbow.linenumbers, as well as the snippet content.
       var codeElement = document.createElement('code');

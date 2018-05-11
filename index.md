@@ -36,9 +36,9 @@ redirect_from: /index.php/
 
         <h4>Documentation</h4>
         <ul style="padding-left: 15px">
-          <li><a href="/users-guide/index.html">INET User's Guide</a> 
+          <li><a href="/users-guide/">INET User's Guide</a> 
                (<a href="/users-guide/inet-users-guide.pdf">in PDF</a>)</li>
-          <li><a href="/developers-guide/index.html">INET Developers's Guide</a> 
+          <li><a href="/developers-guide/">INET Developer's Guide</a> 
                (<a href="/developers-guide/inet-developers-guide.pdf">in PDF</a>)</li>
           <li><a href="http://inet.omnetpp.org/doc/INET">INET Reference</a></li>
           <li><a href="Protocols.html">Model Catalog</a></li>
