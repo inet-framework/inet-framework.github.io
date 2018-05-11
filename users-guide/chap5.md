@@ -318,7 +318,7 @@ chapter <a href="chap24.html#cha:emulation">[24]</a>.
 <p>It's also possible to build custom network interfaces, the following
 example shows how to build a custom wireless interface.
 
-<p><pre class="snippet" src="Snippets.ned" after="//!WirelessInterfaceExample" until="//!End"></pre><small>Wireless interface example</small>
+<p><pre class="snippet" src="Snippets.ned" after="//!WirelessInterfaceExample" until="//!End"></pre>
 <p>The above network interface contains very simple hypothetical MAC and PHY
 protocols. The MAC protocol only provides acknowledgment without other
 services (e.g., carrier sense, collision avoidance, collision detection),

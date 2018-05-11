@@ -14,7 +14,8 @@ redirect_from: /index.php/
     <p style="color: #014872; font-size: 20px">
       An open-source OMNeT++ model suite for wired, wireless and mobile networks.<br>
       INET evolves via feedback and contributions from the user community.<br>
-      <a class="btn btn-primary" style="margin-top: 1em" href="Introduction.html">Learn more</a>
+      <a class="btn btn-primary" style="margin-top: 1em" href="Introduction.html">What is INET?</a>
+      <a class="btn btn-danger" style="margin-top: 1em" href="/users-guide/">User's Guide</a>
       <a class="btn btn-primary" style="margin-top: 1em" href="inet-showcases/">Example simulations</a>
     </p>
   </div>
@@ -36,9 +37,9 @@ redirect_from: /index.php/
 
         <h4>Documentation</h4>
         <ul style="padding-left: 15px">
-          <li><a href="/users-guide/">INET User's Guide</a> 
+          <li><a href="/users-guide/">INET User's Guide</a>
                (<a href="/users-guide/inet-users-guide.pdf">in PDF</a>)</li>
-          <li><a href="/developers-guide/">INET Developer's Guide</a> 
+          <li><a href="/developers-guide/">INET Developer's Guide</a>
                (<a href="/developers-guide/inet-developers-guide.pdf">in PDF</a>)</li>
           <li><a href="http://inet.omnetpp.org/doc/INET">INET Reference</a></li>
           <li><a href="Protocols.html">Model Catalog</a></li>

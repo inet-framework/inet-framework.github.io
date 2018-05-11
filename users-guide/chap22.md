@@ -170,11 +170,11 @@ in the movement of the node. Let the magnitude and direction of speed of the
 node at the <i>n</i>th time step be <i>s<sub>n</sub></i> and <i>d<sub>n</sub></i>. The next speed and direction are
 computed as
 
-<p><center><i> s<sub>n+1</sub> = &alpha; s<sub>n</sub> + (1 - &alpha;) s&#772 + sqrt((1-&alpha;<sup>2</sup>)) s<sub>x<sub>n</sub></sub> </i></center>
+<p><center><i> s<sub>n+1</sub> = &alpha; s<sub>n</sub> + (1 - &alpha;) s&#772; + sqrt((1-&alpha;<sup>2</sup>)) s<sub>x<sub>n</sub></sub> </i></center>
 
-<p><center><i> d<sub>n+1</sub> = &alpha; s<sub>n</sub> + (1 - &alpha;) d&#772 + sqrt((1-&alpha;<sup>2</sup>)) d<sub>x<sub>n</sub></sub> </i></center>
+<p><center><i> d<sub>n+1</sub> = &alpha; s<sub>n</sub> + (1 - &alpha;) d&#772; + sqrt((1-&alpha;<sup>2</sup>)) d<sub>x<sub>n</sub></sub> </i></center>
 
-<p>where <i>s&#772</i> and <i>d&#772</i> are constants representing the mean value
+<p>where <i>s&#772;</i> and <i>d&#772;</i> are constants representing the mean value
 of speed and direction as <i>n &#8594; &#8734;</i>; and <i>s<sub>x<sub>n</sub></sub></i> and <i>d<sub>x<sub>n</sub></sub></i>
 are random variables with Gaussian distribution.
 
@@ -182,12 +182,11 @@ are random variables with Gaussian distribution.
 while <i>&alpha;=1</i> results a linear motion.
 
 <p>To ensure that the node does not remain at the boundary of the constraint
-area for a long time, the mean value of the direction (<i>d&#772</i>) modified
+area for a long time, the mean value of the direction (<i>d&#772;</i>) modified
 as the node enters the margin area. For example at the right edge of the
 area it is set to 180 degrees, so the new direction is away from the edge.
 
-
-<b>MassMobility</b>
+<p><b>MassMobility</b>
 
 <p>This is a random mobility model for a mobile host with
 a mass. It is the one used in [<a href="#bib-Perkins99optimizedsmooth">Perkins99optimizedsmooth</a>].

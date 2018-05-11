@@ -128,14 +128,14 @@ network nodes are all predefined modules in INET. To avoid the manual
 configuration of IP addresses and routing tables, an automatic network
 configurator is also included.
 
-<p><pre class="snippet" src="Snippets.ned" after="//!WiredNetworkExample" until="//!End"></pre><small>Wired network example</small>
+<p><pre class="snippet" src="Snippets.ned" after="//!WiredNetworkExample" until="//!End"></pre>
 <p>In order to run a simulation using the above network, an OMNeT++ INI file must
 be created. The INI file selects the network, sets its number of clients
 parameter, and configures a simple TCP application for each
 client. The server is configured to have a TCP application which
 echos back all data received from the clients individually.
 
-<p><pre class="snippet" src="Snippets.ini" after="#!WiredNetworkConfigurationExample" until="#!End"></pre><small>Wired network configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!WiredNetworkConfigurationExample" until="#!End"></pre>
 <p>When the above simulation is run, each client application connects to the
 server using a TCP socket. Then each one of them sends 1MB of
 data, which in turn is echoed back by the server, and the simulation
@@ -149,7 +149,7 @@ dynamically changing nature of connectivity. For wireless networks, an
 additional module, one that represents the transmission medium, is required to
 maintain connectivity information.
 
-<p><pre class="snippet" src="Snippets.ned" after="//!WirelessNetworkExample" until="//!End"></pre><small>Wireless network example</small>
+<p><pre class="snippet" src="Snippets.ned" after="//!WirelessNetworkExample" until="//!End"></pre>
 <p>In the above network, positions in the display strings provide 
 positions for the transmission medium during the computation of 
 signal propagation and path loss. 
@@ -157,13 +157,13 @@ signal propagation and path loss.
 <p>In addition, <tt>host1</tt> is configured to periodically send
 UDP packets to <tt>host2</tt> over the AP.
 
-<p><pre class="snippet" src="Snippets.ini" after="#!WirelessNetworkConfigurationExample" until="#!End"></pre><small>Wireless network configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!WirelessNetworkConfigurationExample" until="#!End"></pre>
 <p>
 
 <p><h3><a name="sec:networks:mobile-ad-hoc-networks"></a>3.3.3 Mobile Ad hoc Networks<a class="headerlink" href="#sec:networks:mobile-ad-hoc-networks" title="Permalink to this headline">&para;</a></h3>
 
-<p><pre class="snippet" src="Snippets.ned" after="//!MobileAdhocNetworkExample" until="//!End"></pre><small>Mobile ad hoc network example</small>
-<p><pre class="snippet" src="Snippets.ini" after="#!MobileAdhocNetworkConfigurationExample" until="#!End"></pre><small>Mobile ad hoc network configuration example</small>
+<p><pre class="snippet" src="Snippets.ned" after="//!MobileAdhocNetworkExample" until="//!End"></pre>
+<p><pre class="snippet" src="Snippets.ini" after="#!MobileAdhocNetworkConfigurationExample" until="#!End"></pre>
 <p>
 <h2><a name="sec:networks:frequent-tasks"></a>3.4 Frequent Tasks (How To...)<a class="headerlink" href="#sec:networks:frequent-tasks" title="Permalink to this headline">&para;</a></h2>
 
@@ -175,15 +175,13 @@ UDP packets to <tt>host2</tt> over the AP.
 be manually configured, because it can be automatically inferred from the
 actual number of connections between network nodes.
 
-<p><pre class="snippet" src="Snippets.ned" after="//!AutomaticWiredInterfacesExample" until="//!End"></pre><small>Automatic wired interfaces
-example</small>
+<p><pre class="snippet" src="Snippets.ned" after="//!AutomaticWiredInterfacesExample" until="//!End"></pre>
 <p><h3><a name="sec:networks:multiple-wireless-interfaces"></a>3.4.2 Multiple Wireless Interfaces<a class="headerlink" href="#sec:networks:multiple-wireless-interfaces" title="Permalink to this headline">&para;</a></h3>
 
 <p>All built-in wireless network nodes support multiple wireless interfaces,
 but only one is enabled by default.
 
-<p><pre class="snippet" src="Snippets.ini" after="#!MultipleWirelessInterfacesExample" until="#!End"></pre><small>Multiple wireless interfaces
-example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!MultipleWirelessInterfacesExample" until="#!End"></pre>
 <p><h3><a name="sec:networks:specifying-addresses"></a>3.4.3 Specifying Addresses<a class="headerlink" href="#sec:networks:specifying-addresses" title="Permalink to this headline">&para;</a></h3>
 
 <p>Nearly all application layer modules, but several other components as well,
@@ -215,14 +213,14 @@ following example shows how to configure two ping applications in a single
 node where one is using an IPv4 and the other is using an
 IPv6 destination address.
 
-<p><pre class="snippet" src="Snippets.ini" after="#!DualStackExample" until="#!End"></pre><small>Dual stack example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!DualStackExample" until="#!End"></pre>
 <p><h3><a name="sec:networks:enabling-packet-forwarding"></a>3.4.6 Enabling Packet Forwarding<a class="headerlink" href="#sec:networks:enabling-packet-forwarding" title="Permalink to this headline">&para;</a></h3>
 
 <p>In general, network nodes don't forward packets by default, only
 <tt>Router</tt> and the like do. Nevertheless, it's possible to enable
 packet forwarding as simply as flipping a switch.
 
-<p><pre class="snippet" src="Snippets.ini" after="#!ForwardingExample" until="#!End"></pre><small>Forwarding example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!ForwardingExample" until="#!End"></pre>
 <p>
 
 

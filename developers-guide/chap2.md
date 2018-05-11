@@ -71,7 +71,7 @@ possible to write a user defined chunk from scratch.
 represent application data and protocol headers. The following examples
 demonstrate the construction of various simple chunks.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!ChunkConstructionExample" until="//!End"></pre><small>Chunk construction example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!ChunkConstructionExample" until="//!End"></pre>
 <p>In general, chunks must be constructed with a call to <tt>makeShared</tt>
 instead of the standard C++ <tt>new</tt> operator. The special construction
 mechanism is required for the efficient sharing of chunks among packets using
@@ -81,23 +81,23 @@ C++ shared pointers.
 they are passed through the protocol layers. The most common way to represent
 packet contents, is forming a compound chunk by concatenation.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!ChunkConcatenationExample" until="//!End"></pre><small>Chunk concatenation example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!ChunkConcatenationExample" until="//!End"></pre>
 <p>Protocols often need to slice data, for example to provide fragmentation, which
 is also directly supported by the chunk API.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!ChunkSlicingExample" until="//!End"></pre><small>Chunk slicing example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!ChunkSlicingExample" until="//!End"></pre>
 <p>In order to avoid cluttered data representation due to slicing, the chunk API
 provides automatic merging for consecutive chunk slices.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!ChunkMergingExample" until="//!End"></pre><small>Chunk merging example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!ChunkMergingExample" until="//!End"></pre>
 <p>Alternative representations can be easily converted into one another using
 automatic serialization as a common ground.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!ChunkConversionExample" until="//!End"></pre><small>Chunk conversion example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!ChunkConversionExample" until="//!End"></pre>
 <p>The following MSG fragment is a more complete example which shows how a UDP
 header could be defined:
 
-<p><pre class="snippet" src="Snippets.msg" after="//!UdpHeaderDefinitionExample" until="//!End"></pre><small>UDP header definition example</small>
+<p><pre class="snippet" src="Snippets.msg" after="//!UdpHeaderDefinitionExample" until="//!End"></pre>
 <p>It's important to distinguish the two length related fields in the
 <tt>UdpHeader</tt> chunk. One is the length of the chunk itself
 (<tt>chunkLength</tt>), the other is the value in the length field of the header
@@ -116,7 +116,7 @@ represent its contents. The contents may be as simple as raw bytes
 packets are passed down through the protocol layers at the sender node, new
 protocol specific headers and trailers are inserted during processing.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketConstructionExample" until="//!End"></pre><small>Packet construction example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketConstructionExample" until="//!End"></pre>
 <p>In order to facilitate packet processing by communication protocols at the
 receiver node, packets are split into three parts: front popped part, data part,
 and back popped part. During packet processing, as the packet is passed through
@@ -124,7 +124,7 @@ the protocol layers, headers and trailers are popped from the beginning and from
 the end. This effectively reduces the remaining unprocessed part called the data
 part, but it doesn't affect the data stored in the packet.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketProcessingExample" until="//!End"></pre><small>Packet processing example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketProcessingExample" until="//!End"></pre>
 <p><h2><a name="sec:packets:representing-signals"></a>2.4 Representing Signals<a class="headerlink" href="#sec:packets:representing-signals" title="Permalink to this headline">&para;</a></h2>
 
 <p>Protocols and applications use the <tt>Packet</tt> data structure to represent
@@ -132,7 +132,7 @@ digital data during the processing within the network node. In contrast, the
 wireless transmission medium uses a different data structure called
 <tt>Signal</tt> to represent the physical phenomena used to transmit packets.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!SignalConstructionExample" until="//!End"></pre><small>Signal construction example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!SignalConstructionExample" until="//!End"></pre>
 <p>Signals always encapsulate a packet and also contain a description of the analog
 domain representation. The most important physical properties of a signal are
 the signal duration and the signal power.
@@ -155,20 +155,20 @@ A packet is marked as erroneous based on its length and the associated bit error
 rate. This representation doesn't give too much chance for a protocol to do
 anything else than discard an erroneous packet.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!CorruptingPacketsExample" until="//!End"></pre><small>Corrupting packets example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!CorruptingPacketsExample" until="//!End"></pre>
 <p>The second example shows how to represent transmission errors on the chunk
 level. Similarly to the previous example, a chunk is also marked as erroneous
 based on its length and the associated bit error rate. This representation
 allows a protocol to discard only certain parts of the packet. For example, an
 aggregated packet may be partially discarded and processed.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!CorruptingChunksExample" until="//!End"></pre><small>Corrupting chunks example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!CorruptingChunksExample" until="//!End"></pre>
 <p>The last example shows how to actually represent transmission errors on the byte
 level. In contrast with the previous examples, this time the actual data of the
 packet is modified. This allows a protocol to discard or correct any part based
 on checksums.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!CorruptingBytesExample" until="//!End"></pre><small>Corrupting bytes example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!CorruptingBytesExample" until="//!End"></pre>
 <p>The physical layer models support the above mentioned different error
 representations via configurable parameters. Higher layer protocols detect
 errors by chechking the error bit on packets and chunks, and by standard CRC
@@ -188,7 +188,7 @@ at the raw data. Other notable examples are: MAC address request, outgoing
 interface request, transmission power request, receive strength indication,
 incoming interface indication.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketTaggingExample" until="//!End"></pre><small>Packet tagging example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketTaggingExample" until="//!End"></pre>
 <p>Tags are very simple C++ classes usually generated by the OMNeT++ MSG compiler.
 Tags come in three flavors:
 
@@ -199,7 +199,7 @@ Tags come in three flavors:
 	<li> <i>base classes</i> must not be attached to packets (e.g. <tt>TagBase</tt>).</li>
 </ul>
 
-<p><pre class="snippet" src="Snippets.msg" after="//!TagDefinitionExeample" until="//!End"></pre><small>Tag definition example</small>
+<p><pre class="snippet" src="Snippets.msg" after="//!TagDefinitionExeample" until="//!End"></pre>
 <p><h2><a name="sec:packets:region-tagging"></a>2.7 Region Tagging<a class="headerlink" href="#sec:packets:region-tagging" title="Permalink to this headline">&para;</a></h2>
 
 <p>In order to collect some statistics, it is required to attach meta information
@@ -208,14 +208,14 @@ a TCP stream requires to tag regions at the sender with the timestamp when they
 were created. Then the receiver computes the end-to-end delay for every region
 as the data arrives.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!RegionTaggingSendExample" until="//!End"></pre><small>Region tagging send example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!RegionTaggingSendExample" until="//!End"></pre>
 <p>In a TCP stream, the data can be arbitrarily split, reordered, and merged in the
 underlying network. The packet data representation takes care of maintaining the
 attached region tags as if they were individually attached to bits. In order to
 avoid cluttered data representation due to the above, the tag API provides
 automatic merging for similar consecutive tag regions.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!RegionTaggingReceiveExample" until="//!End"></pre><small>Region tagging receive example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!RegionTaggingReceiveExample" until="//!End"></pre>
 <p>The above loop may run exactly once for the whole data, or it may run several
 times depending on how the data is provided at the sender and how the underlying
 network works.
@@ -241,13 +241,13 @@ subclassing the required <tt>ProtocolDissector</tt> base class. Implementors
 are expected to use the <tt>PacketDissector::ICallback</tt> interface to
 notify the parser about the packet structure.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketDissectorCallbackInterface" until="//!End"></pre><small>Packet dissector callback interface</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketDissectorCallbackInterface" until="//!End"></pre>
 <p>In order to use the <tt>PacketDissector</tt>, the user is expected to
 implement a <tt>PacketDissector::ICallback</tt>  interface. The callback
 interface will be notified for each part of the packet as the
 <tt>PacketDissector</tt> goes through it.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketDissectionExample" until="//!End"></pre><small>Packet dissection example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketDissectionExample" until="//!End"></pre>
 <p><h2><a name="sec:packets:filtering-packets"></a>2.9 Filtering Packets<a class="headerlink" href="#sec:packets:filtering-packets" title="Permalink to this headline">&para;</a></h2>
 
 <p>Filtering packets based on the actual data they contain is another widely used
@@ -266,7 +266,7 @@ name prefix 'ping', and the packet chunk filter expression "inet::Ipv4Header and
 srcAddress(10.0.0.*)" matches all packets that contain an IPv4 header
 with a '10.0.0' source address prefix.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketFilteringExample" until="//!End"></pre><small>Packet filtering example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketFilteringExample" until="//!End"></pre>
 <p><h2><a name="sec:packets:printing-packets"></a>2.10 Printing Packets<a class="headerlink" href="#sec:packets:printing-packets" title="Permalink to this headline">&para;</a></h2>
 
 <p>During model development, packets often need to be displayed in a human readable
@@ -282,7 +282,7 @@ several log window columns into the user interface: 'Source', 'Destination',
 'Protocol', 'Length', and 'Info'. These columns display packet data similarly to
 the well-known Wireshark protocol analyzer.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketPrintingExample" until="//!End"></pre><small>Packet printing example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketPrintingExample" until="//!End"></pre>
 <p>The <tt>PacketPrinter</tt> provides a few other functions which have
 additional options to control the details of the resulting human readable form.
 
@@ -293,7 +293,7 @@ processing with 3rd party tools. The Packet API provides a <tt>PcapDump</tt>
 class for creating PCAP files. Packet filtering can be used to reduce the file
 size and increase performance.
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PCAPRecoringExample" until="//!End"></pre><small>PCAP recording example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PCAPRecoringExample" until="//!End"></pre>
 <p><h2><a name="sec:packets:encapsulating-packets"></a>2.12 Encapsulating Packets<a class="headerlink" href="#sec:packets:encapsulating-packets" title="Permalink to this headline">&para;</a></h2>
 
 <p>Many communication protocols work with simple packet encapsulation. They
@@ -307,13 +307,13 @@ datagram by prepending the packet with an Ethernet header, and also by appending
 the packet with an optional padding and an Ethernet FCS. The following example
 shows how a MAC protocol could encapsulate a packet:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketEncapsulationExample" until="//!End"></pre><small>Packet encapsulation example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketEncapsulationExample" until="//!End"></pre>
 <p>When receiving a packet, the Ethernet protocol removes an Ethernet header and an
 Ethernet FCS from the received Ethernet frame, and passes the resulting IP
 datagram along. The following example shows how a MAC protocol could decapsulate
 a packet:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketDecapsulationExample" until="//!End"></pre><small>Packet decapsulation example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketDecapsulationExample" until="//!End"></pre>
 <p>Although the <tt>popAtFront</tt> and <tt>popAtBack</tt> functions change the
 remaining unprocessed part of the packet, they don't have effect on the actual
 packet data. That is when the packet reaches high level protocol, it still
@@ -330,13 +330,13 @@ the receiver node by combining the received fragments.
 increasing probability of packet loss of large packets. The following example
 shows how a MAC protocol could fragment a packet:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketFragmentationExample" until="//!End"></pre><small>Packet fragmentation example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketFragmentationExample" until="//!End"></pre>
 <p>When receiving fragments, protocols need to collect the coherent fragments of
 the same packet until all fragments becomes available. The following example
 shows how a MAC protocol could form the original packet from a set of coherent
 fragments:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketDefragmentationExample" until="//!End"></pre><small>Packet defragmentation example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketDefragmentationExample" until="//!End"></pre>
 <p><h2><a name="sec:packets:aggregating-packets"></a>2.14 Aggregating Packets<a class="headerlink" href="#sec:packets:aggregating-packets" title="Permalink to this headline">&para;</a></h2>
 
 <p>Communication protocols often provide aggregation to better utilize the
@@ -349,11 +349,11 @@ split into the original packets, and they are passed along.
 utilization at both MSDU and MPDU levels. The following example shows a version
 of how a MAC protocol could create an aggregate packet:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketAggregationExample" until="//!End"></pre><small>Packet aggregation example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketAggregationExample" until="//!End"></pre>
 <p>The following example shows a version of how a MAC protocol could disaggregate a
 packet:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketDisaggregationExample" until="//!End"></pre><small>Packet disaggregation example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketDisaggregationExample" until="//!End"></pre>
 <p><h2><a name="sec:packets:serializing-packets"></a>2.15 Serializing Packets<a class="headerlink" href="#sec:packets:serializing-packets" title="Permalink to this headline">&para;</a></h2>
 
 <p>In real communication systems packets are usually stored as a sequence of bytes
@@ -367,13 +367,13 @@ headers. They must be registered in the <tt>ChunkSerializerRegistry</tt> in
 order to be used. The following example shows how a MAC protocol header could be
 serialized to a sequence of bytes:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketSerializationExample" until="//!End"></pre><small>Packet serialization example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketSerializationExample" until="//!End"></pre>
 <p>Deserialization is somewhat more complicated than serialization, because it must
 be prepared to handle incomplete or even incorrect data due to errors introduced
 by the network. The following example shows how a MAC protocol header could be
 deserialized from a sequence of bytes:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketDeserializationExample" until="//!End"></pre><small>Packet deserialization example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketDeserializationExample" until="//!End"></pre>
 <p><h2><a name="sec:packets:emulation-support"></a>2.16 Emulation Support<a class="headerlink" href="#sec:packets:emulation-support" title="Permalink to this headline">&para;</a></h2>
 
 <p>In order to be able to communicate with real hardware, packets must be converted
@@ -389,11 +389,11 @@ serializers cannot carry out the checksum calculation.
 <p>The following example shows how a packet could be converted to a sequence of
 bytes to send through an external interface:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!EmulationPacketSendingExample" until="//!End"></pre><small>Emulation packet sending example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!EmulationPacketSendingExample" until="//!End"></pre>
 <p>The following example shows how a packet could be converted from a sequence of
 bytes when receiving from an external interface:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!EmulationPacketReceivingExample" until="//!End"></pre><small>Emulation packet receiving example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!EmulationPacketReceivingExample" until="//!End"></pre>
 <p>In INET, all protocols automatically support hardware emulation due to the dual
 representation of packets. The above example creates a packet which contains a
 single chunk with a sequence of bytes. As the packet is passed through the
@@ -412,7 +412,7 @@ control.
 <p>The following example shows how a transport protocol could store the received
 data temporarily until the data is actually used:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketQueueingExample" until="//!End"></pre><small>Packet queueing example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketQueueingExample" until="//!End"></pre>
 <p>The <tt>ChunkQueue</tt> class acts similarly to a binary FIFO queue except it
 works with chunks. Similarly to the <tt>Packet</tt> it also automatically
 merge consecutive data and selects the most appropriate representation.
@@ -455,7 +455,7 @@ fragments out of order and potentially duplicated.
 <p>The following example shows how a network protocol could store and reassemble
 the data of the incoming packets into a whole packet:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketReassemblingExample" until="//!End"></pre><small>Packet reassembling example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketReassemblingExample" until="//!End"></pre>
 <p>The <tt>ReassemblyBuffer</tt> supports replacing the stored data at a given
 offset, and it also provides the complete reassembled data with the expected
 length if available.
@@ -476,7 +476,7 @@ application in the correct order and only once.
 data of incoming packets, which may arrive out of order, and also how such a
 protocol could pass along only the available data in the correct order:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketReorderingExample" until="//!End"></pre><small>Packet reordering example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketReorderingExample" until="//!End"></pre>
 <p>The <tt>ReorderBuffer</tt> supports replacing the stored data at a given
 offset, and it provides the available data from the expected offset if any.
 
@@ -501,7 +501,7 @@ the inteded recipient. The following example shows how a MAC protocol could send
 up a packet to the designated protocol without actually knowing where that
 protocol is in the network node:
 
-<p><pre class="snippet" src="Snippets.cc" after="//!PacketDispatchingExample" until="//!End"></pre><small>Packet dispatching example</small>
+<p><pre class="snippet" src="Snippets.cc" after="//!PacketDispatchingExample" until="//!End"></pre>
 <p>The <tt>MessageDispatcher</tt> finds the designated protocol module and its
 gate based on the <tt>registerProtocol</tt> calls it has received during the
 initialization of all connected protocol modules.

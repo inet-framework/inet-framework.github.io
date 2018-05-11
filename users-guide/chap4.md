@@ -180,7 +180,7 @@ standard protocols. It also demonstrates how to use the packet dispatching
 mechanism which is required to connect multiple protocols in a many-to-many
 relationship.
 
-<p><pre class="snippet" src="Snippets.ned" after="//!NetworkNodeExample" until="//!End"></pre><small>Network node example</small>
+<p><pre class="snippet" src="Snippets.ned" after="//!NetworkNodeExample" until="//!End"></pre>
 <p>
 
 

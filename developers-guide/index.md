@@ -4,7 +4,7 @@ underMenu: Documentation
 ---
 
 
-### INET Framework Developer's Guide
+<h3>INET Framework Developer's Guide</h3>
 
 
 <h1>Chapters</h1>

@@ -104,11 +104,11 @@ INET provides the following shapes:
 <p>The following example shows how to define various physical objects using
 the XML syntax supported by the physical environment:
 
-<p><pre class="snippet" src="Snippets.xml" after="<!--!DefiningPhysicalObjectsExample-->" until="<!--End-->"></pre><small>Defining physical objects example</small>
+<p><pre class="snippet" src="Snippets.xml" after="<!--!DefiningPhysicalObjectsExample-->" until="<!--End-->"></pre>
 <p>In order to load the above XML file, the following configuration could be
 used:
 
-<p><pre class="snippet" src="Snippets.ini" after="#!PhysicalObjectsConfigurationExample" until="#!End"></pre><small>Physical objects configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!PhysicalObjectsConfigurationExample" until="#!End"></pre>
 <p><h2><a name="sec:environment:ground-models"></a>21.4 Ground Models<a class="headerlink" href="#sec:environment:ground-models" title="Permalink to this headline">&para;</a></h2>
 
 <p>In inter-vehicle simulations the terrain has profound effects on signal
@@ -160,7 +160,7 @@ following example also shows how the geographic coordinate system module
 can be configured to place the playground at a particular geographic
 location and orientation.
 
-<p><pre class="snippet" src="Snippets.ini" after="#!GeographicCoordinateSystemConfigurationExample" until="#!End"></pre><small>Geographic coordinate system configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!GeographicCoordinateSystemConfigurationExample" until="#!End"></pre>
 <p><h2><a name="sec:environment:object-cache"></a>21.6 Object Cache<a class="headerlink" href="#sec:environment:object-cache" title="Permalink to this headline">&para;</a></h2>
 
 <p>If a simulation contains a large number of physical objects, then signal

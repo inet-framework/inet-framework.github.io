@@ -65,7 +65,7 @@ consumer model type must be configured for the transceivers. The following
 example demonstrates how to configure the power consumption parameters for
 a transceiver energy consumer model:
 
-<p><pre class="snippet" src="Snippets.ini" after="#!EnergyConsumerConfigurationExample" until="#!End"></pre><small>Energy consumer configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!EnergyConsumerConfigurationExample" until="#!End"></pre>
 <p>
 <h2><a name="sec:power:energy-generator-models"></a>23.3 Energy Generator Models<a class="headerlink" href="#sec:power:energy-generator-models" title="Permalink to this headline">&para;</a></h2>
 
@@ -85,7 +85,7 @@ included as submodules in network nodes.
 generator model called <tt>AlternatingEpEnergyGenerator</tt>. The following
 example shows how to configure its power generation parameters:
 
-<p><pre class="snippet" src="Snippets.ini" after="#!EnergyGeneratorConfigurationExample" until="#!End"></pre><small>Energy generator configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!EnergyGeneratorConfigurationExample" until="#!End"></pre>
 <p><h2><a name="sec:power:energy-storage-models"></a>23.4 Energy Storage Models<a class="headerlink" href="#sec:power:energy-storage-models" title="Permalink to this headline">&para;</a></h2>
 
 <p>Electronic devices which are not connected to external power source must contain
@@ -111,13 +111,13 @@ total power consumption and total power generation.
 
 <p>The following example shows how to configure a simple energy storage model:
 
-<p><pre class="snippet" src="Snippets.ini" after="#!EnergyStorageConfigurationExample" until="#!End"></pre><small>Energy storage configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!EnergyStorageConfigurationExample" until="#!End"></pre>
 <p><h2><a name="sec:power:energy-management-models"></a>23.5 Energy Management Models<a class="headerlink" href="#sec:power:energy-management-models" title="Permalink to this headline">&para;</a></h2>
 
 
 <tt>SimpleEpEnergyManagement</tt>
 
-<p><pre class="snippet" src="Snippets.ini" after="#!EnergyManagementConfigurationExample" until="#!End"></pre><small>Energy management configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!EnergyManagementConfigurationExample" until="#!End"></pre>
 <p>
 
 

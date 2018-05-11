@@ -85,7 +85,7 @@ built-in models in INET, implemented as simple modules:
 
 <p>The default propagation model is configured as follows:
 
-<p><pre class="snippet" src="Snippets.ini" after="#!PropagationModelConfigurationExample" until="#!End"></pre><small>Propagation model configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!PropagationModelConfigurationExample" until="#!End"></pre>
 <p>A more accurate model could take into consideration the transmitter and
 receiver movement. This effect becomes especially important for acoustic
 communication, because the propagation speed of the signal is much more
@@ -120,7 +120,7 @@ algorithms, each comes with its own set of parameters:
 <p>The following example replaces the default free-space path loss model with
 log normal shadowing:
 
-<p><pre class="snippet" src="Snippets.ini" after="#!PathLossConfigurationExample" until="#!End"></pre><small>Path loss configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!PathLossConfigurationExample" until="#!End"></pre>
 <p><h2><a name="sec:medium:obstacle-loss-models"></a>20.5 Obstacle Loss Models<a class="headerlink" href="#sec:medium:obstacle-loss-models" title="Permalink to this headline">&para;</a></h2>
 
 <p>When the signal propagates through space it also passes through physical
@@ -143,7 +143,7 @@ INET contains a few built-in obstacle loss models:
 <p>By default, the medium module doesn't contain any obstacle loss model, but
 configuring one is very simple:
 
-<p><pre class="snippet" src="Snippets.ini" after="#!ObstacleLossModelConfigurationExample" until="#!End"></pre><small>Obstacle loss model configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!ObstacleLossModelConfigurationExample" until="#!End"></pre>
 <p>Statistical obstacle loss models are also possible but currently not provided.
 
 <p><h2><a name="sec:medium:background-noise-models"></a>20.6 Background Noise Models<a class="headerlink" href="#sec:medium:background-noise-models" title="Permalink to this headline">&para;</a></h2>
@@ -163,7 +163,7 @@ by a module parameter.
 
 <p>The simplest background noise model can be configured as follows:
 
-<p><pre class="snippet" src="Snippets.ini" after="#!BackgroundNoiseModelConfigurationExample" until="#!End"></pre><small>Background noise model configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!BackgroundNoiseModelConfigurationExample" until="#!End"></pre>
 <p><h2><a name="sec:medium:analog-models"></a>20.7 Analog Models<a class="headerlink" href="#sec:medium:analog-models" title="Permalink to this headline">&para;</a></h2>
 
 <p>The analog signal is a complex physical phenomenon which can be modeled in
@@ -182,7 +182,7 @@ according to the representation used by the analog model.
 representation over a frequency and time interval, can be configured as
 follows:
 
-<p><pre class="snippet" src="Snippets.ini" after="#!AnalogModelConfigurationExample" until="#!End"></pre><small>Analog model configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!AnalogModelConfigurationExample" until="#!End"></pre>
 <p><h2><a name="sec:medium:neighbor-cache"></a>20.8 Neighbor Cache<a class="headerlink" href="#sec:medium:neighbor-cache" title="Permalink to this headline">&para;</a></h2>
 
 <p>Transceivers are considered neighbors if successful communication is
@@ -210,7 +210,7 @@ periodically:
 
 <p>The following example sets <tt>QuadTreeNeighborCache</tt> as neighbor cache:
 
-<p><pre class="snippet" src="Snippets.ini" after="#!NeighborCacheModelConfigurationExample" until="#!End"></pre><small>Neighbor cache model configuration example</small>
+<p><pre class="snippet" src="Snippets.ini" after="#!NeighborCacheModelConfigurationExample" until="#!End"></pre>
 <p>How should one decide which neighbor cache to choose for a given simulation?
 As the sole purpose of the neighbor cache is to speed up the simulation,
 one should choose the one that leads to the best performance for that particular
