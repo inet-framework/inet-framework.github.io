@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET Developer's Guide<hr width='100%'></div>
+<div>INET 4.0 Developer's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap2.html">Prev</a> &#8226; <a href="chap4.html">Next</a> &#8226; <a href="toc.html#toc_3">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:sockets"></a>3 Working with Sockets<a class="headerlink" href="#cha:sockets" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:sockets:overview"></a>3.1 Overview<a class="headerlink" href="#sec:sockets:overview" title="Permalink to this headline">&para;</a></h2>

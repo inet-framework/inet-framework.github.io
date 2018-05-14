@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap6.html">Prev</a> &#8226; <a href="chap8.html">Next</a> &#8226; <a href="toc.html#toc_7">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:transport-protocols"></a>7 Transport Protocols<a class="headerlink" href="#cha:transport-protocols" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:transport:overview"></a>7.1 Overview<a class="headerlink" href="#sec:transport:overview" title="Permalink to this headline">&para;</a></h2>

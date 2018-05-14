@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET Developer's Guide<hr width='100%'></div>
+<div>INET 4.0 Developer's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap1.html">Prev</a> &#8226; <a href="chap3.html">Next</a> &#8226; <a href="toc.html#toc_2">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:packet-api"></a>2 Working with Packets<a class="headerlink" href="#cha:packet-api" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:packets:overviews"></a>2.1 Overview<a class="headerlink" href="#sec:packets:overviews" title="Permalink to this headline">&para;</a></h2>

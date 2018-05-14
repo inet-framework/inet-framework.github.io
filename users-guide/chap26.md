@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap25.html">Prev</a> &#8226; <a href="chap27.html">Next</a> &#8226; <a href="toc.html#toc_26">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:scenario-scripting"></a>26 Scenario Scripting<a class="headerlink" href="#cha:scenario-scripting" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:scenario:overview"></a>26.1 Overview<a class="headerlink" href="#sec:scenario:overview" title="Permalink to this headline">&para;</a></h2>

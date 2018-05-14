@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap10.html">Prev</a> &#8226; <a href="chap12.html">Next</a> &#8226; <a href="toc.html#toc_11">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:adhoc-routing"></a>11 Ad Hoc Routing<a class="headerlink" href="#cha:adhoc-routing" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:adhocrouting:overview"></a>11.1 Overview<a class="headerlink" href="#sec:adhocrouting:overview" title="Permalink to this headline">&para;</a></h2>

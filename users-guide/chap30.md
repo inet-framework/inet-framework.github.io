@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap29.html">Prev</a> &#8226; <a href="toc.html#toc_30">ToC</a> &#8226; <a href="index.html">Chapters</a></div><hr class='pgbr'><h1><a name="cha:History"></a>30 History<a class="headerlink" href="#cha:History" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:history:ipsuite-to-inet"></a>30.1 IPSuite to INET Framework (2000-2006)<a class="headerlink" href="#sec:history:ipsuite-to-inet" title="Permalink to this headline">&para;</a></h2>

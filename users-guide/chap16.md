@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap15.html">Prev</a> &#8226; <a href="chap17.html">Next</a> &#8226; <a href="toc.html#toc_16">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:80211"></a>16 The 802.11 Model<a class="headerlink" href="#cha:80211" title="Permalink to this headline">&para;</a></h1>
 
 <p>

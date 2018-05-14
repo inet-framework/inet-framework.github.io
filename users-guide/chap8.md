@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap7.html">Prev</a> &#8226; <a href="chap9.html">Next</a> &#8226; <a href="toc.html#toc_8">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:ipv4"></a>8 The IPv4 Protocol Family<a class="headerlink" href="#cha:ipv4" title="Permalink to this headline">&para;</a></h1>
 
 <p>

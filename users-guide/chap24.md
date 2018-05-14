@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap23.html">Prev</a> &#8226; <a href="chap25.html">Next</a> &#8226; <a href="toc.html#toc_24">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:emulation"></a>24 Network Emulation<a class="headerlink" href="#cha:emulation" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:emulation:motivation"></a>24.1 Motivation<a class="headerlink" href="#sec:emulation:motivation" title="Permalink to this headline">&para;</a></h2>
@@ -45,12 +45,9 @@ This is achieved with two components in INET:
     Packets sent to an <tt>ExtInterface</tt> will be sent out on the
     host OS interface, and packets received by the host OS interface
     (or rather, the appropriate subset of them) will appear in the
-    simulation as if received on an <tt>ExtInterface</tt>.</li>
- <li> <tt>cSocketRTScheduler</tt>, a real-time scheduler class.
-    The scheduler does the actual work: not only the real-time
-    synchronization as the name implies, but also the relaying of packets
-    from/to the host OS interface. The code uses the pcap library for
-    capturing packets, and raw sockets for sending.</li>
+    simulation as if received on an <tt>ExtInterface</tt>. The code
+    uses the pcap library for capturing packets, and raw sockets for sending.</li>
+ <li> <tt>RealTimeScheduler</tt>, a socket-aware real-time scheduler class.</li>
 </ul>
 
 <p><ul class="note"><b>NOTE</b><br>
@@ -98,7 +95,7 @@ in the following way:
 Also, the simulation must be configured to run under control the of the
 appropriate real-time scheduler class:
 
-<pre><code data-language="ini">scheduler-class = "inet::cSocketRTScheduler"</code></pre><p>
+<pre><code data-language="ini">scheduler-class = "inet::RealTimeScheduler"</code></pre><p>
 <tt>ExtInterface</tt> has two important parameters which need to be
 configured. The <tt>device</tt> parameter should be set to the name of the real
 interface on the host OS, and <tt>filterString</tt> should contain a packet

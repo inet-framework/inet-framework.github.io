@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap8.html">Prev</a> &#8226; <a href="chap10.html">Next</a> &#8226; <a href="toc.html#toc_9">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:ipv6"></a>9 IPv6 and Mobile IPv6<a class="headerlink" href="#cha:ipv6" title="Permalink to this headline">&para;</a></h1>
 
 <p>

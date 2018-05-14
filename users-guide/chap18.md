@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap17.html">Prev</a> &#8226; <a href="chap19.html">Next</a> &#8226; <a href="toc.html#toc_18">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:sensor-macs"></a>18 MAC Protocols for Wireless Sensor Networks<a class="headerlink" href="#cha:sensor-macs" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:sensor-macs:overview"></a>18.1 Overview<a class="headerlink" href="#sec:sensor-macs:overview" title="Permalink to this headline">&para;</a></h2>

@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap11.html">Prev</a> &#8226; <a href="chap13.html">Next</a> &#8226; <a href="toc.html#toc_12">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:diffserv"></a>12 Differentiated Services<a class="headerlink" href="#cha:diffserv" title="Permalink to this headline">&para;</a></h1>
 
 <p>

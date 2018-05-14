@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET Developer's Guide<hr width='100%'></div>
+<div>INET 4.0 Developer's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap3.html">Prev</a> &#8226; <a href="toc.html#toc_4">ToC</a> &#8226; <a href="index.html">Chapters</a></div><hr class='pgbr'><h1><a name="cha:authors-guide"></a>4 Appendix: Author's Guide<a class="headerlink" href="#cha:authors-guide" title="Permalink to this headline">&para;</a></h1>
 
 <p>

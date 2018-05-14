@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap16.html">Prev</a> &#8226; <a href="chap18.html">Next</a> &#8226; <a href="toc.html#toc_17">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:802154"></a>17 The 802.15.4 Model<a class="headerlink" href="#cha:802154" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:802154:overview"></a>17.1 Overview<a class="headerlink" href="#sec:802154:overview" title="Permalink to this headline">&para;</a></h2>

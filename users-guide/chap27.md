@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap26.html">Prev</a> &#8226; <a href="chap28.html">Next</a> &#8226; <a href="toc.html#toc_27">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:lifecycle"></a>27 Modeling Node Failures<a class="headerlink" href="#cha:lifecycle" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:lifecycle:overview"></a>27.1 Overview<a class="headerlink" href="#sec:lifecycle:overview" title="Permalink to this headline">&para;</a></h2>

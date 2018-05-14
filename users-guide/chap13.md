@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap12.html">Prev</a> &#8226; <a href="chap14.html">Next</a> &#8226; <a href="toc.html#toc_13">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:mpls"></a>13 The MPLS Models<a class="headerlink" href="#cha:mpls" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:mpls:overview"></a>13.1 Overview<a class="headerlink" href="#sec:mpls:overview" title="Permalink to this headline">&para;</a></h2>

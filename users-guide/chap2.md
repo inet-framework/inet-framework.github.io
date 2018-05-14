@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap1.html">Prev</a> &#8226; <a href="chap3.html">Next</a> &#8226; <a href="toc.html#toc_2">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:usage"></a>2 Using the INET Framework<a class="headerlink" href="#cha:usage" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:usage:installation"></a>2.1 Installation<a class="headerlink" href="#sec:usage:installation" title="Permalink to this headline">&para;</a></h2>

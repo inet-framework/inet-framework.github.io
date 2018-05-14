@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap2.html">Prev</a> &#8226; <a href="chap4.html">Next</a> &#8226; <a href="toc.html#toc_3">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:networks"></a>3 Networks<a class="headerlink" href="#cha:networks" title="Permalink to this headline">&para;</a></h1>
 
 

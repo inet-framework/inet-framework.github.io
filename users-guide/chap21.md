@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap20.html">Prev</a> &#8226; <a href="chap22.html">Next</a> &#8226; <a href="toc.html#toc_21">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:environment"></a>21 The Physical Environment<a class="headerlink" href="#cha:environment" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:environment:overview"></a>21.1 Overview<a class="headerlink" href="#sec:environment:overview" title="Permalink to this headline">&para;</a></h2>

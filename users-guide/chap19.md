@@ -5,7 +5,7 @@ underMenu: Documentation
 
 
 
-<div>INET User's Guide<hr width='100%'></div>
+<div>INET 4.0 User's Guide<hr width='100%'></div>
 <div class='oppnavbar'><a href="chap18.html">Prev</a> &#8226; <a href="chap20.html">Next</a> &#8226; <a href="toc.html#toc_19">ToC</a> &#8226; <a href="index.html">Chapters</a></div><h1><a name="cha:physicallayer"></a>19 The Physical Layer<a class="headerlink" href="#cha:physicallayer" title="Permalink to this headline">&para;</a></h1>
 
 <p><h2><a name="sec:phy:overview"></a>19.1 Overview<a class="headerlink" href="#sec:phy:overview" title="Permalink to this headline">&para;</a></h2>
