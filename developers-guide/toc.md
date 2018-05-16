@@ -33,7 +33,7 @@ underMenu: Documentation
 &nbsp;&nbsp;&nbsp;&nbsp;<a name="toc_2.19"/><a href="chap2.html#sec:packets:reassembling-packets" class="toc">2.19 Reassembling Packets</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;<a name="toc_2.20"/><a href="chap2.html#sec:packets:reordering-packets" class="toc">2.20 Reordering Packets</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;<a name="toc_2.21"/><a href="chap2.html#sec:packets:dispatching-packets" class="toc">2.21 Dispatching Packets</a><br>
-<br>&nbsp;&nbsp;<a name="toc_3"/><a href="chap3.html#cha:sockets" class="toc">3 Working with Sockets</a><br>
+<br>&nbsp;&nbsp;<a name="toc_3"/><a href="chap3.html#cha:sockets" class="toc">3 Using Sockets</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;<a name="toc_3.1"/><a href="chap3.html#sec:sockets:overview" class="toc">3.1 Overview</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;<a name="toc_3.2"/><a href="chap3.html#sec:sockets:udp-socket" class="toc">3.2 UDP Socket</a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;<a name="toc_3.3"/><a href="chap3.html#sec:sockets:tcp-socket" class="toc">3.3 TCP Socket</a><br>
