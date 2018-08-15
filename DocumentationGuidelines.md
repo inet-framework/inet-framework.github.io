@@ -48,5 +48,5 @@ C++ documentation:
 *   Only public methods should be documented. Don't use `/** */` comments for private data members, private methods, etc. (We recommend `//` comments instead.)
 
  [1]: Contributors
- [2]: https://github.com/inet-framework/inet/tree/integration/doc/src/users-guide
- [3]: https://github.com/inet-framework/inet/tree/integration/doc/src/developers-guide
+ [2]: https://github.com/inet-framework/inet/tree/master/doc/src/users-guide
+ [3]: https://github.com/inet-framework/inet/tree/master/doc/src/developers-guide

@@ -1,9 +1,9 @@
 - name: Download
   link: /Download.html
 - name: Showcases
-  link: https://inet.omnetpp.org/inet-showcases
+  link: https://inet.omnetpp.org/docs/showcases
 - name: Tutorials
-  link: https://inet.omnetpp.org/inet-tutorials
+  link: https://inet.omnetpp.org/docs/tutorials
 - name: Documentation
   link: /Introduction.html
   submenu:
@@ -15,9 +15,9 @@
       link: /GettingStarted.html
     - separator: true
     - name: INET User's Guide
-      link: /users-guide/
+      link: https://inet.omnetpp.org/docs/users-guide
     - name: INET Developer's Guide
-      link: /developers-guide/
+      link: https://inet.omnetpp.org/docs/developers-guide
     - name: INET Reference
       link: https://omnetpp.org/doc/inet/api-current
     - name: INET Extensions
