@@ -1,6 +1,7 @@
 permalink: /:year-:month-:day-:title.html
-url:       http://inet.omnetpp.org/
+url:       https://inet.omnetpp.org/
 root:      /
 markdown:  kramdown
-gems:
+
+plugins:
   - jekyll-redirect-from
