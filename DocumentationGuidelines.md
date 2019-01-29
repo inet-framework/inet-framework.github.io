@@ -20,7 +20,7 @@ The following auxiliary files are managed by the core INET maintainers:
 
 Technically:
 
-*   Sources are in the repository under [doc/src/users-guide][2] and [doc/src/developers-guide][3], in LaTeX.
+*   Sources are in the repository under [doc/src/users-guide][2] and [doc/src/developers-guide][3], in RestructuredText.
 *   PDF and/or HTML are built by the release manager for each release
 
 Content and level of detail:

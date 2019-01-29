@@ -40,11 +40,11 @@ It will take more than a few minutes, but it's the quickest way to get you going
 
 Follow the tutorials that come with the INET Framework. 
 
-* <a href="https://inet.omnetpp.org/docs/tutorials">INET Tutorials</a>
+* [INET Tutorials](https://inet.omnetpp.org/docs/tutorials)
 
 Study the showcases that higlight how to use specific features in INET.
 
-* <a href="https://inet.omnetpp.org/docs/showcases">INET Showcases</a>
+* [INET Showcases](https://inet.omnetpp.org/docs/showcases)
 
 ### Modify Simulations or Create New Ones
 
@@ -56,9 +56,10 @@ able to modify the example simulations, or create simple new ones.
 For more in-depth knowledge, e.g. to be able to understand and modify
 the components INET provides, you need to study the documentation.
 
-* OMNeT++ User Manual
-* INET Manual
-* INET Reference
+* [OMNeT++ User Manual](https://omnetpp.org/doc/omnetpp/manual)
+* [INET User's Guide](https://inet.omnetpp.org/docs/users-guide/)
+* [INET Developers's Guide](https://inet.omnetpp.org/docs/developers-guide/)
+* [INET Reference](https://omnetpp.org/doc/inet/api-current/neddoc/)
 
 ### Asking for Help
 

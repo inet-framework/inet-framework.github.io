@@ -21,8 +21,8 @@ We recommend the following workflow:
 1.  Create an account on GitHub, and fork the INET project to create your
     own version. Clone the new repository to your computer.
 
-2.  Create a new topic branch for your changes, by branching either `master` (stable)
-    or `integration` (development).
+2.  Create a new topic branch for your changes, by branching the `master` (stable)
+    branch.
 
     <div class="alert alert-warning">
     <b>Note:</b> It is NOT safe to start off from an existing topic branch.
@@ -35,13 +35,13 @@ We recommend the following workflow:
 3.  Commit your changes into your topic branch.
 
     *  We recommend that you pull from the INET repository from time to time,
-       and rebase your topic branch to the tip of the `master` (or `integration`) branch.
+       and rebase your topic branch to the tip of the `master` branch.
     *  Try to keep to the coding conventions of the INET Framework. If you implement
        a new component, you can take inspiration from existing parts of the framework.
     *  If you have questions or something to discuss, don't hesitate to post to the mailing list.
 
 4.  When you are ready to submit your changes, send us a pull request on GitHub. 
-    If the original branch (`master` or `integration`) has moved on in the meantime, 
+    If the original branch (i.e. `master`) has moved on in the meantime, 
     you should rebase your topic branch on top of it.
 
 Pages under the *Development* menu give you general guidance on other topics.

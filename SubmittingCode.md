@@ -15,7 +15,7 @@ When you have changes that you'd like to be included in the INET Framework, here
 
 General rules:
 
-*   Should apply on top of the target branch, usually `master` or `integration`.
+*   Should apply on top of the `master` branch.
     If the target branch has moved on in the meantime, rebase your topic branch on top of it
 *   Adhere to the coding convention
 *   Have separate commits for
