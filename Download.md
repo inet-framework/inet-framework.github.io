@@ -39,6 +39,12 @@ Older releases (please do not use them for new projects):
 * [INET 20100323](https://github.com/inet-framework/inet/releases/download/master_20100323/inet-20100323-src.tgz) for OMNeT++ 4.0
 * [INET 20061020](https://github.com/inet-framework/inet/releases/download/v1.x/INET-20061020-src.tgz) for OMNeT++ 3.3
 
+## Revived Versions
+
+To help porting old INET based models to the latest OMNeT++ version, we provide an OMNeT++ 5.4 compatible version of some popular versions of INET. These versions can be used as a starting point for the porting work.
+
+* [INET 20111118-opp54](https://github.com/inet-framework/inet/archive/master-20111118-opp54.tar.gz) for OMNeT++ 5.4.1
+
 ## Development Releases
 
 From time to time, we create preview releases from the development branch. They are "bleeding edge", and generally not recommended for daily use. Backward compatibility across development versions is not ensured.
