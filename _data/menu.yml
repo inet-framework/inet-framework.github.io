@@ -18,6 +18,8 @@
       link: https://inet.omnetpp.org/docs/users-guide
     - name: INET Developer's Guide
       link: https://inet.omnetpp.org/docs/developers-guide
+    - name: INET Technical Presentations
+      link: /TechnicalPresentations.html
     - name: INET Reference
       link: https://omnetpp.org/doc/inet/api-current
     - name: INET Extensions
