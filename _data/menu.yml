@@ -14,15 +14,20 @@
     - name: Getting Started
       link: /GettingStarted.html
     - separator: true
-    - name: INET User's Guide
+    - name: User's Guide
       link: https://inet.omnetpp.org/docs/users-guide
-    - name: INET Developer's Guide
+    - name: Developer's Guide
       link: https://inet.omnetpp.org/docs/developers-guide
-    - name: INET Technical Presentations
-      link: /TechnicalPresentations.html
-    - name: INET Reference
+    - name: Showcases
+      link: https://inet.omnetpp.org/docs/showcases
+    - name: Tutorials
+      link: https://inet.omnetpp.org/docs/tutorials
+    - name: NED Reference
       link: https://omnetpp.org/doc/inet/api-current
-    - name: INET Extensions
+    - name: Technical Presentations
+      link: /TechnicalPresentations.html
+    - separator: true
+    - name: Extensions
       link: /Extensions.html
     - name: Model Catalog
       link: /Protocols.html
