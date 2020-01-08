@@ -8,24 +8,23 @@ This page describes what's planned for INET in the future.
 
 ## In INET 4.x
 
-1. Update the INET documentation site to include the Examples, Tutorials, User and Developer's Guide plus
-   all Reference documentation.
+1. Update the ethernet model to support frame preemption.
 
-2. mobility models
+2. Add an interface representing physical clocks enabling a common
+   infrastructure for clock sync protocols.
+
+3. mobility models
     * separate initial positioning from positioning over time
     * make them composable sequentially and additively
     * extend interface with future movement predictions
 
-3. physical layer
+4. physical layer
     * support capturing a stronger signal while receiving a weaker one
     * support aborting an ongoing transmission
     * add the simulation of synchronization process (pilot/preamble)
     * add missing Weibull and Jakes fading
     * add multipath support
     * add real CUDA and multi-core parallel execution
-
-4. packet trace
-    * PCAP and PCAPng
 
 5. IPv6
     * IPv6 has not yet been through the same refactoring and improvements as the IPv4 model
@@ -50,3 +49,8 @@ As for the not-so-near future (potentially in a later major version), we are con
 1. synchronous sends
     * introducing synchronous (immediate) message sends to reduce communication overhead between protocol layers
 
+2. Factor out the base infrastructure from INET so we would have a subset of components that could be separately supported.
+   Protocol specific code should be avoided in this codebase.
+
+3. Based on the common infrastructure create a framework where generic network models could be built using only the
+   combination of exsisting (very simple) modules. This could be useful for modeling abstract network concepts.
