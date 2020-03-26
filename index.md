@@ -26,6 +26,19 @@ redirect_from: /index.php/
   <div class="row">
 
       <div class="col-md-4">
+        <h3>News</h3>
+        <!-- counter is a hack, see http://stackoverflow.com/questions/13568052/filter-or-group-a-collection-in-liquid -->
+        {% assign counter = '' %}
+        {% for post in site.posts %}
+          {% if post.category == "news" and counter.size < 5 %}
+            <a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %-d, %Y" }})</small><br/>
+            {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
+          {% endif %}
+        {% endfor %}
+        <a href="/News.html">More...</a>
+      </div>
+
+      <div class="col-md-4">
         <h3>Learn INET</h3>
         <h4>Getting Started</h4>
         <p>Learn how to get INET up and running, and how to implement your simulations.</p>
@@ -42,17 +55,6 @@ redirect_from: /index.php/
           <li><a href="https://omnetpp.org/doc/inet/api-current/neddoc/">INET Reference</a></li>
           <li><a href="Protocols.html">Model Catalog</a></li>
         </ul>
-
-        <h3>News</h3>
-        <!-- counter is a hack, see http://stackoverflow.com/questions/13568052/filter-or-group-a-collection-in-liquid -->
-        {% assign counter = '' %}
-        {% for post in site.posts %}
-          {% if post.category == "news" and counter.size < 5 %}
-            <a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %-d, %Y" }})</small><br/>
-            {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
-          {% endif %}
-        {% endfor %}
-        <a href="/News.html">More...</a>
       </div>
 
 
@@ -72,7 +74,7 @@ redirect_from: /index.php/
         <p>Contribute to INET while getting your degree, or in your free time.
         <a href="ContributionIdeas.html">Some ideas you can look at.</a></p>
      </div>
-
+<!--
       <div class="col-md-4">
         <h3>Development</h3>
         <h4>Plans</h4>
@@ -89,6 +91,7 @@ redirect_from: /index.php/
         {% endfor %}
         <a href="/Progress.html">More...</a>
       </div>
+-->
   </div>
 
 </div>
