@@ -28,13 +28,15 @@ redirect_from: /index.php/
       <div class="col-md-4">
         <h3>News</h3>
         <!-- counter is a hack, see http://stackoverflow.com/questions/13568052/filter-or-group-a-collection-in-liquid -->
+        <ul style="padding-left: 15px">
         {% assign counter = '' %}
         {% for post in site.posts %}
-          {% if post.category == "news" and counter.size < 5 %}
-            <a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %-d, %Y" }})</small><br/>
+          {% if post.category == "news" and counter.size < 8 %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %-d, %Y" }})</small><br/></li>
             {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
           {% endif %}
         {% endfor %}
+        </ul>
         <a href="/News.html">More...</a>
       </div>
 
