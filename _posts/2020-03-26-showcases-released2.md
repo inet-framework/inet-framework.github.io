@@ -4,7 +4,7 @@ title: "New 802.11 Showcases: Coexistence of IEEE 802.11 and 802.15.4; Crosstalk
 category: news
 ---
 
-### Coexsisence
+### Coexistence
 
 Different wireless technologies sometimes operate in the same frequency range. 
 For example, both IEEE 802.11 and IEEE 802.15.4 have versions that use the 2.4 GHz ISM band. 
