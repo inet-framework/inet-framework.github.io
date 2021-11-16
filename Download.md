@@ -14,12 +14,12 @@ Downloads of stable releases are available here. It is recommended that you use 
 
 Latest releases:
 
-<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v4.3.4/inet-4.3.4-src.tgz">Download latest stable version (4.3.4, for OMNeT++ 6.0pre13)</a> ([What's New](https://github.com/inet-framework/inet/blob/v4.3.4/WHATSNEW))
+<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v4.3.5/inet-4.3.5-src.tgz">Download latest stable version (4.3.5, for OMNeT++ 6.0pre14)</a> ([What's New](https://github.com/inet-framework/inet/blob/v4.3.5/WHATSNEW))
 
 ## OMNeT++ Compatibility
 
-* OMNeT++ 6.0pre13: INET [3.8.0], [4.2.7], [4.3.4] 
-* OMNeT++ 5.7.0: INET [3.7.1], [3.8.0], [4.2.7]
+* OMNeT++ 6.0pre13: INET [3.8.1], [4.2.8], [4.3.5] 
+* OMNeT++ 5.7.0: INET [3.7.1], [3.8.1], [4.2.8]
 * OMNeT++ 5.6.2: INET [3.7.1], [4.2.5]
 
 ## Older releases (please do not use them for new projects):
@@ -59,8 +59,11 @@ To help porting old INET based models to the latest OMNeT++ version, we provide 
 
 Installation instructions are available [here](Installation.html).
 
+[4.3.5]: <https://github.com/inet-framework/inet/releases/download/v4.3.5/inet-4.3.5-src.tgz>
 [4.3.4]: <https://github.com/inet-framework/inet/releases/download/v4.3.4/inet-4.3.4-src.tgz>
+[4.2.8]: <https://github.com/inet-framework/inet/releases/download/v4.2.8/inet-4.2.8-src.tgz>
 [4.2.7]: <https://github.com/inet-framework/inet/releases/download/v4.2.7/inet-4.2.7-src.tgz>
 [4.2.5]: <https://github.com/inet-framework/inet/releases/download/v4.2.5/inet-4.2.5-src.tgz>
+[3.8.1]: <https://github.com/inet-framework/inet/releases/download/v3.8.1/inet-3.8.1-src.tgz>
 [3.8.0]: <https://github.com/inet-framework/inet/releases/download/v3.8.0/inet-3.8.0-src.tgz>
 [3.7.1]: <https://github.com/inet-framework/inet/releases/download/v3.7.1/inet-3.7.1-src.tgz>
