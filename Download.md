@@ -14,11 +14,11 @@ Downloads of stable releases are available here. It is recommended that you use 
 
 Latest releases:
 
-<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v4.3.5/inet-4.3.5-src.tgz">Download latest stable version (4.3.5, for OMNeT++ 6.0pre14)</a> ([What's New](https://github.com/inet-framework/inet/blob/v4.3.5/WHATSNEW))
+<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v4.3.6/inet-4.3.6-src.tgz">Download latest stable version (4.3.6, for OMNeT++ 6.0pre15)</a> ([What's New](https://github.com/inet-framework/inet/blob/v4.3.6/WHATSNEW))
 
 ## OMNeT++ Compatibility
 
-* OMNeT++ 6.0pre13: INET [3.8.1], [4.2.8], [4.3.5] 
+* OMNeT++ 6.0pre14: INET [3.8.1], [4.2.8], [4.3.5] 
 * OMNeT++ 5.7.0: INET [3.7.1], [3.8.1], [4.2.8]
 * OMNeT++ 5.6.2: INET [3.7.1], [4.2.5]
 
