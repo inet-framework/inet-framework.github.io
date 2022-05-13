@@ -22,10 +22,12 @@
       link: https://inet.omnetpp.org/docs/showcases
     - name: Tutorials
       link: https://inet.omnetpp.org/docs/tutorials
-    - name: NED Reference
-      link: https://omnetpp.org/doc/inet/api-current
     - name: Technical Presentations
       link: /TechnicalPresentations.html
+    - name: NED Reference v4.2
+      link: https://omnetpp.org/doc/inet/api-4.2.0
+    - name: NED Reference v3.6
+      link: https://omnetpp.org/doc/inet/api-3.6.0
     - separator: true
     - name: Extensions
       link: /Extensions.html
