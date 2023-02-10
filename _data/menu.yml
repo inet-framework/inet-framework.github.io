@@ -24,10 +24,10 @@
       link: https://inet.omnetpp.org/docs/tutorials
     - name: Technical Presentations
       link: /TechnicalPresentations.html
-    - name: NED Reference v4.4
-      link: https://omnetpp.org/doc/inet/api-4.4.0
-    - name: NED Reference v3.6
-      link: https://omnetpp.org/doc/inet/api-3.6.0
+    - name: NED Reference v4.x
+      link: https://omnetpp.org/doc/inet/api-current
+    - name: NED Reference v3.x
+      link: https://omnetpp.org/doc/inet/api-old
     - separator: true
     - name: Extensions
       link: /Extensions.html
