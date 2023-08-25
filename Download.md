@@ -14,16 +14,17 @@ Downloads of stable releases are available here. It is recommended that you use 
 
 Latest releases:
 
-<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v4.5.0/inet-4.5.0-src.tgz">Download latest stable version (4.5.0, for OMNeT++ 6.0)</a> ([What's New](https://github.com/inet-framework/inet/blob/v4.5.0/WHATSNEW))
+<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/download/v4.5.1/inet-4.5.1-src.tgz">Download latest stable version (4.5.1, for OMNeT++ 6.0)</a> ([What's New](https://github.com/inet-framework/inet/blob/v4.5.1/WHATSNEW))
 
 ## OMNeT++ Compatibility
 
-* OMNeT++ 6.0.x: INET [3.8.3], [4.2.10], [4.3.9], [4.4.1], [4.5.0], master branch
+* OMNeT++ 6.0.x: INET [3.8.3], [4.2.10], [4.3.9], [4.4.1], [4.5.1], master branch
 * OMNeT++ 5.7: INET [3.7.1], [3.8.3], [4.2.10]
 * OMNeT++ 5.6.2: INET [3.7.1], [4.2.5]
 
 ## Older releases (please do not use them for new projects):
 
+* [INET 4.5.0](https://github.com/inet-framework/inet/releases/download/v4.5.0/inet-4.5.0-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.5.0/WHATSNEW))
 * [INET 4.4.1](https://github.com/inet-framework/inet/releases/download/v4.4.1/inet-4.4.1-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.4.1/WHATSNEW))
 * [INET 4.4.0](https://github.com/inet-framework/inet/releases/download/v4.4.0/inet-4.4.0-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.4.0/WHATSNEW))
 * [INET 4.3.9](https://github.com/inet-framework/inet/releases/download/v4.3.9/inet-4.3.9-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.3.9/WHATSNEW))
@@ -65,6 +66,7 @@ To help porting old INET based models to the latest OMNeT++ version, we provide 
 
 Installation instructions are available [here](Installation.html).
 
+[4.5.1]: <https://github.com/inet-framework/inet/releases/download/v4.5.1/inet-4.5.1-src.tgz>
 [4.5.0]: <https://github.com/inet-framework/inet/releases/download/v4.5.0/inet-4.5.0-src.tgz>
 [4.4.1]: <https://github.com/inet-framework/inet/releases/download/v4.4.1/inet-4.4.1-src.tgz>
 [4.4.0]: <https://github.com/inet-framework/inet/releases/download/v4.4.0/inet-4.4.0-src.tgz>
