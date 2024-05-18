@@ -63,7 +63,7 @@ redirect_from: /index.php/
       <div class="col-md-4">
         <h3>Get Involved</h3>
         <h4>Contribute</h4>
-        <p>INET is open source, and its future largely depends on where the user community wants
+        <p>INET is open-source, and its future largely depends on where the user community wants
         to take it. <a href="WhyContribute.html">Be part of the success!</a></p>
 
         <h4>Volunteers Needed</h4>

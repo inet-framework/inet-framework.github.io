@@ -8,7 +8,7 @@ underMenu: Development
 
 We know that indentation style is a personal matter but the codebase needs to look consistent, so please adhere to the conventions below.
 
-*   Bracket style: largely Stroustrup (Egyptian braces), except for classes, functions and the like where we prefer to place the opening braces on a new line
+*   Bracket style: largely Stroustrup (Egyptian braces), except for classes, functions, and the like where we prefer to place the opening braces on a new line
 *   4-space indentation, NO TAB CHARACTERS, no trailing spaces
 *   Do not align variable names in declaration blocks or multi-line function declarations. They are hard to maintain,
     and look awkward when very short and very long type names are mixed (e.g. `int` vs `const std::vector<SomeVeryLongTypeName>&`).
@@ -23,11 +23,11 @@ Choose *OMNeT++* as your code style. Pressing <kbd>Ctrl+Shift+F</kbd> will refor
 
 ## Naming Convention
 
-Rules for variable names, function names, class names and other identifiers.
+Rules for variable names, function names, class names, and other identifiers.
 
 *   Use camel case
-*   Variables and functions start with lower case
-*   Types start with upper case
+*   Variables and functions start with lowercase
+*   Types start with uppercase
 *   Constants and enum values are capitalized, with underscore as word separator
 *   Don't abbreviate (too much)
 *   Function names start with a verb
@@ -53,14 +53,14 @@ Consistent layout of class declarations throughout the project helps maintainers
 
 ## Functions
 
-Misnamed and "kitchen-sink" functions are unfortunately quite common, and make the code hard to follow and reason about. Here's what you can do:
+Misnamed and "kitchen-sink" functions are unfortunately quite common and make the code hard to follow and reason about. Here's what you can do:
 
 *   Functions should be focused (i.e. do one thing only), and the name should reflect the purpose
 *   Try to minimize side effects (modify class members and other non-local state as little as possible)
-*   If you cannot find an accurate name for it, it is a strong indicator that the function should not exist in that form (e.g. needs to be split up, or the code organized in a different way)
+*   If you cannot find an accurate name for it, it is a strong indicator that the function should not exist in that form (e.g. needs to be split up or the code organized in a different way)
 *   If it has a side effect, the name should reflect that (e.g. *get* methods must not modify state)
 *   Local variables should be declared close to their use, in the smallest scope possible (i.e. not C-style, at the top of the function)
-*   Commenting: we prefer breaking up the function body into logical blocks, and adding a `//` comment above each block to document its intended *purpose*
+*   Commenting: we prefer breaking up the function body into logical blocks and adding a `//` comment above each block to document its intended *purpose*
 
 ## C++ Style
 

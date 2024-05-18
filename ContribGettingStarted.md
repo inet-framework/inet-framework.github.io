@@ -10,7 +10,7 @@ INET is developed using the *git* revision control system, with the repository h
 
 <div class="alert alert-info">
 {% capture tmp %}
-**New to git?** Read about it on its [web site](http://git-scm.com){:target="_blank"},
+**New to git?** Read about it on its [website](http://git-scm.com){:target="_blank"},
 from the [GitHub help](https://help.github.com/articles/good-resources-for-learning-git-and-github/){:target="_blank"},
 or [try it hands-on in a terminal](http://try.github.com/){:target="_blank"}.
 {% endcapture %} {{ tmp | markdownify }}
@@ -21,22 +21,21 @@ We recommend the following workflow:
 1.  Create an account on GitHub, and fork the INET project to create your
     own version. Clone the new repository to your computer.
 
-2.  Create a new topic branch for your changes, by branching the `master` (stable)
-    branch.
+2.  Create a new topic branch for your changes by branching the `master` (stable) branch.
 
     <div class="alert alert-warning">
     <b>Note:</b> It is NOT safe to start off from an existing topic branch.
     Topic branches should be considered a private playing field of the person
-    who created them, and may be deleted, rebased, or their history rewritten
+    who created them and may be deleted, rebased, or have their history rewritten
     at any time. If a topic (or attic) branch looks interesting to you, contact
-    the person who works in that branch -- don't assume anything without asking.
+    the person who works in that branch — don't assume anything without asking.
     </div>
 
 3.  Commit your changes into your topic branch.
 
-    *  We recommend that you pull from the INET repository from time to time,
+    *  We recommend that you pull from the INET repository from time to time
        and rebase your topic branch to the tip of the `master` branch.
-    *  Try to keep to the coding conventions of the INET Framework. If you implement
+    *  Try to adhere to the coding conventions of the INET Framework. If you implement
        a new component, you can take inspiration from existing parts of the framework.
     *  If you have questions or something to discuss, don't hesitate to post to the mailing list.
 

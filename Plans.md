@@ -39,7 +39,7 @@ This page describes what's planned for INET in the future.
 
 7. Tests
     * some examples are rather tests, they were usually created during development for quick testing
-    * we definitely need more (some?) validation tests (e.g. comparison with other simulators, real world measurements, or analytical results)
+    * we definitely need more (some?) validation tests (e.g. comparison with other simulators, real-world measurements, or analytical results)
 
 As for the not-so-near future (potentially in a later major version), we are considering some nontrivial changes:
 
@@ -47,7 +47,7 @@ As for the not-so-near future (potentially in a later major version), we are con
     * introducing synchronous (immediate) message sends to reduce communication overhead between protocol layers
 
 2. Factor out the base infrastructure from INET so we would have a subset of components that could be separately supported.
-   Protocol specific code should be avoided in this codebase.
+   Protocol-specific code should be avoided in this codebase.
 
 3. Based on the common infrastructure create a framework where generic network models could be built using only the
    combination of exsisting (very simple) modules. This could be useful for modeling abstract network concepts.

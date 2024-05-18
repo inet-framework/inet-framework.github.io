@@ -11,9 +11,9 @@ The INET project uses the GitHub issue tracker at **https://github.com/inet-fram
 </ul>
 
 To report a bug or suggest an enhancement, log in with your GitHub username, and click *New issue*.
-Before submitting the bug report, please check that the problem was not reported before by someone else.
+Before submitting the bug report, please check if the problem has been reported by someone else.
 
-If you haven't submitted a bug report before, please read the following pages carefully:
+If you have not submitted a bug report before, please read the following pages carefully:
 
 *   [Bug Writing Guidelines][2]{:target="_blank"}
 *   [How to Report Bugs Effectively][3]{:target="_blank"}

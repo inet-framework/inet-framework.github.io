@@ -6,11 +6,11 @@ underMenu: Documentation
 
 <!-- search: omnet++ inet lab exercise, omnet++ inet lecture slides, omnet++ inet course -->
 
-OMNeT++ and INET Framework is used in teaching at various universities.
+OMNeT++ and the INET Framework are used in teaching at various universities.
 
 Courses:
 
-* *Wireless Network Security*, Wireless Network and System Security Group, Carnegie-Mellon University (Silicon Valley Campus), 2014
+* *Wireless Network Security*, Wireless Network and System Security Group, Carnegie Mellon University (Silicon Valley Campus), 2014
   ([course][cmu-web]{:target="_blank"}, [slides1][cmu-sli1]{:target="_blank"}, [slides2][cmu-sli2]{:target="_blank"})
 
 * *Simulation and Evaluation of Computer Networks (SECoN)*, TU Darmstadt, Germany, 2014
@@ -22,7 +22,7 @@ Courses:
 * *Methods and Tools for Network Systems*, Aalto University, Finland, 2014
   ([course][aalto-web]{:target="_blank"}, [slides][aalto-sli]{:target="_blank"})
 
-* *Mobile and Wireless Networks*, GRC, Universitat Politecnica de Valencia, Spain, 2013 
+* *Mobile and Wireless Networks*, GRC, Universitat Politècnica de València, Spain, 2013 
   ([course][upv-web]{:target="_blank"}, [lab1][upv-lab1]{:target="_blank"}, [lab2][upv-lab2]{:target="_blank"}, [lab3][upv-lab3]{:target="_blank"})
 
 * *Performance Evaluation*, University of Pisa, Italy, 2014
@@ -36,10 +36,10 @@ Other materials:
 * Internet Research Lab, Brigham Young University, UT
   ([tutorial][byu-tut]{:target="_blank"}, [lab][byu-lab]{:target="_blank"})
 
-* Christian Timmerer, Multimedia Communication Group, Alpen-Adria-Universitaet Klagenfurt, Austria, 2014.
+* Christian Timmerer, Multimedia Communication Group, Alpen-Adria-Universität Klagenfurt, Austria, 2014.
   ([slides][timm-sli]{:target="_blank"})
 
-* *Middleware* course, University of Luxemburg, Luxemburg, 2008
+* *Middleware* course, University of Luxembourg, Luxembourg, 2008
   ([lab][unilu-lab]{:target="_blank"})
 
 {% include links.md %}

@@ -10,11 +10,11 @@ There are several INET-based model frameworks, maintained by independent researc
 
 *   [Veins](http://veins.car2x.org/){:target="_blank"} is an open source Inter-Vehicular Communication (IVC) simulation framework composed of an event-based network simulator and a road traffic microsimulation model.
 
-*   [SimuLTE](http://github.com/inet-framework/simulte){:target="_blank"} is LTE user plane simulation model, with eNodeB and UE models.
+*   [SimuLTE](http://github.com/inet-framework/simulte){:target="_blank"} is an LTE user plane simulation model, with eNodeB and UE models.
 
-*   [INETMANET](http://github.com/aarizaq/inetmanet-2.0){:target="_blank"} is fork of INET with experimental features related to mobile and ad-hoc networks.
+*   [INETMANET](http://github.com/aarizaq/inetmanet-2.0){:target="_blank"} is a fork of INET with experimental features related to mobile and ad-hoc networks.
 
-*   [MiXiM](https://github.com/omnetpp/mixim){:target="_blank"} is not an INET extension, but an independent OMNeT++ modeling framework that focuses on the wireless physical, data link and networ layers. MiXiM can be used together with INET. Newer versions of INET (from 2.99.0 up) have the features of MiXiM, and much of the MiXiM code integrated.
+*   [MiXiM](https://github.com/omnetpp/mixim){:target="_blank"} is not an INET extension, but an independent OMNeT++ modeling framework that focuses on the wireless physical, data link and network layers. MiXiM can be used together with INET. Newer versions of INET (from 2.99.0 up) have the features of MiXiM, and much of the MiXiM code integrated.
 
 *   The [Vehicular Networks and Distributed Control Systems](http://vehicular.omnetpp.org){:target="_blank"} page lists extensions related to the automotive industry.
 

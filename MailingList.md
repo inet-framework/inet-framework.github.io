@@ -12,7 +12,7 @@ INET Framework developers and contributors discuss matters in the
 </ul>
 
 If you are interested in INET more than just doing a quick simulation with it,
-we definitely recommend you to sign up. Google Groups has the advantage that
+we definitely recommend you sign up. Google Groups has the advantage that
 it can function both as a mailing list and as an online forum.
 
 **Important:** When signing up, please write one or two sentences about your motivation,
