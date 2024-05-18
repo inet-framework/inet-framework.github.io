@@ -12,4 +12,4 @@ canvas in a graphical form. INET supports such visualization in the
 form of inspector figures that display various gauges and meters.
 
 Links:
-* [Instrument Figures](https://inet.omnetpp.org/docs/showcases/visualizer/instrumentfigures/doc/)
+- [Instrument Figures](https://inet.omnetpp.org/docs/showcases/visualizer/instrumentfigures/doc/)

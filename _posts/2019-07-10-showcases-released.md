@@ -2,7 +2,6 @@
 layout: post
 title: "New 802.11 Showcases: Fragmentation, QoS, Block Acknowledgement"
 category: news
----
 
 Three new showcase examples demonstrating the IEEE 802.11 model in INET
 have been released.

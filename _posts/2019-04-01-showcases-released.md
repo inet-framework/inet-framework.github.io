@@ -2,7 +2,6 @@
 layout: post
 title: Modeling Directional Antennas Showcase Released
 category: news
----
 
 This showcase aims to highlight the antenna models available in INET.
 The showcase contains an example simulation which demonstrates the

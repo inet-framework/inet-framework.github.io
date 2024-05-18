@@ -2,7 +2,6 @@
 layout: post
 title: Multiple Wireless Interfaces Showcase Released
 category: news
----
 
 In real life, many wireless devices have multiple radios so that
 they can communicate on multiple wireless networks simultaneously.

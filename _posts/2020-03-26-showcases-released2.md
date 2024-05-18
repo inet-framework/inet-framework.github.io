@@ -19,7 +19,7 @@ INET’s 802.11 and 802.15.4 models.
 ### Crosstalk
 
 By default, 802.11 hosts and access points in INET are configured to use the same
-Wifi channel (Channel 1.) In reality, however, it is rarely the case. There are many
+Wifi channel (Channel 1). In reality, however, it is rarely the case. There are many
 Wifi networks at the same location, typically spread out on all channels (especially
 in the case of 2.4 GHz Wifi where only a few channels are available, compared to 5 GHz.) 
 Transmissions on many adjacent channels also overlap in frequency and can cause interference.

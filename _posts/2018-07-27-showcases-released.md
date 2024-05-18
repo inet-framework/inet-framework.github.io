@@ -2,7 +2,6 @@
 layout: post
 title: Visualizing Radio Medium Activity Showcase Released
 category: news
----
 
 INET contains support for visualizing radio signals as they
 propagate through space, making it easy to see which nodes

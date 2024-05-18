@@ -2,7 +2,6 @@
 layout: post
 title: MAC Protocols for Wireless Sensor Networks Showcase Released
 category: news
----
 
 There are media access control (MAC) protocols designed specifically
 for wireless sensor networks. INET has several such protocol implementations,

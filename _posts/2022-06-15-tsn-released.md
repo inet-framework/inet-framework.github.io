@@ -3,6 +3,7 @@ layout: post
 title: Time-Sensitive Networking (TSN) Introduced in INET
 category: news
 ---
+
 Key features of TSN were added to the INET Framework in version 4.4 (requires OMNeT++ 6.0).
 The model was developed together with an automotive industry partner to ensure relevance
 and is able to simulate the most important features of this domain. TSN refers to a set of IEEE 802 standards that make Ethernet deterministic by default. TSN components in INET are composable, making them easy to modify and experiment with. They can also be used together in non-standard novel ways, or with other tools such as external solvers for gate scheduling.

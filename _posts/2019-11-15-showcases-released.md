@@ -2,7 +2,6 @@
 layout: post
 title: "New Emulation Showcases: Testing a Linux Routing Daemon in a Simulated Environment; Using Simulated Applications in a Real Network"
 category: news
----
 
 ### Testing a Linux Routing Daemon in a Simulated Environment
 
