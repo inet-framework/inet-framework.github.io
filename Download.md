@@ -4,9 +4,20 @@ title: Download
 underMenu: Download
 ---
 
-<div class="alert alert-warning">
-<b>Do you really need to download?</b> Recent versions of the OMNeT++ IDE can download and install INET (the latest stable version) for you. <a href="Installation.html">Learn more.</a>
-</div>
+## Recommended Installation Method: opp_env
+
+The recommended way of installing the INET Framework, especially less recent versions, is [opp_env](http://omnetpp.org/opp_env).
+opp_env provides automated installation of over 70 models or model frameworks, with dependencies, including a matching versions of OMNeT++.
+
+Hint:
+
+<pre>
+$ opp_env install inet-latest
+</pre>
+
+Alternatively, if you already have a recent OMNeT++ installation, the Simulation IDE can also download and install the latest stable version of INET for you.
+
+See the [Installing INET](Installation.html) page for details.
 
 ## Stable Releases
 
