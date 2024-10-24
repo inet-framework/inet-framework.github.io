@@ -4,11 +4,9 @@ title: Download
 underMenu: Download
 ---
 
-<div class="alert alert-warning">
-<b>Do you really need to download?</b> Recent versions of the OMNeT++ IDE can download and install INET (the latest stable version) for you. <a href="Installation.html">Learn more.</a>
-</div>
-
 ## Stable Releases
+
+**Note: Downloading INET manually is generally not recommended.** Instead, use a package manager like [opp_env](http://omnetpp.org/opp_env) or the OMNeT++ IDE to install INET for you. See the [Installing INET](Installation.html) page for details.
 
 Downloads of stable releases are available here. It is recommended that you use the latest stable release for projects.
 

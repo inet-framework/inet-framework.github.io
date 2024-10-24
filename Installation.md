@@ -4,37 +4,58 @@ title: Installing INET
 underMenu: Documentation
 ---
 
-<div class="alert alert-warning">
-<p><b>Prerequisite:</b> Download and install OMNeT++ from <a href="http://omnetpp.org" target="_blank">omnetpp.org</a>.</p>
-</div>
+## Using the opp_env Package Manager
 
-## Automatic Installation
+The recommended way of installing the INET Framework, especially less recent versions, is [opp_env](http://omnetpp.org/opp_env).
+opp_env provides automated installation of over 70 models or model frameworks, with dependencies, including matching versions of OMNeT++.
+
+An example session:
+
+<pre>
+$ mkdir inet_workspace
+$ cd inet_workspace
+$ opp_env init
+$ opp_env install inet-latest  # or replace "latest" with a specific version
+$ opp_env shell
+</pre>
+
+Note that this **installs OMNeT++ too**, so you don't need a pre-existing installation.
+
+All-in-one variant:
+
+<pre>
+$ opp_env shell --init -w inet_workspace --install inet-latest
+</pre>
+
+## Using the OMNeT++ IDE
 
 Recent versions of the OMNeT++ IDE can download and install INET (the latest stable version) for you.
 
-How does it work?
+Steps to follow?
 
-1. Open the OMNeT++ IDE (`omnetpp`)
-2. Go to the workbench (dismiss the Welcome screen). The first time you do this, a prompt will ask if you want to install INET.
-3. Keep the boxes checked and proceed.
+1. Install OMNeT++
+2. Open the Simulation IDE (`omnetpp`)
+3. Go to the workbench (dismiss the Welcome screen). The first time you do this, a prompt will ask if you want to install INET.
+4. Keep the boxes checked and proceed.
 
 If you skipped this step (opened the workbench but skipped installing INET), nothing is lost:
 
 1. Go to *Help -> Install Simulation Models*.
-2. A dialog will appear with the available simulation models. Currently only INET is listed there, simply select it and follow the prompts.
+2. A dialog will appear with the available simulation models. Select INET and follow the prompts.
 
-Both ways, the IDE will download, unzip, and automatically build INET from the sources.
+Both ways, the IDE will download, unpack, and automatically build INET from the sources.
 
 ## Manual Installation
 
-You'll need manual installation if you downloaded an INET version other than 
-the latest stable one, or you have cloned the INET git repository to the local filesystem.
-The only "tricky" part is how to import the project into the workspace.
+If you downloaded an INET version other than the latest stable one, and you
+cannot or don't want to use *opp_env*, you'll need to install it manually.
 
-1. Download the INET sources.
-2. Unpack it into the directory of your choice: `tar xvfz inet-<version>.tgz`.
-3. Start the OMNeT++ IDE, and import the project via *File -> Import -> Existing Projects to the Workspace*. A project named `INET` should appear.
-4. Build with *Project -> Build*, or hit <kbd>Ctrl+B</kbd>.
-5. Now you should be able to launch example simulations.
+The procedure:
 
-Please also read the `INSTALLATION` file in the INET sources, as it may contain additional information.
+1. Install the matching version of OMNeT++.
+2. Download the INET sources and unpack the archive.
+3. Follow the instructions in the `INSTALL` (or `INSTALL.md`) file in the archive.
+
+You can read the `INSTALL` file that belongs to the current development version (git `master` branch)
+[here](https://github.com/inet-framework/inet/blob/master/INSTALL.md).
+
