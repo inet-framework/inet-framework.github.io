@@ -16,9 +16,9 @@ Latest releases:
 
 ## OMNeT++ Compatibility
 
-* OMNeT++ 6.1: INET [4.5.4], master branch
-* OMNeT++ 6.0.x: INET [3.8.4], [4.2.10], [4.3.9], [4.4.2], [4.5.4], master branch
-* OMNeT++ 5.7: INET [3.7.1], [3.8.3], [4.2.10]
+* OMNeT++ 6.1: INET [3.8.5], [4.5.4], master branch
+* OMNeT++ 6.0.x: INET [3.8.5], [4.2.10], [4.3.9], [4.4.2], [4.5.4], master branch
+* OMNeT++ 5.7: INET [3.7.1], [3.8.5], [4.2.10]
 * OMNeT++ 5.6.2: INET [3.7.1], [4.2.5]
 
 ## Older releases (please do not use them for new projects):
@@ -85,6 +85,7 @@ Installation instructions are available [here](Installation.html).
 [4.2.8]: <https://github.com/inet-framework/inet/releases/download/v4.2.8/inet-4.2.8-src.tgz>
 [4.2.7]: <https://github.com/inet-framework/inet/releases/download/v4.2.7/inet-4.2.7-src.tgz>
 [4.2.5]: <https://github.com/inet-framework/inet/releases/download/v4.2.5/inet-4.2.5-src.tgz>
+[3.8.5]: <https://github.com/inet-framework/inet/releases/download/v3.8.5/inet-3.8.5-src.tgz>
 [3.8.4]: <https://github.com/inet-framework/inet/releases/download/v3.8.4/inet-3.8.4-src.tgz>
 [3.8.3]: <https://github.com/inet-framework/inet/releases/download/v3.8.3/inet-3.8.3-src.tgz>
 [3.8.2]: <https://github.com/inet-framework/inet/releases/download/v3.8.2/inet-3.8.2-src.tgz>
