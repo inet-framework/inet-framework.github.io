@@ -29,8 +29,6 @@
     - name: NED Reference v3.x
       link: https://omnetpp.org/doc/inet/api-old
     - separator: true
-    - name: Extensions
-      link: /Extensions.html
     - name: Model Catalog
       link: /Protocols.html
     - separator: true
