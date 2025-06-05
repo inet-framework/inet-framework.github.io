@@ -26,6 +26,7 @@ Latest releases:
 * [INET 4.5.2](https://github.com/inet-framework/inet/releases/download/v4.5.2/inet-4.5.2-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.5.2/WHATSNEW))
 * [INET 4.5.1](https://github.com/inet-framework/inet/releases/download/v4.5.1/inet-4.5.1-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.5.1/WHATSNEW))
 * [INET 4.5.0](https://github.com/inet-framework/inet/releases/download/v4.5.0/inet-4.5.0-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.5.0/WHATSNEW))
+* [INET 4.4.2](https://github.com/inet-framework/inet/releases/download/v4.4.2/inet-4.4.2-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.4.2/WHATSNEW))
 * [INET 4.4.1](https://github.com/inet-framework/inet/releases/download/v4.4.1/inet-4.4.1-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.4.1/WHATSNEW))
 * [INET 4.4.0](https://github.com/inet-framework/inet/releases/download/v4.4.0/inet-4.4.0-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.4.0/WHATSNEW))
 * [INET 4.3.9](https://github.com/inet-framework/inet/releases/download/v4.3.9/inet-4.3.9-src.tgz) for OMNeT++ 6.0 ([What's New](https://github.com/inet-framework/inet/blob/v4.3.9/WHATSNEW))
