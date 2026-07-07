@@ -12,12 +12,13 @@ Downloads of stable releases are available here. It is recommended that you use 
 
 Latest releases:
 
-<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/tag/v4.6.0">Latest stable version (4.6.0, for OMNeT++ 6.x)</a>
+<a class="btn btn-primary" href="https://github.com/inet-framework/inet/releases/tag/v4.7.0">Latest stable version (4.7.0, for OMNeT++ 6.x)</a>
 
 ## OMNeT++ Compatibility
 
-* OMNeT++ 6.3: INET 4.6.0, 4.5.4,master branch
-* OMNeT++ 6.2: INET 4.6.0, 4.5.4, master branch
+* OMNeT++ 6.4: INET 4.7.0, master branch
+* OMNeT++ 6.3: INET 4.6.0, 4.5.4
+* OMNeT++ 6.2: INET 4.6.0, 4.5.4
 * OMNeT++ 6.1: INET 3.8.5, 4.5.4
 * OMNeT++ 6.0.x: INET 3.8.5, 4.2.10, 4.3.9, 4.4.2, 4.5.4
 * OMNeT++ 5.7: INET 3.7.1, 3.8.5, 4.2.10
@@ -25,6 +26,7 @@ Latest releases:
 
 ## Older releases (please do not use them for new projects):
 
+* [INET 4.6.0](https://github.com/inet-framework/inet/releases/tag/v4.6.0) for OMNeT++ 6.2, 6.3
 * [INET 4.5.4](https://github.com/inet-framework/inet/releases/tag/v4.5.4) for OMNeT++ 6.1
 * [INET 4.5.2](https://github.com/inet-framework/inet/releases/tag/v4.5.2) for OMNeT++ 6.0
 * [INET 4.5.1](https://github.com/inet-framework/inet/releases/tag/v4.5.1) for OMNeT++ 6.0
